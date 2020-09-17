@@ -1,1 +1,1 @@
-Archived by [SingleFileZ](https://github.com/gildas-lormeau/SingleFileZ).
+Archived through [SingleFileZ](https://github.com/gildas-lormeau/SingleFileZ).
