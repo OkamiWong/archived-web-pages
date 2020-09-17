@@ -43,9 +43,8 @@
                 htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
             }
             htmlString += '</ul>';
-            const seperator = '<\\div>';
+            const seperator = '</div>';
             let originalInnerHTML = document.getElementsByTagName('body')[0].innerHTML.split(seperator);
-            console.log(originalInnerHTML);
             document.getElementsByTagName('body')[0].innerHTML =
                 originalInnerHTML[0] + htmlString + seperator + originalInnerHTML[1];
         })()
