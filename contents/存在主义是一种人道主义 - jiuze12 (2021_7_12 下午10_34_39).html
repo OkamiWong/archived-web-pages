@@ -1,0 +1,625 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html data-sfz><meta charset='utf-8'><title>存在主义是一种人道主义 - jiuze12</title><link rel=canonical href="https://sites.google.com/site/jiuze12/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89"><body hidden><div id='sfz-wait-message'>Please wait...</div><div id='sfz-error-message'><strong>Error</strong>: Cannot open the page from the filesystem.<ul style='line-height:20px;'><li style='margin-bottom:10px'><strong>Chrome</strong>: Install <a href='https://chrome.google.com/webstore/detail/singlefilez/offkdfbbigofcgdokjemgjpdockaafjg'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (chrome://extensions/?id=offkdfbbigofcgdokjemgjpdockaafjg). Otherwise, start the browser with the switch "--allow-file-access-from-files".</li><li style='margin-bottom:10px'><strong>Microsoft Edge</strong>: Install <a href='https://microsoftedge.microsoft.com/addons/detail/singlefilez/gofneaifncimeglaecpnanbnmnpfjekk'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (edge://extensions/?id=gofneaifncimeglaecpnanbnmnpfjekk). Otherwise, start the browser with the switch "--allow-file-access-from-files".</li><li><strong>Safari</strong>: Select "Disable Local File Restrictions" in the "Develop" menu.</li></ul></div><script>!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).zip={})}(this,(function(e){"use strict";const t=-2,n=-3,i=-5,r=[0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535],a=[96,7,256,0,8,80,0,8,16,84,8,115,82,7,31,0,8,112,0,8,48,0,9,192,80,7,10,0,8,96,0,8,32,0,9,160,0,8,0,0,8,128,0,8,64,0,9,224,80,7,6,0,8,88,0,8,24,0,9,144,83,7,59,0,8,120,0,8,56,0,9,208,81,7,17,0,8,104,0,8,40,0,9,176,0,8,8,0,8,136,0,8,72,0,9,240,80,7,4,0,8,84,0,8,20,85,8,227,83,7,43,0,8,116,0,8,52,0,9,200,81,7,13,0,8,100,0,8,36,0,9,168,0,8,4,0,8,132,0,8,68,0,9,232,80,7,8,0,8,92,0,8,28,0,9,152,84,7,83,0,8,124,0,8,60,0,9,216,82,7,23,0,8,108,0,8,44,0,9,184,0,8,12,0,8,140,0,8,76,0,9,248,80,7,3,0,8,82,0,8,18,85,8,163,83,7,35,0,8,114,0,8,50,0,9,196,81,7,11,0,8,98,0,8,34,0,9,164,0,8,2,0,8,130,0,8,66,0,9,228,80,7,7,0,8,90,0,8,26,0,9,148,84,7,67,0,8,122,0,8,58,0,9,212,82,7,19,0,8,106,0,8,42,0,9,180,0,8,10,0,8,138,0,8,74,0,9,244,80,7,5,0,8,86,0,8,22,192,8,0,83,7,51,0,8,118,0,8,54,0,9,204,81,7,15,0,8,102,0,8,38,0,9,172,0,8,6,0,8,134,0,8,70,0,9,236,80,7,9,0,8,94,0,8,30,0,9,156,84,7,99,0,8,126,0,8,62,0,9,220,82,7,27,0,8,110,0,8,46,0,9,188,0,8,14,0,8,142,0,8,78,0,9,252,96,7,256,0,8,81,0,8,17,85,8,131,82,7,31,0,8,113,0,8,49,0,9,194,80,7,10,0,8,97,0,8,33,0,9,162,0,8,1,0,8,129,0,8,65,0,9,226,80,7,6,0,8,89,0,8,25,0,9,146,83,7,59,0,8,121,0,8,57,0,9,210,81,7,17,0,8,105,0,8,41,0,9,178,0,8,9,0,8,137,0,8,73,0,9,242,80,7,4,0,8,85,0,8,21,80,8,258,83,7,43,0,8,117,0,8,53,0,9,202,81,7,13,0,8,101,0,8,37,0,9,170,0,8,5,0,8,133,0,8,69,0,9,234,80,7,8,0,8,93,0,8,29,0,9,154,84,7,83,0,8,125,0,8,61,0,9,218,82,7,23,0,8,109,0,8,45,0,9,186,0,8,13,0,8,141,0,8,77,0,9,250,80,7,3,0,8,83,0,8,19,85,8,195,83,7,35,0,8,115,0,8,51,0,9,198,81,7,11,0,8,99,0,8,35,0,9,166,0,8,3,0,8,131,0,8,67,0,9,230,80,7,7,0,8,91,0,8,27,0,9,150,84,7,67,0,8,123,0,8,59,0,9,214,82,7,19,0,8,107,0,8,43,0,9,182,0,8,11,0,8,139,0,8,75,0,9,246,80,7,5,0,8,87,0,8,23,192,8,0,83,7,51,0,8,119,0,8,55,0,9,206,81,7,15,0,8,103,0,8,39,0,9,174,0,8,7,0,8,135,0,8,71,0,9,238,80,7,9,0,8,95,0,8,31,0,9,158,84,7,99,0,8,127,0,8,63,0,9,222,82,7,27,0,8,111,0,8,47,0,9,190,0,8,15,0,8,143,0,8,79,0,9,254,96,7,256,0,8,80,0,8,16,84,8,115,82,7,31,0,8,112,0,8,48,0,9,193,80,7,10,0,8,96,0,8,32,0,9,161,0,8,0,0,8,128,0,8,64,0,9,225,80,7,6,0,8,88,0,8,24,0,9,145,83,7,59,0,8,120,0,8,56,0,9,209,81,7,17,0,8,104,0,8,40,0,9,177,0,8,8,0,8,136,0,8,72,0,9,241,80,7,4,0,8,84,0,8,20,85,8,227,83,7,43,0,8,116,0,8,52,0,9,201,81,7,13,0,8,100,0,8,36,0,9,169,0,8,4,0,8,132,0,8,68,0,9,233,80,7,8,0,8,92,0,8,28,0,9,153,84,7,83,0,8,124,0,8,60,0,9,217,82,7,23,0,8,108,0,8,44,0,9,185,0,8,12,0,8,140,0,8,76,0,9,249,80,7,3,0,8,82,0,8,18,85,8,163,83,7,35,0,8,114,0,8,50,0,9,197,81,7,11,0,8,98,0,8,34,0,9,165,0,8,2,0,8,130,0,8,66,0,9,229,80,7,7,0,8,90,0,8,26,0,9,149,84,7,67,0,8,122,0,8,58,0,9,213,82,7,19,0,8,106,0,8,42,0,9,181,0,8,10,0,8,138,0,8,74,0,9,245,80,7,5,0,8,86,0,8,22,192,8,0,83,7,51,0,8,118,0,8,54,0,9,205,81,7,15,0,8,102,0,8,38,0,9,173,0,8,6,0,8,134,0,8,70,0,9,237,80,7,9,0,8,94,0,8,30,0,9,157,84,7,99,0,8,126,0,8,62,0,9,221,82,7,27,0,8,110,0,8,46,0,9,189,0,8,14,0,8,142,0,8,78,0,9,253,96,7,256,0,8,81,0,8,17,85,8,131,82,7,31,0,8,113,0,8,49,0,9,195,80,7,10,0,8,97,0,8,33,0,9,163,0,8,1,0,8,129,0,8,65,0,9,227,80,7,6,0,8,89,0,8,25,0,9,147,83,7,59,0,8,121,0,8,57,0,9,211,81,7,17,0,8,105,0,8,41,0,9,179,0,8,9,0,8,137,0,8,73,0,9,243,80,7,4,0,8,85,0,8,21,80,8,258,83,7,43,0,8,117,0,8,53,0,9,203,81,7,13,0,8,101,0,8,37,0,9,171,0,8,5,0,8,133,0,8,69,0,9,235,80,7,8,0,8,93,0,8,29,0,9,155,84,7,83,0,8,125,0,8,61,0,9,219,82,7,23,0,8,109,0,8,45,0,9,187,0,8,13,0,8,141,0,8,77,0,9,251,80,7,3,0,8,83,0,8,19,85,8,195,83,7,35,0,8,115,0,8,51,0,9,199,81,7,11,0,8,99,0,8,35,0,9,167,0,8,3,0,8,131,0,8,67,0,9,231,80,7,7,0,8,91,0,8,27,0,9,151,84,7,67,0,8,123,0,8,59,0,9,215,82,7,19,0,8,107,0,8,43,0,9,183,0,8,11,0,8,139,0,8,75,0,9,247,80,7,5,0,8,87,0,8,23,192,8,0,83,7,51,0,8,119,0,8,55,0,9,207,81,7,15,0,8,103,0,8,39,0,9,175,0,8,7,0,8,135,0,8,71,0,9,239,80,7,9,0,8,95,0,8,31,0,9,159,84,7,99,0,8,127,0,8,63,0,9,223,82,7,27,0,8,111,0,8,47,0,9,191,0,8,15,0,8,143,0,8,79,0,9,255],s=[80,5,1,87,5,257,83,5,17,91,5,4097,81,5,5,89,5,1025,85,5,65,93,5,16385,80,5,3,88,5,513,84,5,33,92,5,8193,82,5,9,90,5,2049,86,5,129,192,5,24577,80,5,2,87,5,385,83,5,25,91,5,6145,81,5,7,89,5,1537,85,5,97,93,5,24577,80,5,4,88,5,769,84,5,49,92,5,12289,82,5,13,90,5,3073,86,5,193,192,5,24577],o=[3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258,0,0],l=[0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,112,112],d=[1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,257,385,513,769,1025,1537,2049,3073,4097,6145,8193,12289,16385,24577],c=[0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13],u=15;function f(){let e,t,r,a,s,f;function h(e,t,o,l,d,c,h,_,w,b,p){let g,y,x,m,k,v,U,A,S,E,F,D,W,z,C;E=0,k=o;do{r[e[t+E]]++,E++,k--}while(0!==k);if(r[0]==o)return h[0]=-1,_[0]=0,0;for(A=_[0],v=1;v<=u&&0===r[v];v++);for(U=v,A<v&&(A=v),k=u;0!==k&&0===r[k];k--);for(x=k,A>k&&(A=k),_[0]=A,z=1<<v;v<k;v++,z<<=1)if((z-=r[v])<0)return n;if((z-=r[k])<0)return n;for(r[k]+=z,f[1]=v=0,E=1,W=2;0!=--k;)f[W]=v+=r[E],W++,E++;k=0,E=0;do{0!==(v=e[t+E])&&(p[f[v]++]=k),E++}while(++k<o);for(o=f[x],f[0]=k=0,E=0,m=-1,D=-A,s[0]=0,F=0,C=0;U<=x;U++)for(g=r[U];0!=g--;){for(;U>D+A;){if(m++,D+=A,C=x-D,C=C>A?A:C,(y=1<<(v=U-D))>g+1&&(y-=g+1,W=U,v<C))for(;++v<C&&!((y<<=1)<=r[++W]);)y-=r[W];if(C=1<<v,b[0]+C>1440)return n;s[m]=F=b[0],b[0]+=C,0!==m?(f[m]=k,a[0]=v,a[1]=A,v=k>>>D-A,a[2]=F-s[m-1]-v,w.set(a,3*(s[m-1]+v))):h[0]=F}for(a[1]=U-D,E>=o?a[0]=192:p[E]<l?(a[0]=p[E]<256?0:96,a[2]=p[E++]):(a[0]=c[p[E]-l]+16+64,a[2]=d[p[E++]-l]),y=1<<U-D,v=k>>>D;v<C;v+=y)w.set(a,3*(F+v));for(v=1<<U-1;0!=(k&v);v>>>=1)k^=v;for(k^=v,S=(1<<D)-1;(k&S)!=f[m];)m--,D-=A,S=(1<<D)-1}return 0!==z&&1!=x?i:0}function _(n){let i;for(e||(e=[],t=[],r=new Int32Array(16),a=[],s=new Int32Array(u),f=new Int32Array(16)),t.length<n&&(t=[]),i=0;i<n;i++)t[i]=0;for(i=0;i<16;i++)r[i]=0;for(i=0;i<3;i++)a[i]=0;s.set(r.subarray(0,u),0),f.set(r.subarray(0,16),0)}this.inflate_trees_bits=function(r,a,s,o,l){let d;return _(19),e[0]=0,d=h(r,0,19,19,null,null,s,a,o,e,t),d==n?l.msg="oversubscribed dynamic bit lengths tree":d!=i&&0!==a[0]||(l.msg="incomplete dynamic bit lengths tree",d=n),d},this.inflate_trees_dynamic=function(r,a,s,u,f,w,b,p,g){let y;return _(288),e[0]=0,y=h(s,0,r,257,o,l,w,u,p,e,t),0!=y||0===u[0]?(y==n?g.msg="oversubscribed literal/length tree":-4!=y&&(g.msg="incomplete literal/length tree",y=n),y):(_(288),y=h(s,r,a,0,d,c,b,f,p,e,t),0!=y||0===f[0]&&r>257?(y==n?g.msg="oversubscribed distance tree":y==i?(g.msg="incomplete distance tree",y=n):-4!=y&&(g.msg="empty distance tree with lengths",y=n),y):0)}}f.inflate_trees_fixed=function(e,t,n,i){return e[0]=9,t[0]=5,n[0]=a,i[0]=s,0};function h(){const e=this;let i,a,s,o,l=0,d=0,c=0,u=0,f=0,h=0,_=0,w=0,b=0,p=0;function g(e,t,i,a,s,o,l,d){let c,u,f,h,_,w,b,p,g,y,x,m,k,v,U,A;b=d.next_in_index,p=d.avail_in,_=l.bitb,w=l.bitk,g=l.write,y=g<l.read?l.read-g-1:l.end-g,x=r[e],m=r[t];do{for(;w<20;)p--,_|=(255&d.read_byte(b++))<<w,w+=8;if(c=_&x,u=i,f=a,A=3*(f+c),0!==(h=u[A]))for(;;){if(_>>=u[A+1],w-=u[A+1],0!=(16&h)){for(h&=15,k=u[A+2]+(_&r[h]),_>>=h,w-=h;w<15;)p--,_|=(255&d.read_byte(b++))<<w,w+=8;for(c=_&m,u=s,f=o,A=3*(f+c),h=u[A];;){if(_>>=u[A+1],w-=u[A+1],0!=(16&h)){for(h&=15;w<h;)p--,_|=(255&d.read_byte(b++))<<w,w+=8;if(v=u[A+2]+(_&r[h]),_>>=h,w-=h,y-=k,g>=v)U=g-v,g-U>0&&2>g-U?(l.window[g++]=l.window[U++],l.window[g++]=l.window[U++],k-=2):(l.window.set(l.window.subarray(U,U+2),g),g+=2,U+=2,k-=2);else{U=g-v;do{U+=l.end}while(U<0);if(h=l.end-U,k>h){if(k-=h,g-U>0&&h>g-U)do{l.window[g++]=l.window[U++]}while(0!=--h);else l.window.set(l.window.subarray(U,U+h),g),g+=h,U+=h,h=0;U=0}}if(g-U>0&&k>g-U)do{l.window[g++]=l.window[U++]}while(0!=--k);else l.window.set(l.window.subarray(U,U+k),g),g+=k,U+=k,k=0;break}if(0!=(64&h))return d.msg="invalid distance code",k=d.avail_in-p,k=w>>3<k?w>>3:k,p+=k,b-=k,w-=k<<3,l.bitb=_,l.bitk=w,d.avail_in=p,d.total_in+=b-d.next_in_index,d.next_in_index=b,l.write=g,n;c+=u[A+2],c+=_&r[h],A=3*(f+c),h=u[A]}break}if(0!=(64&h))return 0!=(32&h)?(k=d.avail_in-p,k=w>>3<k?w>>3:k,p+=k,b-=k,w-=k<<3,l.bitb=_,l.bitk=w,d.avail_in=p,d.total_in+=b-d.next_in_index,d.next_in_index=b,l.write=g,1):(d.msg="invalid literal/length code",k=d.avail_in-p,k=w>>3<k?w>>3:k,p+=k,b-=k,w-=k<<3,l.bitb=_,l.bitk=w,d.avail_in=p,d.total_in+=b-d.next_in_index,d.next_in_index=b,l.write=g,n);if(c+=u[A+2],c+=_&r[h],A=3*(f+c),0===(h=u[A])){_>>=u[A+1],w-=u[A+1],l.window[g++]=u[A+2],y--;break}}else _>>=u[A+1],w-=u[A+1],l.window[g++]=u[A+2],y--}while(y>=258&&p>=10);return k=d.avail_in-p,k=w>>3<k?w>>3:k,p+=k,b-=k,w-=k<<3,l.bitb=_,l.bitk=w,d.avail_in=p,d.total_in+=b-d.next_in_index,d.next_in_index=b,l.write=g,0}e.init=function(e,t,n,r,l,d){i=0,_=e,w=t,s=n,b=r,o=l,p=d,a=null},e.proc=function(e,y,x){let m,k,v,U,A,S,E,F=0,D=0,W=0;for(W=y.next_in_index,U=y.avail_in,F=e.bitb,D=e.bitk,A=e.write,S=A<e.read?e.read-A-1:e.end-A;;)switch(i){case 0:if(S>=258&&U>=10&&(e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,x=g(_,w,s,b,o,p,e,y),W=y.next_in_index,U=y.avail_in,F=e.bitb,D=e.bitk,A=e.write,S=A<e.read?e.read-A-1:e.end-A,0!=x)){i=1==x?7:9;break}c=_,a=s,d=b,i=1;case 1:for(m=c;D<m;){if(0===U)return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);x=0,U--,F|=(255&y.read_byte(W++))<<D,D+=8}if(k=3*(d+(F&r[m])),F>>>=a[k+1],D-=a[k+1],v=a[k],0===v){u=a[k+2],i=6;break}if(0!=(16&v)){f=15&v,l=a[k+2],i=2;break}if(0==(64&v)){c=v,d=k/3+a[k+2];break}if(0!=(32&v)){i=7;break}return i=9,y.msg="invalid literal/length code",x=n,e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);case 2:for(m=f;D<m;){if(0===U)return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);x=0,U--,F|=(255&y.read_byte(W++))<<D,D+=8}l+=F&r[m],F>>=m,D-=m,c=w,a=o,d=p,i=3;case 3:for(m=c;D<m;){if(0===U)return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);x=0,U--,F|=(255&y.read_byte(W++))<<D,D+=8}if(k=3*(d+(F&r[m])),F>>=a[k+1],D-=a[k+1],v=a[k],0!=(16&v)){f=15&v,h=a[k+2],i=4;break}if(0==(64&v)){c=v,d=k/3+a[k+2];break}return i=9,y.msg="invalid distance code",x=n,e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);case 4:for(m=f;D<m;){if(0===U)return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);x=0,U--,F|=(255&y.read_byte(W++))<<D,D+=8}h+=F&r[m],F>>=m,D-=m,i=5;case 5:for(E=A-h;E<0;)E+=e.end;for(;0!==l;){if(0===S&&(A==e.end&&0!==e.read&&(A=0,S=A<e.read?e.read-A-1:e.end-A),0===S&&(e.write=A,x=e.inflate_flush(y,x),A=e.write,S=A<e.read?e.read-A-1:e.end-A,A==e.end&&0!==e.read&&(A=0,S=A<e.read?e.read-A-1:e.end-A),0===S)))return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);e.window[A++]=e.window[E++],S--,E==e.end&&(E=0),l--}i=0;break;case 6:if(0===S&&(A==e.end&&0!==e.read&&(A=0,S=A<e.read?e.read-A-1:e.end-A),0===S&&(e.write=A,x=e.inflate_flush(y,x),A=e.write,S=A<e.read?e.read-A-1:e.end-A,A==e.end&&0!==e.read&&(A=0,S=A<e.read?e.read-A-1:e.end-A),0===S)))return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);x=0,e.window[A++]=u,S--,i=0;break;case 7:if(D>7&&(D-=8,U++,W--),e.write=A,x=e.inflate_flush(y,x),A=e.write,S=A<e.read?e.read-A-1:e.end-A,e.read!=e.write)return e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);i=8;case 8:return x=1,e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);case 9:return x=n,e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x);default:return x=t,e.bitb=F,e.bitk=D,y.avail_in=U,y.total_in+=W-y.next_in_index,y.next_in_index=W,e.write=A,e.inflate_flush(y,x)}},e.free=function(){}}const _=[16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15];function w(e,a){const s=this;let o,l=0,d=0,c=0,u=0;const w=[0],b=[0],p=new h;let g=0,y=new Int32Array(4320);const x=new f;s.bitk=0,s.bitb=0,s.window=new Uint8Array(a),s.end=a,s.read=0,s.write=0,s.reset=function(e,t){t&&(t[0]=0),6==l&&p.free(e),l=0,s.bitk=0,s.bitb=0,s.read=s.write=0},s.reset(e,null),s.inflate_flush=function(e,t){let n,r,a;return r=e.next_out_index,a=s.read,n=(a<=s.write?s.write:s.end)-a,n>e.avail_out&&(n=e.avail_out),0!==n&&t==i&&(t=0),e.avail_out-=n,e.total_out+=n,e.next_out.set(s.window.subarray(a,a+n),r),r+=n,a+=n,a==s.end&&(a=0,s.write==s.end&&(s.write=0),n=s.write-a,n>e.avail_out&&(n=e.avail_out),0!==n&&t==i&&(t=0),e.avail_out-=n,e.total_out+=n,e.next_out.set(s.window.subarray(a,a+n),r),r+=n,a+=n),e.next_out_index=r,s.read=a,t},s.proc=function(e,i){let a,h,m,k,v,U,A,S;for(k=e.next_in_index,v=e.avail_in,h=s.bitb,m=s.bitk,U=s.write,A=U<s.read?s.read-U-1:s.end-U;;){let E,F,D,W,z,C,I,L;switch(l){case 0:for(;m<3;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}switch(a=7&h,g=1&a,a>>>1){case 0:h>>>=3,m-=3,a=7&m,h>>>=a,m-=a,l=1;break;case 1:E=[],F=[],D=[[]],W=[[]],f.inflate_trees_fixed(E,F,D,W),p.init(E[0],F[0],D[0],0,W[0],0),h>>>=3,m-=3,l=6;break;case 2:h>>>=3,m-=3,l=3;break;case 3:return h>>>=3,m-=3,l=9,e.msg="invalid block type",i=n,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i)}break;case 1:for(;m<32;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}if((~h>>>16&65535)!=(65535&h))return l=9,e.msg="invalid stored block lengths",i=n,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);d=65535&h,h=m=0,l=0!==d?2:0!==g?7:0;break;case 2:if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);if(0===A&&(U==s.end&&0!==s.read&&(U=0,A=U<s.read?s.read-U-1:s.end-U),0===A&&(s.write=U,i=s.inflate_flush(e,i),U=s.write,A=U<s.read?s.read-U-1:s.end-U,U==s.end&&0!==s.read&&(U=0,A=U<s.read?s.read-U-1:s.end-U),0===A)))return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);if(i=0,a=d,a>v&&(a=v),a>A&&(a=A),s.window.set(e.read_buf(k,a),U),k+=a,v-=a,U+=a,A-=a,0!=(d-=a))break;l=0!==g?7:0;break;case 3:for(;m<14;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}if(c=a=16383&h,(31&a)>29||(a>>5&31)>29)return l=9,e.msg="too many length or distance symbols",i=n,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);if(a=258+(31&a)+(a>>5&31),!o||o.length<a)o=[];else for(S=0;S<a;S++)o[S]=0;h>>>=14,m-=14,u=0,l=4;case 4:for(;u<4+(c>>>10);){for(;m<3;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}o[_[u++]]=7&h,h>>>=3,m-=3}for(;u<19;)o[_[u++]]=0;if(w[0]=7,a=x.inflate_trees_bits(o,w,b,y,e),0!=a)return(i=a)==n&&(o=null,l=9),s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);u=0,l=5;case 5:for(;a=c,!(u>=258+(31&a)+(a>>5&31));){let t,d;for(a=w[0];m<a;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}if(a=y[3*(b[0]+(h&r[a]))+1],d=y[3*(b[0]+(h&r[a]))+2],d<16)h>>>=a,m-=a,o[u++]=d;else{for(S=18==d?7:d-14,t=18==d?11:3;m<a+S;){if(0===v)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);i=0,v--,h|=(255&e.read_byte(k++))<<m,m+=8}if(h>>>=a,m-=a,t+=h&r[S],h>>>=S,m-=S,S=u,a=c,S+t>258+(31&a)+(a>>5&31)||16==d&&S<1)return o=null,l=9,e.msg="invalid bit length repeat",i=n,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);d=16==d?o[S-1]:0;do{o[S++]=d}while(0!=--t);u=S}}if(b[0]=-1,z=[],C=[],I=[],L=[],z[0]=9,C[0]=6,a=c,a=x.inflate_trees_dynamic(257+(31&a),1+(a>>5&31),o,z,C,I,L,y,e),0!=a)return a==n&&(o=null,l=9),i=a,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);p.init(z[0],C[0],y,I[0],y,L[0]),l=6;case 6:if(s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,1!=(i=p.proc(s,e,i)))return s.inflate_flush(e,i);if(i=0,p.free(e),k=e.next_in_index,v=e.avail_in,h=s.bitb,m=s.bitk,U=s.write,A=U<s.read?s.read-U-1:s.end-U,0===g){l=0;break}l=7;case 7:if(s.write=U,i=s.inflate_flush(e,i),U=s.write,A=U<s.read?s.read-U-1:s.end-U,s.read!=s.write)return s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);l=8;case 8:return i=1,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);case 9:return i=n,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i);default:return i=t,s.bitb=h,s.bitk=m,e.avail_in=v,e.total_in+=k-e.next_in_index,e.next_in_index=k,s.write=U,s.inflate_flush(e,i)}}},s.free=function(e){s.reset(e,null),s.window=null,y=null},s.set_dictionary=function(e,t,n){s.window.set(e.subarray(t,t+n),0),s.read=s.write=n},s.sync_point=function(){return 1==l?1:0}}const b=13,p=[0,0,255,255];function g(){const e=this;function r(e){return e&&e.istate?(e.total_in=e.total_out=0,e.msg=null,e.istate.mode=7,e.istate.blocks.reset(e,null),0):t}e.mode=0,e.method=0,e.was=[0],e.need=0,e.marker=0,e.wbits=0,e.inflateEnd=function(t){return e.blocks&&e.blocks.free(t),e.blocks=null,0},e.inflateInit=function(n,i){return n.msg=null,e.blocks=null,i<8||i>15?(e.inflateEnd(n),t):(e.wbits=i,n.istate.blocks=new w(n,1<<i),r(n),0)},e.inflate=function(e,r){let a,s;if(!e||!e.istate||!e.next_in)return t;const o=e.istate;for(r=4==r?i:0,a=i;;)switch(o.mode){case 0:if(0===e.avail_in)return a;if(a=r,e.avail_in--,e.total_in++,8!=(15&(o.method=e.read_byte(e.next_in_index++)))){o.mode=b,e.msg="unknown compression method",o.marker=5;break}if(8+(o.method>>4)>o.wbits){o.mode=b,e.msg="invalid window size",o.marker=5;break}o.mode=1;case 1:if(0===e.avail_in)return a;if(a=r,e.avail_in--,e.total_in++,s=255&e.read_byte(e.next_in_index++),((o.method<<8)+s)%31!=0){o.mode=b,e.msg="incorrect header check",o.marker=5;break}if(0==(32&s)){o.mode=7;break}o.mode=2;case 2:if(0===e.avail_in)return a;a=r,e.avail_in--,e.total_in++,o.need=(255&e.read_byte(e.next_in_index++))<<24&4278190080,o.mode=3;case 3:if(0===e.avail_in)return a;a=r,e.avail_in--,e.total_in++,o.need+=(255&e.read_byte(e.next_in_index++))<<16&16711680,o.mode=4;case 4:if(0===e.avail_in)return a;a=r,e.avail_in--,e.total_in++,o.need+=(255&e.read_byte(e.next_in_index++))<<8&65280,o.mode=5;case 5:return 0===e.avail_in?a:(a=r,e.avail_in--,e.total_in++,o.need+=255&e.read_byte(e.next_in_index++),o.mode=6,2);case 6:return o.mode=b,e.msg="need dictionary",o.marker=0,t;case 7:if(a=o.blocks.proc(e,a),a==n){o.mode=b,o.marker=0;break}if(0==a&&(a=r),1!=a)return a;a=r,o.blocks.reset(e,o.was),o.mode=12;case 12:return 1;case b:return n;default:return t}},e.inflateSetDictionary=function(e,n,i){let r=0,a=i;if(!e||!e.istate||6!=e.istate.mode)return t;const s=e.istate;return a>=1<<s.wbits&&(a=(1<<s.wbits)-1,r=i-a),s.blocks.set_dictionary(n,r,a),s.mode=7,0},e.inflateSync=function(e){let a,s,o,l,d;if(!e||!e.istate)return t;const c=e.istate;if(c.mode!=b&&(c.mode=b,c.marker=0),0===(a=e.avail_in))return i;for(s=e.next_in_index,o=c.marker;0!==a&&o<4;)e.read_byte(s)==p[o]?o++:o=0!==e.read_byte(s)?0:4-o,s++,a--;return e.total_in+=s-e.next_in_index,e.next_in_index=s,e.avail_in=a,c.marker=o,4!=o?n:(l=e.total_in,d=e.total_out,r(e),e.total_in=l,e.total_out=d,c.mode=7,0)},e.inflateSyncPoint=function(e){return e&&e.istate&&e.istate.blocks?e.istate.blocks.sync_point():t}}function y(){}y.prototype={inflateInit:function(e){const t=this;return t.istate=new g,e||(e=15),t.istate.inflateInit(t,e)},inflate:function(e){const n=this;return n.istate?n.istate.inflate(n,e):t},inflateEnd:function(){const e=this;if(!e.istate)return t;const n=e.istate.inflateEnd(e);return e.istate=null,n},inflateSync:function(){const e=this;return e.istate?e.istate.inflateSync(e):t},inflateSetDictionary:function(e,n){const i=this;return i.istate?i.istate.inflateSetDictionary(i,e,n):t},read_byte:function(e){return this.next_in.subarray(e,e+1)[0]},read_buf:function(e,t){return this.next_in.subarray(e,e+t)}};const x=4294967295,m=65535,k=["\0","☺","☻","♥","♦","♣","♠","•","◘","○","◙","♂","♀","♪","♫","☼","►","◄","↕","‼","¶","§","▬","↨","↑","↓","→","←","∟","↔","▲","▼"," ","!",'"',"#","$","%","&","'","(",")","*","+",",","-",".","/","0","1","2","3","4","5","6","7","8","9",":",";","<","=",">","?","@","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\","]","^","_","`","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","{","|","}","~","⌂","Ç","ü","é","â","ä","à","å","ç","ê","ë","è","ï","î","ì","Ä","Å","É","æ","Æ","ô","ö","ò","û","ù","ÿ","Ö","Ü","¢","£","¥","₧","ƒ","á","í","ó","ú","ñ","Ñ","ª","º","¿","⌐","¬","½","¼","¡","«","»","░","▒","▓","│","┤","╡","╢","╖","╕","╣","║","╗","╝","╜","╛","┐","└","┴","┬","├","─","┼","╞","╟","╚","╔","╩","╦","╠","═","╬","╧","╨","╤","╥","╙","╘","╒","╓","╫","╪","┘","┌","█","▄","▌","▐","▀","α","ß","Γ","π","Σ","σ","µ","τ","Φ","Θ","Ω","δ","∞","φ","ε","∩","≡","±","≥","≤","⌠","⌡","÷","≈","°","∙","·","√","ⁿ","²","■"," "];class v{constructor(){this.crc=-1,this.table=(()=>{const e=[];for(let t=0;t<256;t++){let n=t;for(let e=0;e<8;e++)1&n?n=n>>>1^3988292384:n>>>=1;e[t]=n}return e})()}append(e){const t=this.table;let n=0|this.crc;for(let i=0,r=0|e.length;i<r;i++)n=n>>>8^t[255&(n^e[i])];this.crc=n}get(){return~this.crc}}const U="Invalid pasword",A=16,S="raw",E={name:"PBKDF2"},F={name:"HMAC"},D="SHA-1",W={name:"AES-CTR"},z=Object.assign({hash:F},E),C=Object.assign({iterations:1e3,hash:{name:D}},E),I=Object.assign({hash:D},F),L=Object.assign({length:A},W),M=["deriveBits"],T=["sign"],R=10,j=[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],P=crypto.subtle;class V{constructor(e,t){this.password=e,this.signed=t,this.input=t&&new Uint8Array(0),this.pendingInput=new Uint8Array(0)}async append(e){const t=async(r=0)=>{if(r+A<=i.length-R){const e=i.subarray(r,r+A),a=await P.decrypt(Object.assign({counter:this.counter},L),this.keys.key,e);return N(this.counter),n.set(new Uint8Array(a),r),t(r+A)}return this.pendingInput=i.subarray(r),this.signed&&(this.input=Z(this.input,e)),n};if(this.password){const t=e.subarray(0,18);await async function(e,t,n){await O(e,n,t.subarray(0,16),["decrypt"]);const i=t.subarray(16),r=e.keys.passwordVerification;if(r[0]!=i[0]||r[1]!=i[1])throw new Error(U)}(this,t,this.password),this.password=null,e=e.subarray(18)}let n=new Uint8Array(e.length-R-(e.length-R)%A),i=e;return this.pendingInput.length&&(i=Z(this.pendingInput,e),n=q(n,i.length-R-(i.length-R)%A)),t()}async flush(){const e=this.pendingInput,t=this.keys,n=e.subarray(0,e.length-R),i=e.subarray(e.length-R);let r=new Uint8Array(0);if(n.length){const e=await P.decrypt(Object.assign({counter:this.counter},L),t.key,n);r=new Uint8Array(e)}let a=!0;if(this.signed){const e=await P.sign(F,t.authentication,this.input.subarray(0,this.input.length-R)),n=new Uint8Array(e);this.input=null;for(let e=0;e<R;e++)n[e]!=i[e]&&(a=!1)}return{valid:a,data:r}}}class B{constructor(e){this.password=e,this.output=new Uint8Array(0),this.pendingInput=new Uint8Array(0)}async append(e){const t=async(r=0)=>{if(r+A<=e.length){const a=e.subarray(r,r+A),s=await P.encrypt(Object.assign({counter:this.counter},L),this.keys.key,a);return N(this.counter),i.set(new Uint8Array(s),r+n.length),t(r+A)}return this.pendingInput=e.subarray(r),this.output=Z(this.output,i),i};let n=new Uint8Array(0);this.password&&(n=await async function(e,t){const n=crypto.getRandomValues(new Uint8Array(16));return await O(e,t,n,["encrypt"]),Z(n,e.keys.passwordVerification)}(this,this.password),this.password=null);let i=new Uint8Array(n.length+e.length-e.length%A);return i.set(n,0),this.pendingInput.length&&(e=Z(this.pendingInput,e),i=q(i,e.length-e.length%A)),t()}async flush(){let e=new Uint8Array(0);if(this.pendingInput.length){const t=await P.encrypt(Object.assign({counter:this.counter},L),this.keys.key,this.pendingInput);e=new Uint8Array(t),this.output=Z(this.output,e)}const t=await P.sign(F,this.keys.authentication,this.output.subarray(18));this.output=null;const n=new Uint8Array(t).subarray(0,R);return{data:Z(e,n),signature:n}}}async function O(e,t,n,i){e.counter=new Uint8Array(j);const r=(new TextEncoder).encode(t),a=await P.importKey(S,r,z,!1,M),s=await P.deriveBits(Object.assign({salt:n},C),a,528),o=new Uint8Array(s);e.keys={key:await P.importKey(S,o.subarray(0,32),W,!0,i),authentication:await P.importKey(S,o.subarray(32,64),I,!1,T),passwordVerification:o.subarray(64)}}function N(e){for(let t=0;t<16;t++){if(255!=e[t]){e[t]++;break}e[t]=0}}function Z(e,t){let n=e;return e.length+t.length&&(n=new Uint8Array(e.length+t.length),n.set(e,0),n.set(t,e.length)),n}function q(e,t){if(t&&t>e.length){const n=e;(e=new Uint8Array(t)).set(n,0)}return e}const K="inflate",H="Invalid signature";class G{constructor(e){this.signature=e.inputSignature,this.encrypted=Boolean(e.inputPassword),this.signed=e.inputSigned,this.compressed=e.inputCompressed,this.inflate=this.compressed&&new e.codecConstructor,this.crc32=this.signed&&this.signed&&new v,this.decrypt=this.encrypted&&new V(e.inputPassword)}async append(e){return this.encrypted&&(e=await this.decrypt.append(e)),this.compressed&&e.length&&(e=await this.inflate.append(e)),!this.encrypted&&this.signed&&this.crc32.append(e),e}async flush(){let e,t=new Uint8Array(0);if(this.encrypted){const e=await this.decrypt.flush();if(!e.valid)throw new Error(H);t=e.data}else if(this.signed){const t=new DataView(new Uint8Array(4).buffer);if(e=this.crc32.get(),t.setUint32(0,e),this.signature!=t.getUint32(0,!1))throw new Error(H)}return this.compressed&&(t=await this.inflate.append(t)||new Uint8Array(0),await this.inflate.flush()),{data:t,signature:e}}}class J{constructor(e){this.encrypted=e.outputEncrypted,this.signed=e.outputSigned,this.compressed=e.outputCompressed,this.deflate=this.compressed&&new e.codecConstructor({level:e.level||5}),this.crc32=this.signed&&new v,this.encrypt=this.encrypted&&new B(e.outputPassword)}async append(e){let t=e;return this.compressed&&e.length&&(t=await this.deflate.append(e)),this.encrypted?t=await this.encrypt.append(t):this.signed&&this.crc32.append(e),t}async flush(){let e,t=new Uint8Array(0);if(this.compressed&&(t=await this.deflate.flush()||new Uint8Array(0)),this.encrypted){t=await this.encrypt.append(t);const n=await this.encrypt.flush();e=n.signature;const i=new Uint8Array(t.length+n.data.length);i.set(t,0),i.set(n.data,t.length),t=i}else this.signed&&(e=this.crc32.get());return{data:t,signature:e}}}const Q="init",X="append",Y="flush",$="message",ee={pool:[],pendingRequests:[]};function te(e,t,n,i){return e.busy=!0,e.options=t,e.scripts=i,e.webWorker=n,n?function(e){let t;e.interface||(e.worker=new Worker(new URL(e.scripts[0],"undefined"==typeof document?new(require("url").URL)("file:"+__filename).href:document.currentScript&&document.currentScript.src||new URL("zip-full.min.js",document.baseURI).href)),e.worker.addEventListener($,r,!1),e.interface={append:e=>n({type:X,data:e}),flush:()=>n({type:Y})});return e.interface;async function n(n){if(!t){const t=e.options,n=e.scripts?e.scripts.slice(1):[];await i(Object.assign({scripts:n,type:Q,options:{codecType:t.codecType,inputPassword:t.inputPassword,inputSigned:t.inputSigned,inputSignature:t.signature,inputCompressed:t.inputCompressed,inputEncrypted:t.inputEncrypted,level:t.level,outputPassword:t.outputPassword,outputSigned:t.outputSigned,outputCompressed:t.outputCompressed,outputEncrypted:t.outputEncrypted}}))}return i(n)}function i(n){const i=e.worker,r=new Promise(((e,n)=>t={resolve:e,reject:n}));try{if(n.data)try{i.postMessage(n,[n.data.buffer])}catch(e){i.postMessage(n)}else i.postMessage(n)}catch(n){t.reject(n),t=null,ne(e)}return r}function r(n){const i=n.data;if(t){const n=i.error;if(n){const i=new Error(n.message);i.stack=n.stack,t.reject(i),t=null,ne(e)}else i.type!=Q&&i.type!=Y&&i.type!=X||(i.type==Y?(t.resolve({data:new Uint8Array(i.data),signature:i.signature}),t=null,ne(e)):t.resolve(i.data&&new Uint8Array(i.data)))}}}(e):function(e){const t=function(e){return e.codecType.startsWith("deflate")?new J(e):e.codecType.startsWith(K)?new G(e):void 0}(e.options);return{async append(n){try{return await t.append(n)}catch(t){throw ne(e),t}},async flush(){try{return await t.flush()}finally{ne(e)}}}}(e)}function ne(e){if(e.busy=!1,ee.pendingRequests.length){const[{resolve:t,options:n,webWorker:i,scripts:r}]=ee.pendingRequests.splice(0,1);t(te(e,n,i,r))}else e.worker&&e.worker.terminate(),ee.pool=ee.pool.filter((t=>t!=e))}async function ie(e,t){return t.length&&await e.writeUint8Array(t),t.length}const re=["filename","rawFilename","directory","encrypted","compressedSize","uncompressedSize","lastModDate","rawLastModDate","comment","rawComment","signature","extraField","rawExtraField","bitFlag","extraFieldZip64","extraFieldUnicodePath","extraFieldUnicodeComment","extraFieldAES","filenameUTF8","commentUTF8"];class ae{constructor(e){re.forEach((t=>this[t]=e[t]))}}const se="File format is not recognized",oe="Zip64 extra field not found",le="Compression method not supported",de="utf-8",ce=["uncompressedSize","compressedSize","offset"];class ue{constructor(e,t,n){this.reader=e,this.config=t,this.options=n}async getData(e,t={}){const n=this.reader;n.initialized||await n.init();const i=await n.readUint8Array(this.offset,30),r=new DataView(i.buffer),a=void 0===t.password?this.options.password:t.password;let s=a&&a.length&&a;if(this.extraFieldAES){if(99!=this.extraFieldAES.originalCompressionMethod)throw new Error(le);if(3!=this.extraFieldAES.strength)throw new Error("Encryption not supported")}if(0!=this.compressionMethod&&8!=this.compressionMethod)throw new Error(le);if(67324752!=ge(r,0))throw new Error("Local file header not found");const o=this.localDirectory={};fe(o,r,4),o.rawExtraField=i.subarray(this.offset+30+o.filenameLength,this.offset+30+o.filenameLength+o.extraFieldLength),he(this,o,r,4);let l=this.offset+30+o.filenameLength+o.extraFieldLength;const d=this.bitFlag.encrypted&&o.bitFlag.encrypted;if(d&&!s)throw new Error("File contains encrypted entry");const c=await function(e,t){const n=ee.pool,i=!(e.inputCompressed||e.inputSigned||e.inputEncrypted||e.outputCompressed||e.outputSigned||e.outputEncrypted),r=e.useWebWorkers||void 0===e.useWebWorkers&&t.useWebWorkers&&!i;let a;if(r){const n=e.codecType;t.workerScripts&&(a=t.workerScripts[n])}if(n.length<t.maxWorkers){const t={};return n.push(t),te(t,e,r,a)}{const t=n.find((e=>!e.busy));return t?te(t,e,r,a):new Promise((t=>ee.pendingRequests.push({resolve:t,options:e,webWorker:r,scripts:a})))}}({codecType:K,codecConstructor:this.config.Inflate,inputPassword:s,inputSigned:void 0===t.checkSignature?this.options.checkSignature:t.checkSignature,inputSignature:this.signature,inputCompressed:0!=this.compressionMethod,inputEncrypted:d,useWebWorkers:void 0===t.useWebWorkers?this.options.useWebWorkers:t.useWebWorkers},this.config);return e.initialized||await e.init(),await async function(e,t,n,i,r,a,s){const o=Math.max(a.chunkSize,64);return async function a(l=0,d=0){const c=l*o;if(c<r){const u=await t.readUint8Array(c+i,Math.min(o,r-c)),f=await e.append(u);return d+=await ie(n,f),s.onprogress&&s.onprogress(c+u.length,r),a(l+1,d)}{const t=await e.flush();return d+=await ie(n,t.data),{signature:t.signature,length:d}}}()}(c,n,e,l,this.compressedSize,this.config,{onprogress:t.onprogress}),e.getData()}}function fe(e,t,n){e.version=pe(t,n);const i=e.rawBitFlag=pe(t,n+2);e.bitFlag={encrypted:1==(1&i),level:(6&i)>>1,dataDescriptor:8==(8&i),languageEncodingFlag:2048==(2048&i)},e.encrypted=e.bitFlag.encrypted,e.rawLastModDate=ge(t,n+6),e.lastModDate=function(e){const t=(4294901760&e)>>16,n=65535&e;try{return new Date(1980+((65024&t)>>9),((480&t)>>5)-1,31&t,(63488&n)>>11,(2016&n)>>5,2*(31&n),0)}catch(e){}}(e.rawLastModDate),e.filenameLength=pe(t,n+22),e.extraFieldLength=pe(t,n+24)}function he(e,t,n,i){const r=t.rawExtraField,a=t.extraField=new Map,s=new DataView(new Uint8Array(r).buffer);let o=0;try{for(;o<r.length;){const e=pe(s,o),t=pe(s,o+2);a.set(e,{type:e,data:r.slice(o+4,o+4+t)}),o+=4+t}}catch(e){}const l=pe(n,i+4);t.signature=ge(n,i+10),t.uncompressedSize=ge(n,i+18),t.compressedSize=ge(n,i+14);const d=t.extraFieldZip64=a.get(1);d&&function(e,t){t.zip64=!0;const n=new DataView(e.data.buffer);e.values=[];for(let t=0;t<Math.floor(e.data.length/8);t++)e.values.push(Number(ye(n,0+8*t)));const i=ce.filter((e=>t[e]==x));for(let t=0;t<i.length;t++)e[i[t]]=e.values[t];ce.forEach((n=>{if(t[n]==x){if(!e||void 0===e[n])throw new Error(oe);t[n]=e[n]}}))}(d,t);const c=t.extraFieldUnicodePath=a.get(28789);c&&_e(c,"filename","rawFilename",t,e);let u=t.extraFieldUnicodeComment=a.get(25461);u&&_e(u,"comment","rawComment",t,e);const f=t.extraFieldAES=a.get(39169);f?function(e,t,n){if(e){const i=new DataView(e.data.buffer);e.vendorVersion=be(i,0),e.vendorId=be(i,2);const r=be(i,4);e.strength=r,e.originalCompressionMethod=n,t.compressionMethod=e.compressionMethod=pe(i,5)}else t.compressionMethod=n}(f,t,l):t.compressionMethod=l,8==t.compressionMethod&&(t.bitFlag.enhancedDeflating=16!=(16&t.rawBitFlag))}function _e(e,t,n,i,r){const a=new DataView(e.data.buffer);e.version=be(a,0),e.signature=ge(a,1);const s=new v;s.append(r[n]);const o=new DataView(new Uint8Array(4).buffer);o.setUint32(0,s.get(),!0),e[t]=(new TextDecoder).decode(e.data.subarray(5)),e.valid=!r.bitFlag.languageEncodingFlag&&e.signature==ge(o,0),e.valid&&(i[t]=e[t],i[t+"UTF8"]=!0)}function we(e,t){return t&&"cp437"!=t.trim().toLowerCase()?new TextDecoder(t).decode(e):(e=>{let t="";for(let n=0;n<e.length;n++)t+=k[e[n]];return t})(e)}function be(e,t){return e.getUint8(t)}function pe(e,t){return e.getUint16(t,!0)}function ge(e,t){return e.getUint32(t,!0)}function ye(e,t){return e.getBigUint64(t,!0)}const xe="text/plain";class me{constructor(){this.size=0}init(){this.initialized=!0}}class ke extends me{}class ve extends me{writeUint8Array(e){this.size+=e.length}}class Ue extends ke{constructor(e){super(),this.blob=e,this.size=e.size}readUint8Array(e,t){const n=new FileReader;return new Promise(((i,r)=>{n.onload=e=>i(new Uint8Array(e.target.result)),n.onerror=r,n.readAsArrayBuffer(this.blob.slice(e,e+t))}))}}const Ae={chunkSize:524288,maxWorkers:"undefined"!=typeof navigator&&navigator.hardwareConcurrency||2,useWebWorkers:!0,workerScripts:void 0};let Se=Object.assign({},Ae);function Ee(e){if(void 0!==e.chunkSize&&(Se.chunkSize=e.chunkSize),void 0!==e.maxWorkers&&(Se.maxWorkers=e.maxWorkers),void 0!==e.useWebWorkers&&(Se.useWebWorkers=e.useWebWorkers),void 0!==e.Deflate&&(Se.Deflate=e.Deflate),void 0!==e.Inflate&&(Se.Inflate=e.Inflate),void 0!==e.workerScripts){if(e.workerScripts.deflate){if(!Array.isArray(e.workerScripts.deflate))throw new Error("workerScripts.deflate must be an array");Se.workerScripts||(Se.workerScripts={}),Se.workerScripts.deflate=e.workerScripts.deflate}if(e.workerScripts.inflate){if(!Array.isArray(e.workerScripts.inflate))throw new Error("workerScripts.inflate must be an array");Se.workerScripts||(Se.workerScripts={}),Se.workerScripts.inflate=e.workerScripts.inflate}}}Ee({Inflate:function(){const e=new y,t=new Uint8Array(512);let n=!1;e.inflateInit(),e.next_out=t,this.append=function(r,a){const s=[];let o,l,d=0,c=0,u=0;if(0!==r.length){e.next_in_index=0,e.next_in=r,e.avail_in=r.length;do{if(e.next_out_index=0,e.avail_out=512,0!==e.avail_in||n||(e.next_in_index=0,n=!0),o=e.inflate(0),n&&o===i){if(0!==e.avail_in)throw new Error("inflating: bad input")}else if(0!==o&&1!==o)throw new Error("inflating: "+e.msg);if((n||1===o)&&e.avail_in===r.length)throw new Error("inflating: bad input");e.next_out_index&&(512===e.next_out_index?s.push(new Uint8Array(t)):s.push(new Uint8Array(t.subarray(0,e.next_out_index)))),u+=e.next_out_index,a&&e.next_in_index>0&&e.next_in_index!=d&&(a(e.next_in_index),d=e.next_in_index)}while(e.avail_in>0||0===e.avail_out);return l=new Uint8Array(u),s.forEach((function(e){l.set(e,c),c+=e.length})),l}},this.flush=function(){e.inflateEnd()}}}),e.BlobReader=Ue,e.BlobWriter=class extends ve{constructor(e){super(),this.offset=0,this.contentType=e,this.blob=new Blob([],{type:e})}writeUint8Array(e){super.writeUint8Array(e),this.blob=new Blob([this.blob,e.buffer],{type:this.contentType}),this.offset=this.blob.size}getData(){return this.blob}},e.Data64URIWriter=class extends ve{constructor(e){super(),this.data="data:"+(e||"")+";base64,",this.pending=[]}writeUint8Array(e){super.writeUint8Array(e);let t=0,n=this.pending;const i=this.pending.length;for(this.pending="",t=0;t<3*Math.floor((i+e.length)/3)-i;t++)n+=String.fromCharCode(e[t]);for(;t<e.length;t++)this.pending+=String.fromCharCode(e[t]);n.length>2?this.data+=btoa(n):this.pending=n}getData(){return this.data+btoa(this.pending)}},e.TextReader=class extends ke{constructor(e){super(),this.blobReader=new Ue(new Blob([e],{type:xe}))}init(){super.init(),this.blobReader.init(),this.size=this.blobReader.size}readUint8Array(e,t){return this.blobReader.readUint8Array(e,t)}},e.TextWriter=class extends ve{constructor(e){super(),this.encoding=e,this.blob=new Blob([],{type:xe})}writeUint8Array(e){super.writeUint8Array(e),this.blob=new Blob([this.blob,e.buffer],{type:xe})}getData(){const e=new FileReader;return new Promise(((t,n)=>{e.onload=e=>t(e.target.result),e.onerror=n,e.readAsText(this.blob,this.encoding)}))}},e.ZipReader=class extends class{constructor(e,t={},n={}){this.reader=e,this.options=t,this.config=n}async getEntries(e={}){const t=this.reader;if(t.initialized||await t.init(),t.size<22)throw new Error(se);const n=await async function(e,t,n,i){const r=new Uint8Array(4);!function(e,t,n){e.setUint32(t,n,!0)}(new DataView(r.buffer),0,t);const a=n+i;let s=n,o=await l(s);o||(o=await l(Math.min(a,e.size)));return o;async function l(t){const i=e.size-t,a=await e.readUint8Array(i,t);for(let e=a.length-n;e>=0;e--)if(a[e]==r[0]&&a[e+1]==r[1]&&a[e+2]==r[2]&&a[e+3]==r[3])return{offset:i,buffer:a.slice(e,e+n).buffer}}}(t,101010256,22,m);if(!n)throw new Error("End of central directory not found");const i=new DataView(n.buffer);let r,a=ge(i,16),s=pe(i,8);if(a==x||s==m){r=!0;const e=await t.readUint8Array(n.offset-20,20),i=new DataView(e.buffer);if(117853008!=Number(ge(i,0)))throw new Error("End of Zip64 central directory not found");a=Number(ye(i,8));const o=await t.readUint8Array(a,56),l=new DataView(o.buffer);if(101075792!=Number(ge(l,0)))throw new Error("End of Zip64 central directory locator not found");s=Number(ye(l,24)),a-=Number(ye(l,40))}if(a<0||!r&&(a>=t.size||s>=m))throw new Error(se);const o=await t.readUint8Array(a,t.size-a),l=new DataView(o.buffer),d=[];let c=0;for(let t=0;t<s;t++){const t=new ue(this.reader,this.config,this.options);if(33639248!=ge(l,c))throw new Error("Central directory header not found");t.compressedSize=0,t.uncompressedSize=0,fe(t,l,c+6),t.commentLength=pe(l,c+32),t.directory=16==(16&be(l,c+38)),t.offset=ge(l,c+42),t.rawFilename=o.subarray(c+46,c+46+t.filenameLength);const n=void 0===e.filenameEncoding?this.options.filenameEncoding:e.filenameEncoding;t.filenameUTF8=t.commentUTF8=Boolean(t.bitFlag.languageEncodingFlag),t.filename=we(t.rawFilename,t.filenameUTF8?de:n),!t.directory&&t.filename&&"/"==t.filename.charAt(t.filename.length-1)&&(t.directory=!0),t.rawExtraField=o.subarray(c+46+t.filenameLength,c+46+t.filenameLength+t.extraFieldLength),t.rawComment=o.subarray(c+46+t.filenameLength+t.extraFieldLength,c+46+t.filenameLength+t.extraFieldLength+t.commentLength);const i=void 0===e.commentEncoding?this.options.commentEncoding:e.commentEncoding;t.comment=we(t.rawComment,t.commentUTF8?de:i),he(t,t,l,c+6);const r=new ae(t);r.getData=(e,n)=>t.getData(e,n),d.push(r),c+=46+t.filenameLength+t.extraFieldLength+t.commentLength}return d}async close(){}}{constructor(e,t){super(e,t,Se)}},e.configure=Ee,Object.defineProperty(e,"__esModule",{value:!0})}));
+(function Xt(){const e={gif:"image/gif",jpg:"image/jpeg",png:"image/png",tif:"image/tiff",tiff:"image/tiff",bmp:"image/bmp",ico:"image/vnd.microsoft.icon",webp:"image/webp",svg:"image/svg+xml",avi:"video/x-msvideo",ogv:"video/ogg",mp4:"video/mp4",mpeg:"video/mpeg",ts:"video/mp2t",webm:"video/webm","3gp":"video/3gpp","3g2":"video/3gpp",mp3:"audio/mpeg",oga:"audio/ogg",mid:"audio/midi",midi:"audio/midi",opus:"audio/opus",wav:"audio/wav",weba:"audio/webm"};let t;zip.configure({useWebWorkers:!1});const n=new XMLHttpRequest;let r;async function i(n){if(t)return;t=!0,stop(),r&&clearTimeout(r),r=a("sfz-wait-message"),Array.isArray(n)&&(n=new Blob([new Uint8Array(n)]));const i=new zip.BlobReader(n);let s,o=[];try{const t=new zip.ZipReader(i),n=await t.getEntries();let r;await Promise.all(n.map((async t=>{let n,i,a;if(!r&&t.bitFlag.encrypted&&(r={password:prompt("Please enter the password to view the page")}),t.filename.match(/index\.html$/)||t.filename.match(/stylesheet_[0-9]+\.css/)||t.filename.match(/scripts\/[0-9]+\.js/))n=new zip.TextWriter,a=await t.getData(n,r);else{const n=t.filename.match(/\.([^.]+)/);let a;a=n&&n[1]&&e[n[1]]?e[n[1]]:"application/octet-stream",i=t.filename.match(/frames\//)?await t.getData(new zip.Data64URIWriter(a),r):URL.createObjectURL(await t.getData(new zip.BlobWriter(a),r))}o.push({filename:t.filename,content:i,textContent:a})}))),await t.close()}catch(e){alert("Error: "+e.message||e);const t=document.getElementById("sfz-wait-message");t&&t.remove()}o=o.sort(((e,t)=>t.filename.length-e.filename.length));const l=/([{}()^$&.*?/+|[\\\\]|\]|-)/g;for(const e of o)if(void 0!==e.textContent){let t="";const n=e.filename.match(/(.*\/)[^/]+$/);n&&n[1]&&(t=n[1]);const r=e.filename.match(/scripts\/[0-9]+\.js/);let i;if(r||o.forEach((n=>{if(n.filename.startsWith(t)&&n.filename!=e.filename){const r=n.filename.substring(t.length);e.textContent=e.textContent.replace(new RegExp(r.replace(l,"\\$1"),"g"),n.content)}})),e.filename.match(/stylesheet_[0-9]+\.css/)?i="text/css":r?i="text/javascript":e.filename.match(/index\.html$/)&&(i="text/html"),e.filename.match(/^([0-9_]+\/)?index.html$/))s=e.textContent;else{const t=new FileReader;t.readAsDataURL(new Blob([e.textContent],{type:i+";charset=utf-8"})),e.content=await new Promise(((e,n)=>{t.addEventListener("load",(()=>e(t.result)),!1),t.addEventListener("error",n,!1)}))}}const c="data-single-filez-disabled-noscript",u=(new DOMParser).parseFromString(s,"text/html");u.querySelectorAll("noscript:not([data-single-filez-disabled-noscript])").forEach((e=>{e.setAttribute(c,e.innerHTML),e.textContent=""})),clearTimeout(r),document.replaceChild(document.importNode(u.documentElement,!0),document.documentElement),document.querySelectorAll("link[rel*=icon]").forEach((e=>e.parentElement.replaceChild(e,e))),document.open=document.write=document.close=()=>{};for(let e of Array.from(document.querySelectorAll("script")))await new Promise(((t,n)=>{const r=document.createElement("script");Array.from(e.attributes).forEach((e=>r.setAttribute(e.name,e.value)));const i=""==e.getAttribute("async")||"async"==e.getAttribute("async");e.textContent?r.textContent=e.textContent:i||(r.addEventListener("load",t),r.addEventListener("error",n)),e.parentElement.replaceChild(r,e),(e.textContent||i)&&t()}));document.dispatchEvent(new CustomEvent("single-filez-display-infobar"))}function a(e){return setTimeout((()=>{Array.from(document.body.childNodes).forEach((t=>{t.id!=e&&t.remove()})),document.body.hidden=!1}),1500)}Array.from(document.documentElement.childNodes).forEach((e=>{e!=document.body&&e!=document.head&&e.remove()})),n.responseType="blob",n.open("GET",""),n.onerror=()=>r=a("sfz-error-message"),n.send(),n.onload=async()=>i(n.response),globalThis.bootstrap=i})()</script>
+<main hidden>
+存在主义是一种人文主义萨特 
+ 在这里，我的目的是要对存在主义所受到的一些指责，提出答辩。
+
+　　首先，存在主义曾被指责为诱导人们安于一种绝望的无为主义（ｑｕｉｅｔｉｓｍ）。因为如果每一条解决事物之道被阻断了，那么我们就不得不视在这世界上
+的任何行为都是徒劳无益的，我们最后就会走到一种瞑想的哲学里去。而更甚的是，由于瞑想是一种奢侈，因此我们的学说就不过是另一种布尔乔亚的哲学而已。在
+这方面，是特别受到共产主义者的指责。
+
+　　在另一方面，我们被指责为偏重了人类处境中黯淡的一面，只看到下贱，卑鄙和低劣，而忽略了人性光明面中某些仁慈而美好的事物。例如根据天主教的批评者
+默契尔小姐所说，我们忘记了婴儿是怎样微笑的。从这两方面，我们又被指责为无见于人类的协和一致，而认为人是处于孤立之中。共产主义者说我们之所以如此，
+主要是因为我们的学说纯粹建筑在主观性上——建筑在笛卡尔所谓“我思”这个观念之上：这是孤立的人面对他们的时刻，这是一个无法和其他存在于自我之外的人
+取得协和一致的地位。自我不能透过思维而与他们相通。
+
+　　从基督教这一面，我们则被指责为否定了人事的真实和严肃。因为我们忽视了上帝的诫言和他规定的所有的永恒价值，那就除了自由意愿之外，别无所有了。每一个人都可以为所欲为，从这一个观点来看，就不能谴责他人的观点和行为了。
+
+　　今天，我将尽量来答复这些不同的指责。这也就是我为什么把这短文题为“存在主义是一种人文主义”的理由。许多人对于我在这里提到“人文主义”一词，可
+能会感到惊讶，但是我将试图寻出我们所了解的意义。无论如何，我们一开始就可以说，存在主义乃是使人生成为可能的一种学说；这种学说并宣称任何真理和行为
+都包含着环境和人的主观性。
+
+　　对于我们最基本的攻击，当然是说我们过份强调了人生的罪恶面。最近有人告诉我一个故事，说有一位太太，无论在什么时候，只要她神经过敏地说了一句粗俗
+的话，就自我解嘲地叫道：“我想我要变成一个存在主义者了。”由此可以看出，丑恶被视为存在主义的同义词了。这也就是为什么有些人说我们是“自然主义
+的”，假使我们是的话，这倒奇怪了，因为今天我们却比名符其实的自然主义者更使他们感到震惊和畏惧。那些可以安然读完一本象左拉的《大地》那样的小说的
+人，却无法忍受存在主义者的小说。那些诉诸于大众智慧的人——那是一种悲哀的智慧——发现我们的更为悲哀。然而，又有什么话比说“仁爱始于家庭”或者“升
+擢歹徒，他会反咬；将他击倒，他则崇拜”更会使人感到嗒然若丧呢？我们都很熟习许多可以这样引用的老话，它们的意义大抵相同——你不可反抗现存努力，你不
+可违反权威，你不可逾越本份，干涉他人。或者说，任何不依从一些传统的行为都只是浪漫主义；或者说不根据过去经验的行为，都注定要失败的；并且由于经验显
+示出人总是不变地倾向于罪恶，所以必须有严厉的规则来约束，否则我们就要陷入无政府状态了。然而，直到现在仍然有人咀嚼着这些丧气的老话，每当他们听到一
+些讨厌的行为时，就会说：“多么象人性呀！”——就是这些重弹写实主义老调的人，在抱怨存在主义对事物的看法太过于阴郁。的确，他们那些过度的抗议倒使我
+怀疑触怒他们的不是我们的悲观，而是我们的乐观。因为追根究底，在我正要向你们解释的学说之中有警告作用的是——人有选择的可能性。——难道不是吗？为证
+实这点，我们必须在纯哲学的水准上，把它重新研究一番。那就是我们称为存在主义的这个名词，到底是什么？
+
+　　对大多数正在使用这个名词的人，如果请他说明一下它的意义，一定总会感到极其含混不清。因为现在它已经成为一种流行的字眼，人们常兴之所至地称呼这个
+音乐家或者那个画家是“存在主义者”。一位《光明报》的专栏作家竟自己签名为“存在主义者”，然而，事实上，这个名词现在被广泛地使用在众多的事实上，以
+致它已不再具有任何意义了。这好象是由于象超现实主义这种思想一样缺乏新的学说，于是，一班渴望诋毁和捣乱的人，都找到我们的哲学上来，实际上，在我们的
+学说里，他们找不出有什么能满足于他们的目标的。因为事实上这在所有的学说中是最少诽谤和最为严谨的：它是将为专家和哲学家而建的一种学说。同样的，它是
+易于界说的。
+
+　　这问题之所以复杂，乃是因为存在主义者有两派所致。一派是基督教，其中我将举出雅斯培与马色尔，这两人都自称为天主教徒。另一派则是存在的无神论者，
+其中我们必须举出海德格和法国的存在主义者以及我自己。他们的共同点则是他们都认为存在先于本质——或者，如果你喜欢的话，也可以说是：主体必须作为一切
+的起点。我们所意指的确切意义是什么呢？
+
+　　如果人们研究一件工业制品——譬如说一本书或者切纸刀——人们就可以了解，制造它的工匠必定先有关于它的概念存乎心中。同样地，他曾对切纸刀的概念以
+及先于存在的制作技巧加以注意过。这种制作的技巧是那概念的一部分，实际上，也就是定则。因此，切纸刀就成了在某种一定方法之下所制成的东西。而在另一方
+面它又可以有某种特定的用途，因为我们不能想像一个人会制造一把切纸刀而不知道它的用途的。所以，对于这把切纸刀，我们可以说它的本质——也就是使它可能
+被制作出来以及具有意义的这种定则与性质之总和——先于它的存在。这类的切纸刀或书本就这样注定了地呈现于我们的眼前。在这里，我们是以一种技术的观点来
+观察这个世界，所以，我们可以说制作先于存在（production preceddes existence）。
+
+　　当我们把上帝视为造物者时，大部分的时候，我们都把他当作超级的工匠。无论我们研究哪一种学说，不管是笛卡儿的，或者莱布尼兹的，我们多少总认为理念
+先于创作，或者至少是伴随而来，所以上帝造物的时候，他是确切地知道他正在创造什么。因此，上帝心中人的概念亦如工匠心中切纸刀的概念。上帝根据一种程序
+和概念造人，恰好工匠依照一个方式和定则造切纸刀。所以，每一个个别的人都是上帝睿智中某一个概念的实现。在十八世纪的无神论哲学中，曾抛弃过上帝这个观
+念，但是并没有抛弃本质先于存在的想法。
+
+　　这种想法仍然到处可见，在狄德罗，伏尔泰甚至康德的学说中，都可以找到这种思想的存在。人具有人性，这种“人性”乃是人的概念，在每一个人身上都可以
+发现得到，这也就是每一个人都是这种普遍概念的一个个别的例子。在康德的思想中这种普遍性是如此的广泛，以致森林中的野人，即还处于原始状态中的人，以及
+布尔乔亚阶级的人都包括到这同样的定义中去，而且具有相同的基本性质。在这里又和上面一样，人的本质先于我们在经验中所遭逢到的历史存在。
+
+　　无神论的存在主义，我就是一个代表，极为一致地宣称，如果上帝不存在，那么至少有一种东西它的存在是先于它的本质的，它是在可能被任何概念所界定以前
+就已存在了的，这样的东西，就是人，也就是如海德格所说的人的实在性。我们所说的存在先于本质到底是什么意思呢？我们的意思是：人首先存在着，首先碰到各
+种际遇，首先活动于这世界——然后，开始限定了自己。若依存在主义者看来，一个人如果无法予以限定，那是因为人在开始的时候还没有成为什么。只是到了后
+来，他才成了某种东西，他才把自己创造成他所要成为的东西。因此，就无所谓人的天性，因为没有上帝来给予它一个概念。人赤裸裸地存在着，他之赤裸裸并不是
+他自己所想象的，而是他是他自己所意欲的——他跃进存在之后，他才意欲自己成为什么东西。人除了自我塑造之外，什么也不是。这是存在主义的第一个原则。也
+就是人们称它为主体性（subjectivity）并用这个字来谴责我们的。但是我们这样说的意思，还不是指人比一块石头或者一张桌子更为尊严？因为我们
+的意思是说，人是首先就自己存在了的——人在一切之前某种自行向未来推进并自觉正在这样推进的东西。人确实是一种具有主体生命的设计者，而不是青苔，兰
+花，或是花椰菜。在这个自我设计之先，无物存在。即使在睿智的上天也没有。人只有在他计划成为什么时才能获得存在，只是希望，还不够。因为“希望”或者
+“意愿”一词，通常是指一种在我们已塑造出我们自己之后所作的一种自觉决定。我们可以希望加入一个政党，写一本书，或是结婚——但是在这些情形下，通常所
+谓“我的意愿”可能是一种先验的表现以及更自发的决定。然而，假如存在先于本质是真实的话，人就要对他自己负责。因此，存在主义的第一个作用是它使每一个
+人主宰他自己，把他存在的责任全然放在他自己的肩膀上。由是，当我们说人对他的本质负责时，我们并不只是说他对他个人负责而已，而是对所有的人负责。“主
+体论”具有两种意义，而我们的反对者只是接触到其中的一个而已。主体论一方面是指个人主体的自由，另方面则指人是无法超越人类的主体性。后者才是存在主义
+比较深层的意义。
+
+　　当我们说一个人选择他自己的时候，我们的意思是指每一个人必须选择他自己。但是由此我们也意指选择他自己的时候，他也为所有的人作选择。因为实际上，
+在我们选择一个我们所想要做的人的时候，我们所作的种种努力，无非是在创造一个为我们认为当然的人的形象。我们在两者之中作选择时，同时也就是在肯定我们
+所选择的对象的价值，因为我们不能永远选择没有价值的。我们所选择的常常是较为有价值的，同时没有对我们更有价值的，除非对大家都更有价值。进言之，如果
+存在先于本质，而当我们存在的时候，我们也在创造我们的形象，则这个形象是适用于所有人类和我们所处的整个时代的。我们的责任因此较我们想象的更为重大，
+因为它关涉到人类全体。比如，假使我是一个工人，我可选择一个基督徒的工会，而不加入一个共党的工会。假如由于这个会员的资格，我要表示，为人处世最好是
+忍让为先，人的国度并不在这世界上，那么我并不是独自一个人归依于这个观点。
+
+　　忍让是我对每个人的意愿，结果，我的行动也就成为全人类的一种行为。或者，举一个较为私人性的例子，我决定结婚生子，纵然这个决定只是从我的情境，情
+爱，欲望中发展而出的，但在实行一夫一妻制上面，我就涉及到全人类，而不只我自己。所以，我对自己固然有责任，对别人也有责任。同时，我也塑造了某种我所
+希望的人的形象，我塑造我自己，我也塑造了别人。
+
+　　这可使我们了解下面这些名词的意义——或许有一点夸大——例如焦虑（anguish），舍弃（abandonment）和绝望（despair）。你立刻可以看出，这是非常明了的。
+
+　　首先，我们所谓的焦虑是什么意思呢？存在主义者坦白地说人是处于焦虑之中，他的解释是这样的：当一个人有所行动时，他充分地自觉他不只是选择他所意愿
+的，同时也是一个为全人类裁决的立法者——在这时刻，一个人就不能从一种整体与沉重的责任感中逃避开来。有许多人确实是没有这种焦虑。但是我们可以断言他
+们仅仅是在掩饰他们的苦闷或由其中逃避开来。必然地，有许多人会以为他们所做的事情，除了他们自己之外，和别人无关。如果你问他们，“假使每个人都这么做
+又曾如何呢？”他们会耸耸肩膀回答说：“不会每个人都这么做。”但是事实上，每一个人都应该问他自己假如每一个都象他一样的做时，会如何呢？一个人除了自
+欺之外，不可能由这种烦恼的思想中逃避开去。一种自我宽恕的人，常说“不会每一个人都这么做”。但他良心上一定会感到不安的。因为说谎的行为蕴含着它所否
+定的普遍性的价值。正由于他的掩饰，焦虑忧思却反而显露了出来，这种焦虑，就是齐克果所谓的“亚伯拉罕的焦虑”。你知道这个故事的：一个天使命令亚伯拉罕
+牺牲他的儿子：假使真的有一位天使出现而且说：“你，亚伯拉罕，必须牺牲你的儿子。”那末服从就是义务，但是任何人，在这种情形下都会表示怀疑，首先要问
+它是否确实是天使，其次，我是否真正是亚伯拉罕。证据在哪里？某一个疯妇说有人打电话给她，并且还给他下命令。医生问她，“但是，对你说话的人是谁呢？”
+她回答说：“他说他是上帝。”事实上，能用什么对她证明他是上帝呢？假若一位天使对我显现，有什么证据可以证明他是天使呢？或者，假如我听到声，谁能够证
+明这声音是来自天堂而不是来自地狱，或者是自己的潜意识，或者是某种病状？谁能够证明他们确是对我而说的呢？
+
+　　那么，谁能证明我是借我的决择把我对于人的概念来加诸全人类的适当人选呢？我无论如何都找不出任何证明的；也没有迹象会使我相信它。如果有一种声音在
+叫唤我，我仍得自己去决定这声音是否来自天使。如果我认为这样的一种行为是好的，那也只是我自己的选择，说它是好的而不是坏的。
+
+　　没有什么证据，表示出我是亚伯拉罕，但每时每刻，我仍然被迫去扮演这些作为范例的行为。每一件发生于每一个人的事，就好象整个人类用眼睛注视着他的行
+为，并且为他的行为所引导。因此每一个人应当问他自己：“我真是这样的一个人吗？我的行动足以引导全人类吗？”如他不这样问他自己，那他就在掩饰他的焦
+虑。很明显地，我们在这里所提到的焦虑不是那导致无为主义或懈怠的。这是一种为每个负有责任的人所熟知的单纯的焦虑。例如，当一个军事长官负起攻击的责
+任，而派一批相当数目的人去冒死时，那是他选择这样做的，并且是他一个人决定这样做的。无疑的，他是在上级的命令下这样做的，但是这命令极为泛泛，必须他
+来加以解释。而就在这解释上，决定了十人，十四人，或二十个人的生命。因此当他在作决定时，他不得不感到焦虑。这种焦虑是所有做领导的人都知道的。那并不
+阻碍他们的行动，反之，那正是构成他们行动的主要条件。因为这行动表示他们面对着许多种可能，而当他们选择其一时，他们就由此而知道它是有价值的。存在主
+义者描写的就是这种焦虑，同时我们可以看出，这种存在主义所说的焦虑，乃是用一种对于为它所涉及者的直接责任去解释的。它不是一块将我们和行动分隔的布
+幕，它是行动本身的一个条件。
+
+　　当我们讲到舍弃（abandonment）的时候——海德格所喜欢用的一个名词——我们只是说上帝不存在，我们必须去对它的一切后果。存在主义是极端
+反对以最低的代价去废弃上帝的俗世道德论的。约在一八八○年时，一些法国的哲学教授们企图建立一种俗世道德论，他们这样地说：“上帝是一个无用而浪费的假
+设，所以，我们废弃他。”然而，假如我们要有道德、一个社会以及法治的世界，那么最基本的是要严肃地承认某些价值。它们必须要有一种属于它们的先验的存
+在。例如，诚实，不说谎，不打妻子，抚育子女等被视为先验的责任，所以我们要在这个题目上略为研讨，以证明纵然上帝不存在，一切道德价值仍然同样地存在
+着，仍然是附属于一个睿智的天国上。换言之——这就是我们在法国所称的急进主义的旨趣——假如上帝不存在，一切都不会改变；我们将重新发现同样的诚实，进
+步和仁爱，同时，我们将认为上帝是一种过时的假设，它本身会默然而逝的。相反地，存在主义者发现假如上帝不存在，则情形将是很难堪的，因为一切从睿智的天
+国发现价值的可能性将随之消逝。既然没有无限完美的意识加以思考，那么先验的事物将不再有什么用处。没有地方写着：“善良”存在，我们必须诚实，或者不得
+说谎，因为我们身处于只有人生存着的土地上。陀斯妥也夫斯基曾写道：“如果上帝不曾存在，任何事情都可被允许的。”而这正是存在主义的出发点。
+
+　　假如存假如上帝不存在，任何事情确实都可被允许的，结果人就孤立无依了。因为他无法在他自身之内和自身之外发现可以依赖的东西。他随着发现，他是无理
+由可解释的。因为存在确是先于本质，我们就永远不能根据天赋和特殊的人性去解释自己的行为；换言之，没有什么决定论的存在——人是自由的，人就是自由。另一方面，假如上帝不存在，也就没有任何价值或命令给予我们以规范我们的行为。因此，在我们的前后都没有一个光辉的价值领域，都没有任何理由或借口。我们
+孑然孤立，没有任何理由可寻。这就是我所谓的人是被注定为自由的意义。说是被注定，乃由于人并不会创造自己，然而又是自由的，自从人被抛进这个世界，他就
+要对他所做的任何事情负责。存在主义者不相信热情的力量。他不同意一往向前的热情是决定性的引导人们于行动的一道急流，因而就可以把它作为人的一种托词。
+他认为一个人对于自己的热情也应该负责。存在主义者不认为一个人可以借发现什么预兆，去帮助他决定未来行动的方向。因为他认为一个人在选择的时候，就自行
+解释了这预兆。所以他认为每一个人，无须任何的支持或援助，人，是时时刻刻都注定要去创造自己的。庞其（ponge）在一篇非常精僻的论文中说过：“人就
+是人的未来。”（Man is the future of
+man）这话对极了。只是如果有人以为这就是说未来乃取决于上天，上帝会知道它是什么，那就错了。因为假使这样，那就没有未来可言了。然而，假使它的意义
+是：无论人现在怎么样，永远有一个未来等待着他去塑造，一个等待着他而未经开辟的未来——那么，那就对了。但是现在，人们是被舍弃的。
+
+　　为了使你们更明白这种舍弃的状况，我想举出我的一个学生的情形为例，这学生要我在下述的情景中替他找出解决的办法。他的父亲正和他的母亲吵架，而且还
+有“通敌”的倾向。他的哥哥在一九四○年德军侵袭时被杀，而这个青年人，怀着原始而激昂的心情，燃烧着复仇的愿望。他母亲和他单独住在一起，深为他父亲叛
+国的行为和长子的死亡而悲痛。她把唯一的希望寄托在这个青年人的身上。但是这个青年人这时却处于两种选择之间——到英国加入自由法军，或留在母亲身边帮助
+她生活。他十分清楚他母亲是为着他而活，他的消失——可能是死亡——会使她陷入绝望之中。同时他具体而真实地感觉到，他为他母亲所做的任何行为，将会有助
+于她生存下去的确实的效果。然而他为战争所做的任何事情，将如水之渗入沙中，毫无作用。例如，要到英国去，则经过西班牙时，他必须在西班牙的营中待一段不
+能确定的时间，在到达英国或者阿尔及利亚时，他可能会被安插到一个机构里去，以补充一个名额。结果，他发觉到他自己遭遇着两种完全不同的行动方式：一种具
+体而直接，但只为了一个人；另一种则为了一个无限大的目标——国家全体——但也因此而模糊不清，而且可能中途受阻。同时，他也犹豫于两种道德之间，一方面
+是同情个人情感的道德；另一方面则是范围广泛而真实性值得怀疑的道德。他必须在这两者中作一个选择。什么东西能帮助他来作这个选择呢？基督教的教条能够
+吗？不。基督教的教条说：行为要仁慈，要爱护你的邻居，要为别人牺牲自己，要选择最难走的路径，等等。但哪一条是最难走的路径呢？对于什么样的人，我们要
+付出更多的兄弟之爱呢？爱国人士还是母亲？哪一个是更为有用的目标：广泛地为整个社会而奋斗呢？还是帮助一个特定的人物生活下去呢？谁能够先验地对此作一
+个答案？没有一个人能够。这在任何伦理经典中也没有答案。康德的伦理学上说：永远不要把别人当作一个手段，而应当作一个目的。不错，如果我留下来跟母亲在
+一起，我把她视为目的而不是手段。但是由于这个做法，我就处于视那些为我作战的人为手段的危险中，反过来看也是真的，如果我去帮助作战的人，我就视他们为
+目的，但却处于以我母亲为手段的危险中。
+
+　　如果价值是不确定的，如果它们还是太抽象而不能决定特殊的事件，或者在考虑之中的具体事件，那我们除了信任我们的直觉之外就别无所遗了。这就是这青年
+所面临的；当我看到他时，他说：“最后，只有依赖感觉了。真正推动我的方向就是我要选择的那一个。如果，我感觉我深爱我的母亲而可为她牺牲一切——我复仇
+的意志，我的行动与冒险的热望——那我就留下来跟她在一起。反之，如果我觉得我对母亲的爱不够深，那我就走。”但是，一个人如何估计感情的力量呢？他对他
+母亲情感的价值是由他陪伴着她这事实所真实地决定的。我可以说我爱护某一个朋友到可以为他牺牲某种数目的金钱，但除非我已经这样做了，否则我无法证明。如
+果我真的留下来了，我可以说：“我对我母亲的爱足以使我留下来。”我只能以我是否实行限定和承认过的行为来测量我的情感力量。但是，那时如果我依赖这种情
+感来判断我的行为，我就觉得我自己被陷于一个循环论的虚伪中去。
+
+　　而且，纪德说得好，逢场作戏的情感和认真的情感是两种几乎不能区别的东西。决定留在母亲身边表示我对我母亲的爱和演一幕喜剧，而其结果只是表明我这样
+演过了，——这两件事情几乎是一样的。换句话说，感觉是以我们所做的行为而形成的。因此，我不能把它当作行为的指导而求教于它。这也就是说我既不能从我的
+自身找出真正的行为动机，也不能从伦理学中期望有指导着我行为的规则。你可以说这个青年人的确至少是到教授那里去征求意见。但是，举一个例说，假使你去一
+位牧师那里征求意见，那就是你已经选择了这个牧师。至少你已经或多或少知道了他会给你什么样的劝告。换句话说，选择一个劝告者仍然是自我选择。如果你是一
+个基督教徒，你会说：去问牧师，但牧师有折衷派的，有固执己见的，有见风转舵的，你要选择哪一类的呢？假使这青年人选择了固执己见的牧师，或是折衷派中的
+一个，他必已事先决定了他将获得的忠告。同样地，他来找我，也已晓得我会给他什么样的意见，而我只能给他一个答复，你是自由的，因此选择罢——这就是说，
+创造。在一般的道德中，没有任何规则可以告诉你必须做什么；在这世界上，没有任何事情是确定的。天主教徒会回答说：“啊！但他们是确定的呀！”很好，可是
+无论如何仍然是我自己必须解释这些事情。当我在狱中的时候，我认识了一个有点特殊的人。他是一个耶稣会的会员，他是在下述情况下成为会员的：他一生曾遭到
+一连串十分严重的挫折。他的父亲在他童年时去世，此后他就陷入了穷困之中，有个教会学校曾赠给他一个免费的学籍，在学校里他一直以为是因为受了怜悯而被收
+容的，事实上他被剥夺了许多使儿童感到愉快的名声和荣耀。后来，大约十八岁的时候，他因爱情而痛苦，最后在二十岁的时候——本来是非常微小的事，但这已经
+是他生命的杯子中流出的最后的一滴了——他军事考试失败了。于是这年轻人自认是彻底的失败者。这是一个征象——但是什么征象呢？他可以在痛苦和绝望中寻找
+避难所。但他把它当作是无法于尘世成功的征象，只有那些圣洁的、忠诚的宗教的皈依，对他而言是可以企求的。他把他的事迹解释为上帝的旨意，要他成为圣职的
+会员。谁能怀疑他对这征象的决定不是他自己的呢？而且只能是他的而已。一个人可以由一连串的失败中引申出极不相同的结论——举例说，就象他最好去做一个木
+匠或者一个革命党员。为了解释此一征象，他负有全部的责任。这就是“舍弃”的意义，我们有已决定我们自己的存在。而焦虑就因此和舍弃同在。
+
+　　至于“绝望”，它的意义非常简单。它只是指我们把自己限制于我们的意志和使行为实现的可能性内。每当一个人有所欲求的时候，总是有这些可能性的因素。
+如果我期望我的朋友前来看我，他可能坐火车或者电车前来，我预期火车将会在约定的时间到达，或者电车将不会出轨。我还是处在可能性的领域中。但是，严格说
+来，除了和我们的行为有关之外，我们并不寄望于任何其他可能性之中。在那考虑中的可能性不再影响我的行为时，我就必得不在意了。因为没有上帝及预先的安排
+可以使这世界及其一切可能性适合我的意志。当笛卡儿说：“征服你自己有甚于征服全世界。”他的意思究竟还是一样——那就是我们没有希望也得行动。
+
+　　无为主义是说下面这句话的人的态度：“让别人来做我所不能做的事情。”但我摆在你面前的理论恰恰与此相反，因为它宣称除行为之外就没有其他真实的了。
+诚然，它还意含着“人除了他意图成为什么之外，就空无所有，只有他体现自己时，他才存在。因此，他除了是行为的总和之外就空无所有，除了生命之外就空无所
+有。”因此，我们知道为什么在某些人对我们的教训感到震惊。因为有许多人在他们的痛苦之中只有一个支持他们的念头，那就是作如是想：“环境对我不利，我本
+是成为一个比我目前更为佑价值的人。我承认我从来没有一个情人或好友，但这是因为我从来没有遇见过值得这样对待的男人或女人。如果我还没有一本好书，那是
+因为我没有时间写。如果我还没有生儿育女，那是因为我不曾发现值得跟我生活在一起的人。所以在我身上是保持着很大的能力、爱好，以及潜在力，未曾使用过但
+却全然存在着的，这些就使我具有了不能由我的行为推测出来的价值。”但是，对于存在主义者来说，除了恋爱的行为之外便没有恋爱，除恋爱中所显示的之外便没
+有恋爱的可能，同样，除非已经在艺术品中表现出来的以外就没有天才。普罗斯特的天才乃是普罗斯特作品的总和。拉辛的天才就在他一连串的悲剧之中，除此之外
+就别无所有了。为什么我们要将拉辛的写作能力归之于那未写出的作品呢？在生命中，一个人创造他自己，描绘自己的画像，除了这画像之外就别无所有。无疑地，
+这种想法对于那些在生命中还没有成就的人来说是不舒服的。但是在另一方面，它使人知道只有真实才是可靠的。梦想、期待，以及希望给人所下的定义只是欺人的
+梦想，幻灭的希望，以及未实现的期望，这就是说，它们给他下的定义是否定的，而非肯定的。然而，当一个人说：“除了你的生活之外，你就空无所有。”这并不
+是说一个艺术家只能以他的艺术品来判断他，因为还有许多的事物对他之为人的定义而言，具有极大的意义。我们的意思是说，一个人只是一连串的行动而已，因此
+他是构成这些行动的总和、组织，以及多种关系。因此可以知道人们指责我们的，并非因为我们的悲观主义，而是因为我们乐观主义的严肃性。假使人们指责我们的
+小说，在这些小说中我们描写那些卑鄙、软弱、怯懦以及有时明显罪恶的人物，这并不是只因为这些人物是卑鄙、软弱、怯懦或罪恶。因为假定就象左拉一样，我们
+指出这些人物的行为乃是由于遗传所引起，或是由于他们的环境所引起的，或是由于决定的因素，不论是属于心灵的还是有机体的。人们将确信地说：“你看我们就
+是这样，没有人可改变任何事情。”但是对一个存在主义者而言，当他描写一个懦夫的时候，会指出这个懦夫须负他自己懦怯的责任。他并不是因为有一颗懦怯的
+心，或肺，或者大脑才这样的。他并不是因为生理上的器官的因素才这样的。他之所以这样乃是他的行为使他成为一个懦夫。并无所谓懦怯的本性，虽然有所谓神经
+质或懒散的脾性，以及富于感情等等。但一个贫血的人却并不因此而为懦夫，因为造成懦夫的是臣服或退让。而脾性并不是一种行为。一个懦夫乃是由于他的行为所
+决定。人们模糊地，且恐惧地感觉到的是如我们所说的懦夫之为懦夫乃是一种罪恶。人们宁愿生而为懦夫或英雄。对于“自由之路”
+（Ｃｈｅｍｉｎｓｄ......一个真实的处境时——例如，我是一个有性能力的生物，能够与异性的生物发生关系并生育子女——我就不得不选择对它的态度，
+同时在任何一方面，我对这选择负有责任，在约束了我自己时，也就约束了全人类。甚至假如我的选择不是被先验的价值所决定，它与放任仍然没有一点关系。如果
+有人以为这只是纪德自由行动学说的翻版，那么这就是他不了解这个学说与纪德的学说间巨大的不同。纪德不知道处境（situation）是什么，他的行动只
+是纯粹的放任。依照我们的观点，正好相反，人乃是在一个有组织的处境中发现了自己，在这处境中，他是自我含蕴的，他的选择包含了整个人类，同时他也不能避
+免选择，不论他是否必须保持独身，或者他必须结婚而不生子，或者他必须结婚同时生儿育女。在任何情况之下，不管他如何选择，在这种处境之下，他是不可能不
+负完全责任的。毫无疑问地，他并不根据任何预先建立的价值系统来选择，但是指责他放任是不公平的。我们宁愿说，道德的选择与一件艺术品的构成是可以相比拟
+的。
+
+　　但在这里，我必须立即离开正题而把情形说个清楚，那就是我们并不是在提倡一种直觉的道德，因为我们的反对者会狡猾地用这个来指责我们。我之所以提到艺
+术品，只是作为一个比较而已。明白了这一点，当一个艺术家画一幅画时，会有人因为他没有根据先天建立的规则而责备他吗？会有人问他要画的是什么画呢？正如
+每个人都知道的，他不必画任何预先规定好的图画。艺术家之作画和此画之必须要画，都完全是他要这样做的。正如每个人都知道的，这并没有什么先天的美学价
+值，但在创造的过程中，在创造的意志和完成的艺术品之间，价值就会出现。没有人可以说出明天的绘画是什么样子，只有在画成之后，我们才能够评断它。这和道
+德又有何干？我们也是处在和这相似的创造处境中。我们从来不说一件艺术品是不负责任的。当我们谈论毕卡索的画时，我们知道得很清楚，这画是在他画这画的时
+候变成这样子的，而他的画就是他整个生命的一部分。
+
+　　在道德的范畴内也是一样的。这一点在艺术和道德中是相通的，在这两者之中我们都和创造与发明有关。我们不能先验地决定什么是应该做的。由那位来找我的
+学生的例子中，你已清楚地看出来，不管他向哪一种伦理系统求助，康德学派的或者其他学派的，他都不能找到任何的指示。他不得不为自己发明的一套法律。当然
+我们不能说这个人在选择留下和他母亲相处时——就是接受了温情，个人的热爱，以及具体的仁爱为他道德的基础——造成了一个不负责任的选择。假使他选择到英
+国去的那种牺牲时，我们也不能这样说。人塑造他自己；他并不是已经被塑造好了的。他因他的道德选择而塑造自己，他不得不选择一个道德，这些都是环境给与他
+的压力。我们只能在发现人和他的行为关系时，才能为人下个界说。因此，指责我们的选择为不负责任的乃属荒谬。
+
+　　格第二，人们对我们说：“你们不能判断别人。”这从某一个观点说是对的，但若从另外一个观点说则又是错误的。当一个人清楚而虔诚地选择了他的目的和行
+为时，不管他的目的是什么，他不可能再选择另外的一个，就这一点来说是对的。就我们不相信进步来说也是对的。进步意味着改良，但人永远是一样的，面对着一
+个永远变动的处境，在这种处境中，选择仍旧是选择。自从以前奴隶制和反奴隶制的选择之后——例如美国的南北战争，一直到今天我们在共和政体与共产主义之间
+的选择为止，道德的问题都未变更。
+
+　　不论如何，我已说过了，我们能够判断，因为我们会为别人而选择，我们会为别人而选择了自身，人们能够判断，首先——可能这不是价值的判断，而是逻辑的
+判断——在某些情形之下，选择乃是根据一个错误，而在其他的情形下，则系根据事实。我们可以判断一个人说他欺骗了自己。既然我们已说过人的处境为自由选择
+的，没有理由，没有助力，任何以热情为借口而得到庇护，或者揑造某些决定论的教条的人，都是自欺者。有人或许会反对：“为什么他不能选择欺骗他自己？”我
+的答复是我不以道德去判断他，我只以他的自欺为一种错误。这里人们不能避免宣布一个真理的判断。自欺显然是虚假的，因为它是人的行为之完全自由的掩饰。同
+样，根据这一点，如果我说某些价值有赖于我，这仍然是自欺。如果我意欲这些价值，同时又说它们欺骗了我，我乃与我自己处于矛盾之中。如果任何一个人问我：
+“假使我要欺骗自己又怎么样呢？”我回答说：“你没有为什么不可以这样的理由，但我得声明在这样做，而态度的严格一贯才是所谓忠诚。”而且，我也可以宣称
+一种道德的判断。因为我认为对于现实环境而言，自由除了本身之外，没有其他的目的。当一个人一旦见到价值依赖于他自身时，在这种被弃的情形之下，他能企求
+一事，那就是所有价值基础的自由。这并不意指他企求抽象的自由，只是说忠诚的人其行为最大的意义就是他本身具有寻求自由的动力。一个革命社会中的人企求某
+些现实的目标，这就包含有对于自由的企求，但这自由乃被企求于社会之中。
+
+　　我们在特殊的环境中，并且透过特殊的环境为自由而企求自由。在这种自由的企求中，我们发现这些完全依赖于别人的自由，而别人的自由也依赖于我们本身的
+自由。显然地，自由就作为人之定义而言，并不有赖他人，但一旦有所行动时，我便不得不在企求一己之自由时也企求他人的自由。除非我把别人的自由也当作我的
+目的，否则我就不能把它当作我的目的。因此，当我完全真诚地认识人是一种存在先于本质的生物，同时也是一种在任何情况下只得企求他自己的自由生物时，我同
+时也感觉到我不能不企求别人的自由。因此，在这种包含于自由本身中的自由之企求的名义下，我可以判决那些想自他们本身隐匿掉他们存在之完全自发的本性及完
+全自由的人。那些以庄严或决定论为借口而隐匿其完全自由的人们，我将称之为懦夫。另外那些想表示他们的存在为必然，而其实只是地球上人类的偶然现象时，我
+将称之为鄙夫。但除了严格真实的根据之外，懦夫和鄙夫不可混为一谈。因此，虽然道德的内容是变动不居的，道德的某些形式则是普遍的。
+
+　　康德说自由对其本身以及对别人的自由而言都是一种意志。这点是可以同意的。但是他以为形式与普遍性已足以构成道德体系。我们的意见却正相反，当我们限
+定一个行动时，过于抽象的原则是不中用的。再把那个学生的情形举出来作为例子：根据何种权威，何种道德的教训，你以为他做心安理得的决定，是抛弃他的母亲
+呢？还是留下来和她在一起？没有一点判断的根据，实际情形是具体的，因此也是不可预测的，它永远必须是创造的。唯一重要的事是去获知这创造是不是借着自由
+之名而完成的。
+
+　　举例来说，让我们研究下面的两个个案，那你就会明白，不管他们是如何的不同，他们是很相似的。让我们以《黍须上的磨坊》（The Mill on
+the
+Floss）为例。在这里，我们发现有一位年轻的女人，美姬?特莉茀，她是热情之价值的化身，并且她自己也知道这一点。她爱上了一年轻人叫史帝芬的，但这
+个青年已经和另外一个不出色的女孩订了婚。于是这位美姬?特莉茀并不冒然追寻幸福，反而为了人类团结的缘故，选择了牺牲自己一途而放弃了她所爱的人。另一
+方面，在斯丹达尔《卡尔特修道院》（Chartreuse de
+Parme）中的桑索茀莉娜则相信热情使人具有真正的价值，那么她就会宣称伟大的热情使它的牺牲成为正当的，而且必须选择阻止史帝芬与他订了婚的丑小鸭的
+婚姻之爱。她为了实现她的幸福将不惜牺牲一切，正如史丹达尔所指出的，如果生命对她如此需求的话，她会为了热情的缘故而牺牲。这里我们面临了两个迥然不同
+的道德，但我们认为它们是相同的，因为支配于两个情形中的都是自由。你可以想象两种效果完全相同的态度，一种是那女子会断情以放弃她的爱人，而另一种是那
+女子为了满足性欲，故意对她爱人以前的婚约不闻不问。从外表上看来，我们援引的这两个例子似乎相同，然而事实则不然。桑索茀莉娜的态度和美姬的态度比和一
+个一味贪欲的人的态度更为相近。这样，你们就可以明白，第二个反对既是真的又是假的。人们可以选择任何事情，但是只能是在自由行动的范畴之内才可以。
+
+　　第三个反对说：“你一只手把它拿来，另一只手又把它送出去。”这意思就是说“由于你自己选择，所以，你的价值观就不是严肃的”。关于这一点，我也只好
+抱歉地说那只能如此。但是，如果我摒除了天父，那么一定有某个人来创造价值。事实既是如此，我们也只好接受。而且，说我们创造了价值，其意也不过是如此而
+已。因为生命中无所谓先天的意义。生命被生活过了，它才有意义。然而使之有意义都是你的任务。它的意义也只是你所选择的而已。因此，你可以明白这才有创造
+一个人类社会的可能。我曾经被指责为主张存在主义就是人文主义之一。人们会对我说：“但是你在你的《呕吐》中，曾经说过人文主义者是错误的，你甚至也嘲笑
+过某种形式的人文主义，现在你为什么又回到这上面来呢？”事实上，人文主义这个名词具有两个极端不同的意义。人们可以把人文主义视作主张以人本身为目的及
+以人为最高价值的一种理论。这一意义的人文主义可以在高克多的《环游世界八十小时》这个故事中看到。书中的一个人物，当他坐着飞机飞越高山时，他说：“人
+是伟大的！”这就是说虽然我自己没有制造飞机，但是我却身受这种特殊的发明的好处。而我个人，就作为一个人而言，可以认为我自己对某些人的成就也有关涉并
+以此自豪。这也就是说我们可以因某些人的特殊成就而把此种价值归之于人。这种人文主义是荒谬的，因为只有狗或者马才可以处于能够对人作普遍判断之地位，而
+宣说人是伟大的，但他们永远不会傻到做这种事——至少，就我所知道是如此的。人对作判断也是不可能的。存在主义者摒除任何属于这一类的判断；一个存在主义
+者永不会以为人是一个结局，因为人还等着被决定。
+
+　　同时，我们也无权相信我们可以对人性建立起某种礼赞，如同孔德一样。对人性之礼赞最后会产生孔德式的人文主义，自我隔绝——我们必须这样说——最后会
+产生法西斯主义。我们不要这一类的人文主义。但是这名词又有另外的一种意义，此意义的基本意思是这样的：人永远处于其自身之外；那是在投射和失落自己的时
+候，他才使人存在。而在另外一方面，也是由于对超越目的的追求，才使他本身有存在的可能。因为人是如此自我超越的，也只有对这种自我超越才能把握得住东
+西，他自己才是他超越性的核心。除了人之世界外，别无其他的世界。此一人的世界乃是人的主观的世界。这种构成人之要素的超越关系（不是说上帝是超越的，而
+是说是自我超越的）和主观性（意即人不是自我隔绝而是永远呈现于人的世界之中）才是我们所说的存在意义的人文主义，这就是人文主义，因为我们提醒人，除了
+他自己之外别无立法者。他本身在这样被弃的情况下，必须自我决定。也因为我们指出由于我们经常追求我们自身以外的一个目的，这个目的就是一种解说或者某种
+特殊的体认，而不是由于回返自己，人才会自觉为真正的人。
+　　从这些研讨中，你就可以明白没有什么比人们对我们的抗议更为不公平的了。存在主义只是经由一贯的无神论的立场上来寻求充分结论的一种企图而已。它的目
+的一点也不是要把人推入绝望之中。假使人们对绝望意指——就象基督徒那样——为一种无信仰的态度，则存在主义者的绝望就有点不同了。存在主义不是要耗尽精
+力以证明上帝不存在的那种无神论。它只是说，就算上帝存在的话，它的观点也不会变在与否并不是真正的问题。人所需要的是去重新发现他自己，是去了解没有什
+么东西能够从他的自身中拯救他，就算有上帝存在的确切证据也不能够的。在这个意义上说，存在主义是乐观的。这是一个关于行动的学说，而只有以自欺，以他们
+自己所解释的绝望来和我们所解释的绝望相混，基督徒们才可以把我们描述为没有希望的。 萨特小资料： 
+法国存在主义哲学家萨特（Jean-Paul Sartre），生于1905-1980年间，是存在主义者的领袖。他的存在主义在二次大战后的1940年左右尤其风行。后来他与法国的马克思主义运动结盟，但他本人从来没有加入任何党派。 
+
+萨特本人经常出入咖啡厅，且在这里遇见他终身的伴侣西蒙波娃（Simone de Beauvoir）的。她也是一位存在主义哲学家。 
+
+萨特说：“存在主义就是人文主义。”他的意思是存在主义者乃是以人类为出发点。必须说明的是：他的人文主义对于人类处境的观点要比文艺复兴时代的人文主义者悲观的多。 
+
+祁克果和若干存在主义哲学家都是基督徒，但萨特所信仰的却是所谓的“无神论的存在主义”。他的哲学可以说是在“上帝已死”的情况下对人类处境所作的无情分析。（“上帝已死”是尼采说的。） 
+
+萨特和祁克果的哲学中最主要的一个字眼就是“存在”。但存在不等于活着。植物和动物也活着，他们虽然存在，但并不需要思考存在的意义。人是唯一意识到自己
+存在的生物。萨特表示，一个东西只是在己(in itself)而人类却是为己（for itself）.因此人的存在并不等于东西的存在。 
+
+萨特进一步宣称，人的存在比任何其他事物都重要。我存在的这个事实比我是谁更加重要。他说：“存在先于本质。” 
+
+所谓的本质是指组成某些事物的东西，也就是说某些事物的本性。但根据萨特的说法，人并没有这种天生的“本性”，因此人必须创造自我。他必须创造自己的本性或“本质”，因为他的本性并非是一生下来就固定的。 
+
+在整部哲学史中，哲学家们一直想要探索人的本性。但萨特相信，人并没有一种不变的“本性”。因此，追求广泛的生命的“意义”是没有用的。换句话说，我们是
+注定要自己创造这种意义。我们就像是还没背好台词就被拉上舞台的演员，没有剧本，没有提词人低声告诉我们应该怎么做。我们必须自己决定该怎么活。 
+
+萨特说，当人领悟到他们活在世上，总有一天会死，而且没有什么意义可以攀附时他们就会愈加恐惧。萨特又说，人在一个没有意义的世界中会感到疏离。当他描述人的“疏离”时，乃是重复黑格尔的中心思想。人的这种疏离感会造成绝望、烦闷、厌恶和荒谬等感觉。 
+
+萨特觉得，人的自由是一种诅咒。他说，人是注定要受自由之苦的。因为他并没有创造自己，但却是自由的。因为一旦被扔进这个世界里来，他就必须为他所做的每
+一件事负责。我们是自由的个体，而这种自由使我们注定一生中要不断地做选择。世上没有我们必须遵守的永恒价值或规范，这使得我们的选择更加有意义。因为我
+们要为自己所做的事负全责。萨特强调，人绝对不能放弃他对自己行动的责任，也不能以我们“必须”上班、“必须”符合中产阶级对我们生活方式的期望为理由，
+逃避为自己做选择的责任。如果我们逃避这项责任，就会沦为无名大众的一分子，将永远只是一个没有个性群体之一，逃避自我并自我欺骗。从另外一方面来说，我
+们的自由迫使我们要成为某种人物，要“真实”的活着。 
+
+在道德的抉择上也是如此。我们永远不能把错误归咎于“人性”或“人的软弱”等等。我们可以发现时常有成年男子做出种种令人厌恶的行为，却把这样的行为归咎
+于“男人天生的坏毛病”。可是，世上没有“男人天生的坏毛病”这种东西，那只是我们用来避免为自己的行为负责的借口罢了。 
+
+虽然萨特宣称生命并没有固定的意义，但他的意思并不是说什么事情都不重要。他不是“虚无主义者”。虚无主义者就是那些认为没有一件事情有意义，怎样都可以
+的人。萨特认为，生命应该有意义，这是一个命令。但我们生命中的意义必须由我们自己来创造，存在的意义就是要创造自己的生命。 
+
+萨特想要证明意识本身在感知某件事物之前是不存在的。因为意识总会意识到某件事物。这个“事物”固然是由我们的环境提供的，但也是由我们自己提供的。我们
+可以选择对我们有意义的事物，借以决定我们所要感知的事物。例如同一个房间内的两人对于这个房间的感受可能不大相同，这是因为当我们感知我们周围环境时，
+会赋予它我们本身的意义（或我们的利益）。一个怀孕的女人或许会认为她走到哪里都会看到别的孕妇，这并不因为从前没有孕妇，而是因为她自己怀孕这件事使得
+每一件事在她眼中有了新的意义。我们本身的生活会影响我们对这房间内事物的看法。如果某件事情与我无关，我就看不见它。 
+ 摘自《苏菲的世界》附：何新对存在主义的批叛《存在主义哲学是苍蝇的哲学》 论存在哲学 
+
+1、存在哲学是苍蝇的哲学 
+    2、如果没有了上帝 
+    3、人类为宇宙赋予意义 
+    4、人格的存在超越时空 
+    5、选择并非自由      6、存在主义是摇头丸 
+    7、命运就是理性        8、我不喜欢"新新人类"         9、什么样的人就选择什么样的哲学 
+
+1、存在哲学是苍蝇的哲学 
+
+_________________________________________ 
+记者:这是什么意思？是否可以说,在您的命运感中,存在着某种使命感。 
+何新:的确,那是使命感。这就是说,我认为自己的生存,对社会、对他人、对历史,是承担着某种道义和责任的。虽然我不一定会做好。但是我认为人不应该仅仅为自己而生存。不论环境如何,回报如何,成败如何,我都必须完成我所意识到的宿命。只问耕耘,不计收获! 
+
+记者:(笑)如果收支不平衡呢？作为经济学家,您不认为会不经济、不划算吗？ 
+何新:(笑)在人生意义的追求上,我无法作经济学家。 
+
+但是我还是相信«圣经»中的这句话,种瓜得瓜,种豆得豆。凡有耕耘,必有收获。 
+记者:您刚才谈到了"存在"--Existenz,您是否了解存在哲学？萨特说:他人就是地狱。他认为人只能--也只应该生存于自我之中。 
+
+何新:我根本就渺视萨特。"存在主义在本质上不是一种哲学,只是一个标签。"(考夫曼)我一向蔑视那种所谓存在主义哲学,蔑视当代西方哲学中多数的以卑微的自我主义为单位的所谓现代性及后现代思潮。我认为那种生存哲学是苍蝇的哲学。 
+
+记者:为什么是苍蝇？ 
+何新:因为存在哲学认为人生是恶心的(萨特的名著«呕吐»La Nauseè),认为文明是垃圾,社会是厕所,认为人的本质类同苍蝇。我不能说他们绝对无道理(笑)。 
+
+但是,人生毕竟还是有终极意义。至少,还是值得追求终极意义。 
+
+2、如果没有了上帝 
+记者:存在主义是否彻底否认人生的意义呢？ 
+
+何新:是的。存在主义自己都承认: 
+
+"严格来说,存在主义并不是思想上的一个学派,也不可以归属于任何一种主义。"(考夫曼)存在主义的特点,就在于它注重的是个人内在极端的主观性,自我的情绪,自我的感觉,全然不顾现实,不顾世界,不顾他人以及他人的感受(所以他们认为他人是地狱)。 
+
+存在主义不承认客观真理存在,不承认任何客观价值存在,因此也不承认上帝存在(上帝已死)。 
+存在主义不仅是原罪的哲学,并且是疯者的哲学。是自我"作贱"的哲学。陀斯妥耶夫斯基的«地下室手记»,那是一部刻意描写疯狂和变态的书(鲁迅的«狂人日记»似乎也是模仿这部作品),它一向被视作近世存在主义的开山作、代表作。 
+
+«地下室手记»中塑造了这样一种病态的人格: 
+
+"我是一个有病的人,我是一个心怀恶意的人……。我可以庄重地告诉你,曾有许多次我确实想变成一个虫豸,但是连虫豸我也不配。"尼采说,一旦对上帝的信仰没有了,对基督教道德规范的信仰也就消失了。因为没有上帝,所以一切都可以做。 
+
+在一个没有上帝的世界里,人只能通过自我选择价值。因此价值在存在主义中成为纯粹的主观性。人仅仅是个别的、随机的,这就是存在主义所谓"自由",绝对不承担任何义务和责任的唯自我"存在"(Existenz)。 
+
+记者:那么你认为存在主义中就没有任何有积极意义的东西吗？ 
+
+何新:在存在主义的作品中,惟一使我喜爱的是卡缪的«西西弗斯的神话»。因为这篇作品不仅描写了荒谬,而且试图超越荒谬。 
+
+3、人类为宇宙赋予意义 
+记者:意义？究竟是什么意义？这个词如何定义？ 
+
+何新:意义是指事物的一种内涵。在这一涵义上,意义就是信息。另外,意义就是价值。我告诉你有趣的一点,在汉语中,"意义"一词与"价值"一词几乎总是可以互换。 
+
+例如说人生有意义,就是说人生有价值。 
+
+记者:宇宙中一切事物都有意义吗？ 
+
+何新:当然都有。 
+黑格尔有一句名言:凡是存在的都是合理的。这句话一直受到很多误解。其实所谓"合理",就是说一切存在的,都是有意义的。虽然许多事物的意义,还有待于人去揭示和发现。 
+
+人类与宇宙中其他事物的不同,就在于人是能够发现、能够自觉,而且能够创造意义的动物。 
+记者:"凡是存在的都合理",这个命题真的是有道理吗？我对这个说法也有点不理解。 
+何新:过去也有人解释过这句话,但那种解释不令人信服。我的理解是,所谓"合理",不仅是说其当然或应然,而是说,一切存在者都是有意义的。理解了事物发生与存在的意义,你也就理解了存在的合理性。 
+
+记者:那么一个小偷偷钱包,也是合理的吗？一块石头、一片沙漠的存在,也是合理的吗？ 
+何新:小偷偷钱包,那一定是因为这种活动对他自身有某种意义/或价值。这个现象的背后,必有其发生的原因和普遍性含义。自然,理解这种意义并非意味着小偷可以不受惩罚。相反,被惩罚这一现实则提供了与偷窃活动相关连的更深一层意义。而一个窃贼的错误就在于他不理解这些更重要的意义,正是这些更深的意义使他的偷窃活动成为负面的东西。 
+
+要知道,存在的意义始终不仅是在个体而且是在总体和群体中设定和实现的。 
+4、人格的存在超越时空 
+记者:您身上似乎表现了一种很矛盾的人格。您的经历表明,您本身是极富有个性的。但是在理论上你否定个性。您的个性是极其追求自由的。但是您却否定个性自由,即选择的自由。 
+
+何新:(笑)要回答你这个问题简直可以写一整本书。 
+
+记者:(笑)您能简单作个回答吗？ 
+
+何新:让我这样讲吧,任何存在者的存在,其形态确实是作为一种孤立个体而存在的。的确,自我对存在的感觉、意识又是个别的和孤立的。是封闭着的。因此,作为个体的人,在人生中产生孤独感是难免的。 
+
+但是,存在的意义是理性的,人的理性就是对这种存在意义的自觉和把握。 
+无论其是否有意识,或是否意识到,个人存在的意义也总归不完全在自身中,其意义存在、并且实现于非自我的社会文化的总体中。 
+
+记者:如果是一个大人物,一个伟人,如毛泽东、邓小平,自然可以理解他的存在具有社会文化的意义或价值。但是,如果仅是一个卑渺的小人物呢？也许除了对于他的家庭,他周围的少数人,很难说他的存在对于社会文化会产生意义。 
+
+何新:所以人应当自觉地即自为地追求个人人格的伟大。这也就是追求自身对于社会、文化以及更多的人的存在意义。 
+这种意义使个人的人格存在超越人的职业和社会地位、超越时空,超越生命的有限性而升华到永恒。 
+5、选择并非自由 
+记者:您关于人生的这种见解,很有启示性。 
+
+何新:一切事物的存在都有意义,只是许多事物的意义还有待被发现和肯定而已。但是物质虽有意义却不能自觉。只有人能自觉其存在的意义,并且可以自我创造其意义。尽管许多意义常常是暂时的和相对的。 
+
+记者:您的说法未免太抽象了。 
+
+何新:如果你读过费希特的著作,就会理解我的话。关于自我与非我、自在与自为的关系,在西方哲学家中他是思考得最深刻的。 
+
+实际上,存在哲学,叔本华、尼采的唯意志哲学,都是费希特主观主义哲学的夸诞和延伸。 
+记者:存在主义的一个主要命题是关于存在与选择的问题。 
+
+何新:这么说吧,比如你是一块石头,你当然可以说:我就是一块石头,并且愿作一块石头(即选择),我生存的意义就是作为一块石头。这似乎是可以自由地选择的。 
+
+但实际上,尽管作为一块石头,它仍然有它的生存环境。比如摆在戈壁滩上,它是戈壁滩中的一个分子。而在宇宙的演化链中,这块石头是作为无机物存在演化的一种过渡形态。它的存在意义是在一个时空的更广阔的存在链上被设定的。 
+
+总之,无论从时间空间的意义考虑,这个石头都只是一种暂时的"自我",是一种过渡形态。这种时空定义就是命运,是这块石头所无法自由选择的。 
+
+或者说,无论选择还是不选择,它的存在意义已经被设定。因之它的选择对宇宙的存在之流并无太大意义。自我,个性的卑微性就在于此。 
+
+6、存在主义是摇头丸 
+记者:存在哲学的主题正是要追求个性的解放和自由。 
+
+何新:这是误解。在存在主义看来,所谓追求个性解放和自由,那只是古典哲学的迂腐,是无意义的。 
+而在西方古典哲学中,对自由及其限制面(即必然)在历史上有过很多讨论。其结论是:自由是与限制(必然)同在。所以卢梭说:"人类生而自由,但却无往不在网罗之中。"关于自由与必然的关系,在康德的«理性批判»中被列作理性的四大"二律背反"之一。但是康德的悖论仍是理性主义的。而存在主义的荒谬感则是彻底非理性的。 
+
+存在哲学从根本上否认一切人生价值。比如说,你不喜欢红色,你可能会选择另一种颜色,白色或蓝色。那么你就不是存在主义者。 
+
+存在主义意味着,不仅否定红色,也否定白色、蓝色,以至否定一切对颜色的感知。只有黑暗,只有黑暗所激发的焦虑、愤恨,以至焦躁,直到疯狂。抒发和渲泄它们,这才是真的存在主义。 
+
+存在主义就是那种"摇头丸"。服用它之后,人就拼命地摇头,对一切都摇头,疯狂地摇头,摇头就是对"自我"的疯狂肯定。--这就是存在主义! 
+
+7、命运就是理性 
+记者:那么,您认为人对自身命运能不能抗争和自由选择？ 
+
+何新:可以抗争,可以选择,但这种自由是相对和有限的。承认这种限制,并且要求认知和理解这种限制,通过限制而获得自由,这就是理性主义。否则就是非理性主义。 
+
+存在哲学是非理性主义的。它是绝对疯子的哲学。所以根据这种哲学制作的艺术作品多少都具有疯狂的意味。陀斯妥耶夫斯基、尼采、克尔凯郭尔,都是具疯狂特征的天才。 
+
+存在主义否认限制。它认为人可以自由选择一切。选择就是命运。 
+
+萨特说人生下来什么也不是,人是什么靠自我的创造,自我的选择,自我的决定。没有先在的意义,人性只是一个括弧。内容是个人通过生活和选择加进去的。 
+
+存在主义认为,你把自己创造成什么,你才是什么,你是什么以后,才能对你下定义。这就是"存在先于本质"。萨特说人不能下定义,因为事前没有一个Idea摆在那里。 
+
+记者:是不是如此呢？ 
+何新:萨特的哲学在60年代70年代的西方,是作为一种反抗资本主义异化的哲学而流行的。拒绝接受资本主义文化所已经预先赋予的事实,而追求新的自我塑造。包括对命运的自我塑造。自然这比现在那班跪伏在所谓西方"主流文明"之下的新自由主义高明一些。 
+
+真正的存在主义是一种绝望的哲学,是一种面对虚无的绝望。面对绝望,挺身抗争,这是加缪。面对绝望,沉浸入疯狂,这就是克尔凯郭尔。 
+
+所以存在主义有积极与消极两种类型。但是,抗争尽管抗争,命运仍然是命运。 
+抗争并不能脱离既定的环境。选择也是有前提的,是有条件的。说不要条件,自由就是一切,这是欺骗人也会害死人的。 
+8、我不喜欢"新新人类" 
+
+记者:您知道"新新人类"吗？新新人类所体现的现代--后现代思潮,哲学基础似乎也是存在主义。 
+何新:(笑)我的许多观念肯定是缺乏现代性的。对!我不追求现代性。在古典的理性主义思想与存在主义的非理性之间,我选择前者。 
+
+现代性是什么呢?不过是"Moden"(摩登)而已。这些年的许多经验告诉我们,实际上,所谓Moden,即时髦,那不过是一些文化或商业的骗子在一个时期中鼓吹起来的一种趣味和偏好(这就叫"流行文化")。人类所面对的宇宙,存在着两种永恒。一种永恒是过去,一种永恒是未来。而"现在"--所谓"现代性"恰恰是非永恒的。现代性,常常只是一种正在崩溃中的现实。 
+
+因此,我不喜欢那种"新新人类",他们的生存状态,他们的哲学,包括他们的艺术。虽然我理解他们所追求的某种疏离感与反叛的精神。 
+
+9、什么样的人就选择什么样的哲学记者:然而您谈到命运,接受命运不也是非理性吗？ 
+何新:不。我认为命运就是理性。 
+
+记者:为什么？ 
+何新:理性,就是对于某种必然性的确知。命运不正是必然性吗？ 
+
+记者:您看,不同的人信仰不同的哲学,这也表明了一种选择。 
+
+何新:对。什么样的人会选择什么样的哲学。而有什么样的哲学就有什么样的命运。 
+作为我个人来说,我是古典主义者。在伦理学上,我十分钟情于孔子所代表的古典人文主义、人伦主义,孟子所追求的人格主义以及老子所体现的自然主义。 
+
+我酷爱中华文明,因此我也热爱在几千年中支撑或者说哺育了这一伟大文明的中华古典哲学。 
+记者:那么您是否整体地拒绝西方哲学？ 
+
+何新:不。早在我的青年时代,我对西方哲学史就作过深入的阅读和思考。西方的伟大哲人,从赫拉克利特、柏拉图、亚里士多德到黑格尔、马克思,都是我的精神导师。但是在价值观上,在人生意义的求索上,我绝不会孤立地追随任何一种西方理念。 
+
+"吾道自足,何事旁求？"我要走的是我自己的路。 
+记者:这也就是选择呵,这不是存在主义吗？ 
+
+何新:(笑)我所拒绝的只是存在主义对人生意义的判断。但是有没有存在主义,人自己的人生中也总是要面对选择的,尽管这种选择是被环境和历史(必然)所局限的。 
+
+何新个人资料何新，男，1949年12月出生，浙江温州苍南人，5岁随父亲定居北京。从事过多种职业，以卓越的才华和独到的眼光奠定了在中国学术界的特殊地位。自从80年代以来，何新先生的文化研究，经济和国际问题研究，他所首先倡导的一些基本观念，已汇为思潮，深刻地影响了当代中国的文化和社会发展。受到支持者和反对者的广泛注意。人们可以不赞同他，但是不可能不重视他。何新的学术在80—90年代中国政治与文化这一巨大转变时代留下了深深的思想印迹。 
+ 
+ 
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+
+登录|最近的网站活动|举报滥用行为|打印页面|由 Google 协作平台强力驱动
+</main>
+</body><xmp><![CDATA[PK  S��R               stylesheet_2.css PK           PK  S��R               stylesheet_1.css��=
+�0@�H�NJoSmh2�	1��xwq�9��㹕V��r/1��5��^;%�0�a�X�v��4���B��!1�~���͙͸���PK�%�[   �   PK  S��R               images/1.gifs�t��Lddx�p���@U�@MQSANMNVC^V]^VGI^KQNOEA$0XWY^_EA[I^80X1"J]NV%2Z_UAWYAMVF2 HOU^:(D88D.$L1,B*4LGEN4(X[H���+�G��h)�ɆE(�Gh(�I��I�J��+�G��h(Ȫ����)
+����_UV��8���L�����8<pՑ�vj���X�(@b������M34�嚿,8�競iG�����쩳��P��7l��T���RQV�R�PԖ�������[�g ��`��+W�^�ڑ� PKL �#  J  PK  S��R            
+   index.json�S�j�0��)L@�ڲ'�c$k��e���_mY2�7+����N����v�v��{��vXRv
+� ~���������T��b0�����`l�J���o�����MOP������K�f)�ͺK����-az��!�'h����C��;&A�p_>8n�Yn����>�}]��\����������/��>|�A��6�z%լ�K8�U���a��ē�;Y0��oz2�9\�r���J[������f`������L��_�lΈ�0�Z��-��ӄ \b�2*L��*7Zr�5� 0S�R.Aw��;A�!��虄(�eq��ܿ(:�ݐ8�Lm�4M���mh�$]�V���>�'�N��3v%�� �<�1�*�d2�:�����������+��
+�}@�X�0G�(
+���a�]˙a�-�5~�.^<UIHZ_�Qؚ���2<�gJE�/���b*D�:�"h�st�PK��k��  U  PK   S��R               images/2.png�PNG
+
+   IHDR      �   ���   tEXtSoftware Adobe ImageReadyq�e<   gIDATx��Q��0s:4�	��䮘 !���ʣr^��Hj������3]�=���X=��=�o�w*�g:Ccݑ���A��\u����bw8v��ő��o�-� �n�K�M�    IEND�B`�PKn�}��   �   PK  S��R               images/4.ico�1
+�@D'��4�'�*x��i<���g���ҦOF!���jVp�����.H`��(������ɾa��3]��a�JC�uђ�JBfG�e��5�%K��| !g�E`�=c�?{��'�9��Uy��^�t�	��w^~��_~���h���w�?�_���w�
+��PK�gb�   6  PK  S��R               images/0.gifs�t��Ldd`c���p��Ӆ�v����ڽӊ?Y@@D���Xb�X�PK(g�t/   3   PK  S��R               stylesheet_0.css�X[s�6�+4�Μ�X.��$�/�}�K�tz~� a� b���a�߻�E��&�x&�����=��
+�H�	�9���GTrv䤪�������q�x��TĨd���ϵl"�k�.�P�^?U>�L�(z���Y�>=;wm >D�r>B�'��6 U�Y����)��T2d�Dx�����V4����"U{swQx��Wwg�
+�LxQFˠ�qL�#
+��!d<&<�XFc�U�9)��@Z�#?�DJK�2N_Y�wo��|p\0@�2�~�w#?[׿D/�Jq��EE��5��w�
+b�s,��BW�đ�O����l�]4��ޭ4��ʺN��j]�3=���;��3O"j�2[rZ M��=<k��a�yO�E��f[����kRG��ih?���\�����b�/)[A~wk#������ޢ/b�����,>[��Dd���N|�r�:I�����E���+���xg�[�4�o�R���U�~/�*aB������=��^�\C�'�p�+�cZ�]KOi��=�,�	*2R����Z�������-��A��l9>�8�`����E ��cpY��ԓ,Kʔ�� ��"�#�H&��tsF�bP�HHcN+@W��1�g�ٳ#��Y�a���%�C��չ$G-��#x�p���;����|�A���+�f���.
+�o1�{�j�1}����<�.�ȳ��bo���Ĕ�H�z����u�
+�s�Ɉ	�wNq���T�g8M��b�4�w��d�I/���+����ѢK|$ǴQm�4���f�ř�h
+(�țJI�K<5��5�T���w���u�ߔg�'H�v�W:�zE���<x��H�tn!�dd�+	<U[�&f!�`9�	�iv��BF�"^�m�H��eEmr�ND7�L@_E��Si8��Sn�ρ^^��Q����0�9�����}{�Kw�޾6]~�'�)J�����j3����z����ۺP�2"���%�T5�z��=7�)&GN<�Bsq���=����$X�G����f��t��v^��\�x�A#�i�@�����v��^�Z� �=>�#c���DU��!���������&5��`=��<�f�n-�����8���zMt��]����SDc��	�oL�6��w �����sИ��>��͒��l�.�ͯ�Z$'��$�p��՛�ɪ0=s\�}M�'�ZI�8g����%�v�{�����	Tͺ�{�C��r�;scc2N��Z-�j_��H��l��l�zhF���{���cPm�-�cC5UCZ��ʜ�e4��~��c�����`p��9��0~�kmV��<���ýQ�.9xD�׃�fJo3eoݤs1�.�ljY;;Yt�7�J?W�z�j�T՘�`˴v7�:,�{A�p'"Y��S��3��/�:ܘ{�P��o=�u�7�Rz���1���O�>I����z��71���+bn�=�?PK�!
+��  ?  PK  S��R            
+   index.html̽ys\Wv'�~
+�������l�dI�r���ݎq9�g::	�tS$��j��Dd[b�L�Ğ �A� A�D�o"�[�/|�9��;��� TU.���@Q@�}��{�ٷ�����������Y��ޯ�v�������O;�]�q���7n�����������_u|���;~���^ϝ�;��uݽq�gs������߸��_������?��������\�a��zo����u���O���O/���G}ć;��v�s���n���������������������������w�?�䏮_�t���_t������w�ޗw��������#���ûw`��$S������e�n��J?��w����>�������?���>�1~��������~���~����~��{?��󿴯~��{?�����O���_�'�������臗�q���z�?�����:���w;>�����?����?��>��G������������^�p'(7��`h0�9h��?s��g�|����q�v�Þ��O������?��Cl�z�����/>�����ϯ���W�z�|~�����{���z?�v����_u��5�н.���NozP�3,l5�ͣ�p��<�F��f���=��;v~�݃��|�	�uSa��������Vv�ν����6=���{;�z��{�fOO���_����� ��^O~�{?��=)H���|����?�t��%^K���)��9�q�k�x���9�]`̍�r2w����{�W���o����>~#y�'�ߺ�ݺ��l�|��ٿ ���#���o��{��ގ;r���;_	����u|���'=7~�����]��߻s��.G����g�ܸ��uK6���[����RK��s����<�/����y�������?���֝_�����������롍�x]���2�����]8�������랶9�#E�Oo��yp������ސ��%���%��\��E��_���{�����w���:�[��P����_���*����yӏ]�#B�V���� l����=��F����{������:nv߽�������1	��Oz�<������������{�rf��|oϒ9
+ܻ?����=���-X��Ͽ����>��!P�C;h����tw=��mɰ^ �=��7��-�|�۶#L��?	'�{�^�/�����{�~�mg���uH��;�Un[>��ePDW���o�ޯd��Y��!	v]���������-����������o������1��������w�������_��?��[��?�����+���t��EWϷ�H��9`����|��s��֝��+K�N��Ա�nt��~��ï���Jn�O�����V'7��<yG��;_��`�{n��jP\ƀ���������;��6���X����_ݻ~�����!hx-� ������������?�⇟|.���g�|!;M�����o�|�����h���Jo<p<�_��uQ^�]�YR|:�;?��|Tޕe��F.��-{8�f�|U����r86�?ó��`��L�'�ϲ��Č�s���Okc:�˸���'��N�<�ŕ��r,i�_���Z�0���Bk�Y�a|��8ޘ8oL�7���I���y�p~<,+�l<
+�.���L.�ěς����h4��y4*��,�5[�w��AY^�ѳ�Q^ �5T�����dF��7	���t45�<� �z�1��ߵV_C`�<F^�B�� Pe�p!�1��|��* ��=��^���ɫ`gC�!(�e�qv,,�G��<
+�'���p�G�`}�y�`-/�;k|f�و+��@|:���6�þ�:�<�l���{�u��W���VFvN�W��ي ^��sd�<�8;����]q�2ߙ̥�K�x�+����У�z������֪W·+D2>����Q�h���O
+�����X�QF����i#�Z�av3J+�2g�4.�ڬ����N��z�Pd�4OF�-�Gaa7X{.����᣸�/�ʹ����@/����q���Xp:�V�������T f�����d7z	��;�Eš�@	J�4\��@�c*����l<�ϭƻk ٧�l��E/F�e�8������]2@Vެ�c�;k2[F	�c"%�h�*ѫ��.�=Aڍ7	t���Nʏ�*zY
++ �����Lf��.궷����.q�\(A0M^��֣�	P��4��\���A���H��m�N�zJ��H�(�b<����kӜ-���~��î��FD��D��l	��]�����a�Q>le��o9�`�->,��e�4?׆����<�'\va)�}��Z��y��p�!�G��EW^�[Y��OǛ�2��f6\�/��0��Yd��ń�[sk2�lRXG�_
+�O	O�����y;Y�@���J��GƼ|%��S{�<���Q��.d�	�j�qu[�	�ʲu�,�L���!8�.��Fk���w&��^)�+�x|,�p��ђ���c����������Y�\��
+_AQ���� ��kr`5`c���9A	I��ʜ~U
+ʫ*��p��I��}#�����Ze�qe*(���HMB�r\�ϰ���L�cN�)&r�#��)8����y�Pz�ͣ>�q�s�\
+��@�REF�
+Q��}~\�ܟ��A��,ڬR�	�
+P�f�c���h1+¯��z֞1\%M.��%�I <h<���u8>%�ج7��Z\�31��3jl��!6�g!�N(ׂ���2���\bj@(�C&��a��m� I�
+��3�g�s�3P{֏���Q]Y�TI�L��(��z�j�y:�Q�\$@��}%���Q-���-�ʼ�Y=�/}XI�B!֝5+DސR���Y8
+���c�Y0��1LR)p�4a$T�L��,���SaK�l)7$�������A�q�.�r�
+�)�xWa?�L���ph�rx<�٭�6@M�$��Љ�R4U
+��BP�jeB�Ay<j�܉�V����
+Vy����,;*O��P�%Ȯ���lZ��}�(3����.ŕC�յ���L8W6)V(��&�I�G��'Y�3�X���U/L�g�:Rނ�d���p���;Y�K=���ʱ�݃��#g�e�`h��L�d5�9�Sy�0��T���8T���"����pt��R����`�14*,3�9��u��O���R�h�<���cQm����-o6g���g�U&�Gވ%P��e��(��pdF ���F��!�m|�t#�����B>oeO�A �x�ѫ�`���@�CnH�%O5OEr�^i/Gup��Ń)���_8Ӣ��ǩ
+'�\XBk{�?Q+j��-� ﵽx=��_6�<�4�]�
+gO2�ZMZ�Ӻ"�li#{�O`�270(�h��������8��_N±�..�[�'�d�u�������Ӡ����y�Ǻ��;N�X �%}�揅�;��V'�',���j�n0���L���K5�@�<�!d�`�ފ������7P�`�e��b�G����G�9��@̼���٭4%���>9�0
+j_ۆ �[����@ _�������xk�ۑ�xwW���/f�Ѵp��P>rj)��Jq��+|窖�?o���^��O�K�s!�)ۀȆ�g�9|�pz��ZC�)������;"ߚ�қ�n%'���p+;�b���ƥ�O4���3B�ji�2W��GG�d�_��,ě���Р��c�Y	}�Ʉ��hyRv�7�M��hb�yQ.�)� "LM�S�(듕]�4���͇SU��j�
+ �%���~\yYdܬR�ᨬس#��Y!V!�D={����}8�#y�bS�2��&'x�5-@�6���a0�O+z-�-�&���Lk�`��sr ߡ��u|����\ڀ٨�Ĝ��ȺH:��'�rI�B�^,����E;�K
+��^��w<@HE�k��=��n[����4|]V{	p�T�3r
+��YaT1�'��B0�V�X0a�u1��@�P�(��x�'t�F��	�^��q�yT�9�������v�CQ�Dj�����a�Y�h�c���	N�۶���*�����R&�e�>:�La>�&�j�ؖ�벍�0���ʻ��P�v�iIf����YoF�B�B?�W'�Rk��BVQn=�n�`�(������hb	�f�w�@�T��ZD-3d��'8ScT��P�a����.�5��t4/��֎d*������}�/����`�*�x��1�<<p��ᴌ9���e<�*�N:�\�]
+=���yhD����j�?�(�KK��e(�����0�*������y����s�冞K��.�/�@�W:Sw��u0��T,]}�IY�:i8O0�ʊ꺿E�L�y�H�`z!|�9uj����籘�[yc��(��5�歬@� �'a��Q�� ����.1]�E��g���A�Vt�� <�q���K����y��ɛ��a��zE��|
+j�*�?he�ɞe�`lY�%�Y�$(�V�W���F��Q18�3��b��&�ec�ȿ�?�$�F�{��w�l�v3��.J��G� 2)Ў��D:L��_'%}��������-/�$?Gڧ��/D���R��በT�>�S�z��0}�B�~z�^�[5o�0�R���q:�l�A$L����Kt�s���=L-rޭU}a�hi]���$� W��j��*H=�h��<S4�X��S��d�����NʣL!G�N����1D�I���u!b�(y��1=|;^:U�Bo���?�eC�^�H�w^ēw_ ��0<�A{�ֲ:�TG�P��9�2p�V�(lJ8w���"R�{~������5����a���[��{:�u������n�>.�t㉭nd�E��EWϦ���I���yU���񬘑��7 �k��p��� �l#x���fRD�U�O?q�id!���{�8��T�6guBN��ި�7�J�,�I��K����KP�U���9���!���IY$�5�u|�*��T�3M͜���/c8�኎����LIe"�mI0E[�A��� �Ax��.a�*:g[6�4��Qp�6i �Խ)M��gW�����~v�V�wy�4��Y��3;.�M�JD
+�'� �ֶӒ�)R;xW�$)�}���h�ϝT����
+�YG�!\��𚽞�Z-q��4]aJ���	g��y5f�JRu2|]�&�!5��(�v��~h<T�Ĵ
+�f0��٪�J�DF�78�	?0=�)������&��/��U�PE��I�v�c�27������OF��q;8�a�R�͐�hc,[U�_�b]����n�tF��ZCE�J{��ZЩ�l���A�qYv&ml��ip'��@8�����)���
+B4E�@�L��"a�:����<r���n8?6�t�����[x?�m�vZ�UF���`Pz���"�y�����F�_����Q�l��9jj��D�����}J(0)��[ڸ���UG���e8����&�������S��_d�"y k9��B���W.�6�)(#�~��3��}��sdNyfD�'L�U�7��pY%����]L�"#���Ԅ�4���"�~�"���gl���rC��p��lQW� �� .2^�&5�Қ����>|�'�����0�D-�@=��Z^ ̩x��f�Hٿ���"!*�t4x��.Jx�D/f�"��T$�ie_��p�a�ϳ����j�h�r���O�מ�י�K4�����d����DYe�f-~v(?���)�<:M�����\7�b�.}��CE��QN��|x�*B�BuI�ꭈ�����(��������=�Q.d
+J^��v!S|�ĵR����wrE/_`����#O9�)�j������?�G�i��N�E��$~��3㪞0��&�m��J�"�(Ϛ�rlҩ2	3cq&Zz��Sc�'���ʘH(�����_Ki�!�&>�~A恑�F��i)�?�T�R�AqU����q�o۲����s;:���T�LׯҸ
+�mm�i��`(����R0�=�=�wWhaӌ��ǣjT3�Ȟrm����U�҂)�[�Ӊ�zMa� ~��HC�.@n�Q�PD���I*�7�Yo������P��(8u�-� '	����?�`m�������o}p(������A�Vv>8<4d ̜��_q݇�y���j�)�O0�Zx�g���u�9�3�<����9�$���O���.,4Hy��?�"�G��g3>�İQwh.��.B���>��>�T~�I .7���D�5K#��9F��0G�`��������oa	t�c�B��S��!B)��ݪ��\��M�݂ ��l!T3yb�D��|��y<(s�`c�{*"Ǽ٧��������2b���3�:��g����2��1��3D��g�EQ�)��A�t�xL�ݱ�����q��xsC3�L�dډKT#���M�a�p{��'`�yR��J���W1-�l|0�t�V�-�Hǋ���}Qړ�P8�ޣ(���7�d��k�&}|��4��ŦM ��.�����#�G���u*�J��)�L&���x�a�ҽ�QĶ�G�1���y~�W�Յ~�,Z�O���6��1%�R5O�O.\B����� �4p�wb��2f�U��#��L����4�E�>|N���a|�^@�HGt���&s��`��x�8�������DC0Ydl� aj�j%�xKD�fe�2����H|9S����i$�� ���9�P�W0(�.�L�:''/6#�2�����?K+�r�IA`|Щ��P^�TT4��^�ê!�+���1oeR`@πn�3���^Uy	23L�<����<�?wDZ���?0�ǀZT�X\�>���`b{�/_'����Ė>�F�g�,����؛j���FP�0&ݞ�|��\��t4
+A�p��cdB���'y��wS�"��l)�Е�����n"��è"a1�LN a��8hV����Э�SWz���
+J��v8*��,@��ϣ��o����h֋���ڇ�2Q^��W����P���@ C5R�pO ��S]�����Q�V�	�޸4+��`�&�QRe�q�W�
+r��T"��z΃��]����3�7�l��q�0Y4"�\���R��<�z�S���/lD0P;�w��$��{hފG�HM����#��[��ޗ_��-f@�/�}���{������^/��cL��onu�<���fc9z1��2�h��5��i�\�9_��y�h��F���*���?X܈�.'0I��<�*ZA�����`��CwT	k_֠���50�z���*��e^�����I� �w?��0~�2�>_ +Fs4@B+˥Y'����2s
+'L�.����{^�/!c?��ʝ�Y�����.�֛j�m�=X�X��N�@�է3@����PX�������ƣ����v�o�%^X��J��h�0� ��ins���Y���
+�8W�dO�61��8�x�t#����n[3�|D��*��q��`xu��R��'��%��TӇ�-�=ďj�A�)jj\��َ篜T��E�3��q1��&��s�ƒTh�a�soEQ.k>�ܼa��nj�ɴ�k�	_�����!�xr��o#�A��hb�z�&&��n#�ME>�����"d/C��e8�x�����FW}��˼Q��Uُ��ȥ��S�Lp�U�c|#c���c9����ߌ+�R�(E��t���/��L'��W��<w����j��p$:���C)��)ϱ܆���Dd�3���*k�ᤘz^Kϓ��k��+.=�?U�:O�E�7�E�;�S!+�~�-�8�Լ؉Z*6����OD�3t�E�P@�cG���ʹY���������4��ZS�Ν�	�3��ox��`����I��$Ǩ����t%�j Q�lk�w��Ȣ�J�13�\���h�M\Y��s�:�����C
+r%��ucu�dd��Ğ�����E"?�G5��DF���4�I���e���@����c�{�-��2q��<�ԙ�9"�+'O^겕:�Nfs�F߽�q!��֤�����9YX����Dy�ǳjk	npzq��G�}g.T�Qs��>yӶ�W\LkY3ш��[�hH��ݐ�Q���uu�Um�|�b��]��)�f����&k�\DP�!�D\9L��b=A3P��|�@����3+=�W+����1>���o,�|�<]r��ʇ�kAo�H/�I8�M3Bݣɇb�v�p�f���k���-����%�?Ԣ�s�W����T��s��0�G<
+���J����	jbe�l^�oc5���J�7�b�E|�B6�Ǔ�|�r���J��ř�����8�8%��[��[��Z�v�[��q�X_oś�"vLu\Aa^�s*,��L�SA���y��D�I������(�u)}4yD�����|�GT�Ko�SN��.=^Qde�)ōR+C�/8ɃlfOLCs��UV��j���t��LV��t���|�]&bĮXPcb5�K�~b^c�F�K"7A��)�9�w��r�s���,�1��N��Y8:߼e�R��p��d�>��p��Ɠp�ʒj���8ܩS����4����2ꏝ�Sr��G�i�H@>e,ˈ��P��^��2T��_���CQ�ɬ��՘9c���<�-qV���3�]��r�-��>�T�P�G`�`�N�-��+Ħ
+�O)�=����Iv�Z4�\��#�.�Lk���B��.�?���Z>�g��S�Ѫ�EQ�UR B�Q��GXՊ�
+�A�yU3>wn8�X��L6ٹ�Nұ��e���U�{����D�R)D���hS4�oL^i[KL��>n�g�T
+J�8u���Kº���o>{ź�p��-�V�ř�:h��rC�X��y��}��H�Jݺ�/�����Q|�~�N��9D��i�TV���Nn�w��\���\���� ��fl45,� �Ӆ�2KW2zQ�02�面�A�7��p�2QmI6�k���B!�@����O�I��F� ����ff48�7�:�>�Y�©���WK4�
+�zE����{�4��g�jv��D�?Mn�5�>��>�3��	`s!��[�OS����S�[�:ΐv����	{��^O���z�K�+O����e���(.�I��v�f���{O�ucqs�Dx$-=�ʼ��
+��L�.���tr��Ǐ�����hg8)���L�,$�<�x��:+2
+��hy2����1Ŝ��˘I$(�m˨s���q����	���|C[/7��DX��șT��E<H�MH�0���}�4���y���u�b�)0y�f�|O_Qd��e׹3$�L���E�9��ۼ�:��YH!4���!F<&�-)7�u���ۖ��E2VE�;����"Z�6/x����|k�$Xަ�\"&Wԋ�c� Z�S{�� ��R��-��3�8X&�,k�ZdD��kʒ䳋q�ϓ��O��i!�����5UP�2�FM�b��N���(�W�JP.W:@�SQ:"'��|DM�hj��L�*u�����-[sYT�l���X{�'5x��|����<|�Q��p2��9��<j��Ȫ;Z5�� "`q*W^|·�{���j\^���Љ��Е��j
+�DVC�<���h08 ���\�6�d���b�F{k�T�]�Kp��s���f��EVnJ�J���n�K:��cx�B��+K�f���pw$�/�촊$��s˞	a�}hjt*�ӧ+��M����������m�������)1
+>S�f���
+v�ؖ��:�2�,IU������<�$����닠/�H8Ʈ���Ȋ	��N�	v&��kR K�A�v�N���s�4𭾰�	ч(}�k��S�yP֪�k5
+��ޞ$C���x��AL8RF�����Vh�'�$��5%9<��Y�B�IԷ����[C%b~S{�`cO��������`�6��ӌnj
+ �����#�/|�#S3��-��J�ZR�ϊ�)�МIQ�Dd-�������߰Ջ�0�B9�i����EO�~�#�E�>5��o�~|"�q.ο��s#��J߇��A8��g.���J�<��"�`�*�ʤ��p,�@i_Jb�0��䧭�_v�B<�Y��b������/QbC�:�1��:	���ˎ0;�Q�C�+Ʉ�&@�DI!s�u׽�;=���;���������|�uO^[����S+߷t@��6���4&4��B�A-I=��:ơ���V�+�v]�&�҂�� j�~�)
+�"�����|*H�^c��3�1�E��:5���d�]���d�>1����]�2�-�����^
+���ɒ�7�YGz�J"X��M�b�M���Vbt��Q�q4�j)8�c�5h9�'���`����N舌�����6.�Q��}V�+��f׭���ʑ�\U�Seg��}�==eьy����+d�>��t�.1���7�S���9���Y[��)��[ٔ��<YǏ�~�h1(�iK�� ��ɛxuGh
+|X�jA0N�0#�lʂ���N��,��>�^����oc�
+�����i�P�2l����F_6%.)~�H�v�����T�и�,�'��AUe�So�V��G��� X?��T%>�g���M,-�̩U<�.�W/�S1e�F[3�f�����uM-�l�b6�YqycZ,�;�7�'G����~����-?���Tj��
+ٯ���Q���=[�K�%PL�����D�����c���"3;f-�D��_B�p��AS7��v��ۨ�v� 6�lj��MD�fE�V*�X�T��r� ��6k�W�v��Yվ�3h��j�*�*���ܳ��.�����"�)ƎP��F��hx.��p�3�W���u�� �>�}�#�p��<%�����tx��	_f�!fO�g�Fϛ��ʃB�St�����X�a�§�� yN�e=����*L=����M��s�:���E�U�@8�]�5�i�!C�̽����\=�"��I&�4�D�n򭙜kГ�6��R`�{�l>�'M�����[+�둦v����`���}�5ۖN�Ԕ�h�(�{��% J��.��!���O����~�����bac}Ay�ut�*`�d��|e���`���G[�6��J��q��*`:�⾱`�>dFr]���9�?հg�5���˃ԋg�9��$ID��pd���֣z�7���Z5-��~��#��؅lk�$~	��'j����'��������0��C'3��r��2<	+��&%����Kr�h��S��r*ٳ(�B}%�fb���������%N"1�7D�o5�G�#T���pz�o��v>�T\E���9�6y�=�b�t���&z��� ���d��69i{rF3�ּ����k��\l���NkE��V(<������8X�}��G����h�_1҅#=,�&	����"���@,��K&��2��I^�~D�''J����DaK��"=�5G�j��V&ac'�5d�?>�ـ ����sJ$���%�� ��Cb��&���ʙ�uX�p����[���u\�k�3����!~itEڭm�#2x@f�&N��f�>Nm�!l'��S�l ��0D���,/�ti�!L)��	�]g�Vn&i��PT�4�5��{�ix����1e|ڇ�=Y�H�{ꆢ�a��w�[O��U��{(<#R����z��tB�"��0:�C��hR�K�ѤNW���jer��g�"�yX�G��Q�ef	Q'MH�q*��|�t6?6#2[$��gc}�6�ݪזB7�|S=K��;۩Y����q5�]�ͧ���*�2��9���X�n�m7�����"QyGp�;��0�����������`A	����V����魡���=�"0�6��n�Q�:�Y��FDx��MJ���Xz�>{�r�RPg���ڸr�a[�h��5o�Y�
+Fm����D>�cq=|3��.�Ao�wrǈ��!�"vir�X���pzǣ"�mǭ�(��}��'�Q�Bi<7�<�fQ��Z�ym���>*��FM�BM�e)��c4���B�Dٚ�C�ͣ�q����2�5�ĢK���^u8 �ֽM��𦉭�*��]�b
+1'�	?CD�B���
+.T�mY�g�
+J�-���5~2[�!;o��r���*{�����L��z���>��!F�߽G��1y�����ά6]7Q C�>�d�~5O��~�XJ;��$��]��; ��Ɣ��˞l.��"�|��c�h��2��$�]����\�}���g.=LxW��
+R�o�n��D��m%G!(�0C\�����Y@Q��E�6����������7���h0�L�\F���"���,��t�������y�Z��[]OM�}kf��'+��8���x�m������e�86A�9����zV�/�����e/.���%��P:��zP^�߯��~=T22�ǹ3��:��
+k�D�ϫ�,���O�	݋��Ѵ%�3+eI�	瞐��)A'KN�#E�����ҫ���D�m ��&�X���ig�@�B)��P��¤�!U!٘�];X�h��2�l�نI�W[TIyR�&FNΦ;�!�Ҟ3L�$9&�����]Y��<ٸ,/D��T.�G_/@,f�@�%uYX�*x������Ӆ���� Vʣ�t��Fr�I��A��g��u�.���`уo �Yd�����s�V>i�v�	�r��y��>���:+\±��g��TFL��̣Q��z$��i��1C��A�ꋂ�n�ז�l��+���r�������lD{�)ua�������>e{�Yk(��n���<����"�<���J˧�C�^}�k�XQL�͸^�[G�����7G�0�u�YY��h뗹���"�	�ʥ� (/C���d��j�?�@A�L=ez��K�+�
+Nv�jIQ`����lY�)r��C�X	v�!���X�ǗE�h�h�����<N�<�)�l�X�6�;���F��H��5��Qj)q���T���K9����*ta~�hӤs!��r�nU�˴r��y��<se,i% t5���YԌ�ǃhR|ӹ��h�������ϸ���;CwO4��������V���}ٽ%�lG��@���}�|�Y8����է�t�Y�Sv�$����~0 ���#�gV`�dݼ$��۶�̇Nz8Æ��b�8��GH�k�k����Z�}�D!�fz��pxUCte��b}.Ԕܼ�U[�`l��RQe��d0`����� w֠�����4)9�j�%=�R63:�k4�!�:��Iy��+���	���ړ�Y�$�9�l[եl;��ŕ(A�`�nb��	���Y�s7l�ƍ�7����C�s�6��4��5���v���J� 0k5�N5�RIT��!�K=��¦��I0��}�⌷�L��iEcs�@�����,�G�q�ښ������<�֪̰�1`��ki?]����b�h����N@Mzo�׵�{`}C)�x=\>��fPt��R��ے��j�����W��y���a��'q��-�%�!�{ȏa���^�61}PN4;M܆�&��
+-�I����?����B�kR������E�jf<��0�ZT8|��D��`� �V1S���`����9�3zK#�2��v����7�FKrӨ!ѓ:� ���K��jѼ�!����Ļϭ�T�(�4�S�g��#&P؎���UKND�B�*?���Ycr�K�1k�:�)��w��S|ki����|����Jf@��Z|^>i��kk�{�󚿗ȋ2�<r�Ū��s�Å�	�o�	o�j������o��[8����1��m����A��@{���[��;"��Ļ;�KNH%S�4��*�@����a艼��eb�j� d�k��]�����%Q�2�����W�Ȍʻ`q�h6&|�h��ט�Dil�`:�0� ��"%K����O�rCb�����׮r����u�����k��ԦR�:��b=Mƿ�%�*#��r
+��0�G��5~�d���d$W�Vk�4��ݴ	��&]����c9]�s�{T*r�bGʢ��E�&�%��
+�gC��my���@����� ��'5��\�E ��{�B��������ŭ��(�#��=kw3�v!C�i�3H`9�������ɩ]��`��F��"]�<������,B��s��F5��B9��	����Wj3�m�j�y�}�ùݨ1N�2C�B?g	K�+�ϓ�gxpt8>)�G�z��K\�3��m<lX=�^&ᙘNH��O�&o���O1=[�p��Ko�:�n�Ps�"�w��W��qq��X��g����z�W��	ױ~r9�C�*3�]2�ь&��gq$�I��Ke~�u�r���R��K�F�W�!s֔ZP�}�Jb/Z�_��!K��L���+듂lۚ�LTo�k�ח�^��x�Q=ʩ�����98���$)0���W��_Z��w��b�	7�dХ_����𻅐}�����F�VsV�ݜ��.���O�)�Hˇ��s��<����Ԭ����UZ�x�m۟���|p� hk,�Xq�T�<�Ye�kAG���Е�&9�Fǹ�.��P�,�x��{���F��j"��5��Hq V�~M&���]�cv�K�Ӌ�| ������W�.��Ώ�����R̛B�qj���އ*[���x4���Ci!Yo�;�"��`��F	�}%#��Ͽe~d��^�A6��<�f���tݘ��Cm/�1ºB��B>^f��K���&��8~*=�Gi*��ˮX�u���������@��.��VvQI��sRT�Qh�o�ReMCQo+���ڴ�	ы�.p�
+Q���ZC�\t���x>� �����8��^H�0���;�T^�Z��3B4~du�HXی�'д�U�_9�[�q�?����s��l��3�ϭ�z�轩��i��O��с�[��>����nY����A�O��?�4����$*z��T%c��/�,�zmj��@��<�d���X�.��t+���L}5\�b��wZz�iJI�6�orj�E��,br8��þ�t�&�,CW���4��cg�������S$-��d�k�5"�z�7�trM��(���2��g獼��]Л��z�w��ܷ79yQ���7��bd/��9���nR��T\��t)$d?���_�sE��_^�5�I�G�Fp���R^g��e�i�L�����z�TKry^���EU�������7c���K\yl�:h�4�U�1iC��b��)��p�Ke@ǙUh���#�H�
+T<[�_�b��* ���h�r�ђéH��%�r719[4ow3�l{�E���I�ذ�i�Ki�B�N��]���8��H��hk+mgtѸ���[�^��9"Nl�ڏ8	�d��=�Q��h�F�̸��^���.`��o0�"�b2�-װKo�:�����^o�i�o�N3�@�7O���;�q����QTKz>�t��Ȥ1�g��1|}�p>c��W0���q%�.������ŏ�H_����M/1�w�����b�������*�zY��i@�:�#=&����nY�Ⅽc�ep�:J�)%�3[X�)������פ�e���.�"�_��R&���D�QƩ{��/F���h��w;�Z���4GFX;������O(L�|��諒]1��{Q��<vA��}�o]��Ю����+'����g�D��8?�~���2���>�a���Ȓ
+�1���T�H��_Bל��-_�Jۓ���k�=0�q��,X�0%�Mb�l6r2?���h�|]0���Z��&#�E��)֗FD^�ΎFA�D���w��A{���Y��\���\+9I��%{�����FU��VA~}RD�O�m����t# f�Cі�8ҟ�x�,��L���'�+�z,;ȝ����!olHt򢭦>��u���#�>��VAwɃ�\
+������gF��'�$�Z%^�ܘ
+�^��E��k���� �|�<֪yݧ�ܞ	Б�ԮH�|����_%=H�y�������?��aʱ�����gzgL� �]�'�� rbs�\ܐA+��Y��A*'}-s�ϛ�*�+x�?���c}��~08���z��k�{<�S^ qˇ��KYN�9��[�70�5���(B����3��s�-&�l���S��$P=�"�BO�ܱɰIcM�"���F}��D��O�;�,��rd��K�S�TM�2;�q5�!y[V��RҦ�X��,��k�M��F��B�'����v2J��-���Ͻk��l5;��s�$)��Z�W�Mb�-���9맚�aS���Mw#�d�� �����������@��$���b�+��H3�!�������%��8q���i��¢!���u���۱�eS�t?������^�KT:���Sz9xs=p�d����	�7i��^P��5_�i�rU�m����w��M�m�g�\�v��[b��	�\x�i\xW_^���c�bQ��j�W����}�i�!�1]�7l:���UJ��d]H�����&*oM�ŕ���_H�P��D됅��L4�y�l.��z�88��#.X^�է�#!65�1Ћ#�����*�݈����r��Α&|�`�J���k��N��B�d�t��B'p�ŚL� \-�^Pg"]ҹ���҅pF/9u�h��`}�5��_�N���`���9m�m�
+3��4�Y�=߬�*���h���)�L˟��&]aT#2i�w`O'ʷ^S"[؆,�_�W�MD3��C8�2J��6�f�b�y�>��XW�߽�~÷4ip�r.�Ϧ�ߤ�p����:���t-������L��Ƶ�f �jɝA�H�]�Ip(%#N��? �Rt-9�ρ��)M!Lq*Mec� ��lyYkm�x�����	�k9��SWk=�-B��G��"k 5��T�p!��n&؏ޤԆ��lI;�+���_X��Z.�dQ�5&�QK��=X5�\�3�Š|�8�	�D�,�c~��f"��T���[*�jnr���lBŪ�U/�������`�Yp��g �C$�̆` s����9J5����s�^Zᾥ���<ӌ�9�U�l7q��j��כi&��SL�3�_��C��ƀ������R>�N���ⅾ��z�|�2;�/���I��dv�3�ifW'��$�ܵ���p
+Y�w���qn�37��_�a����4-�Hμ �*�!w�h�� �Ө�9`��x��P(��L�<s��X�����ęޓ1D���������"ʎ�'�0�e: ���L�t���6D��F��Si��紈�m�M�h/���ik�L�Q��U�,�Y�NSi}��j))��b����@�:�(��s� ��dZhh.�.��q&����qP���=�$���Ɠ5y�Z��Tm1K��~;��&�B�t���_���W2�y��p#�~����=\R����9�Dsh��V�.0�,ԗy�'ھPK�7	�Do�zX�y�d���?�Q��sB�.4��AH�!?�,k��,�=�M<!�<�]�T/]���zƻ�3�|i�7w�W:m?}u���No�2�i���c_���<���utB���5�"4�E���Z�?�/��R�7�Dz�`�oX���6 �6��mD�*I#�x�.`E�[�G�r0m��j��Ӎ<�e)�9p����`� �S�K�JA�I����;����<�Q�5?����a~h�ܔ����J�~�ˤ*�%+\��Ք�秽���q�2a>�2U[tuP8}:~�����!ը۶t�ק��rI���B5�k5\�� w�;لV�V��e��n���ݬ�U? ���虊饇�>$}��2|���O\m�����D��GX��?xvo�D�ǘ�X��ڵ�W{DW:��ׁ�JQ9�D�]@?2w˺vls��@�G\�b�v��R9Pz�q}�_ܽ#Н�ܘ!�5�0N:+�%nAa��>��9 [s���P�:ŬT'/z��lu��� �q��V�_n`uB���P��kގ�1@,�[9e�Si������r�U~����ẖ�A+t�K���L5�ʤp�jlX����t�,U��HP�}��ʹ�Ώ-��17�%� ތڷ�5��V�=�unr N;K���X#b��(����h	��ݴ�3��z�+Be���2��~�������{܈˓����͇k��ֆ"���1�?4�r�r�4�:�fs����𫓼����K�ϲ#�z�GM ��m�#gYa��������;w�vܿ��ݝ�˻�{zΏ��6^E�10���p9��i%4AX������5$.�c*��Aj��hbR�M�(����*��(�I'�N��� ����>�f�^����Q��4]ѳ%��k��� ¡Z<��kv�ǻ��?gʆ�����,�d�^~�e28:�6�������ěʫQ]�6;���b+�H��Jf'aXL���d�ԕٸI���$I�[�`�Q|rT'�QkQ�D���'��U�Oow=�}��uOwǭ���v=��[Y�me"�_�m�悭8R�6�G�ٗ�{�9�j�Ԥi/Y)7�3�c�iC�9b�u��R�5[wV���O�OG�_�j��f��7�XM�k���X��-����3�`C�������qE��.��zo>�Yk-d���fb�Z�O8\׫��.��KϜ��Āv`Q�7�O׵C8�[]m΁M���/`���!�͝{'�d�5P��щ��;U���������n�|��}^�IQ� ����s�yw	q���0K�q�f�I�SX_a*R5|�lRd�S���3���m��?S�w��zQ(Z�'�Q_��Qd����Zƚ���GE������_M;���9�N
+(U��?��������l0�:�ߖ��r�qZ�!/�O���k�|�Y����|W_W81Ȏ���[t�S��q�In�g)��d\=�,��bS{O#�^��B��5��~Mmq�yI�R����Z���>�º��V%�le���]���Q6ì:W*�8z�e��&7�7��R��������j�O��Üf;Xod�pg�	�@k���6�y 쿉�V��<�x6���`}"����o3���;�)��$_���/�����#�6���N��!���o��ϡ���!?�<�a.�� e9�O��>�c���j�y�M�v2�4#��h�nz��I=����zU�\q�+�}�IR?�9�k��p�ﻂ�n%	������-�H�����tj�9�jll�ٓ/"K�|����Oio$��
+��EΚׄ�v�u?9�@�Q3�^M\f_E/'28A��D����O��=r��\�[)��"F��-��:�e���0�O�O��CZ�m'M�j�x���==����/,�Ӣ��qb�e��s��IA���e0�6��}y<e�?*V��C+Mx��U�%&�M�F@mm��m4S��7]��|�8.�~���p�&��#x�^R�C��-���~q���})ݱ�Ab���f�	
+�pP�f�&�n<�p��>��!֞)M�p;q�����ѿ�6���.X�$q�Z�<b�^�}t�ڎ��Ϯ�k�D�����nN35n���}]-UZn5}Θ_�Q:�z��������Q�i��<x]�ѕ�����P5�����bwgp��ƒ.,��"��:BX�y�Pw��6("�C� �������XSc�-%1XQH{�B}����.��<�,7/�*d�p���6��y}�?	���@��Y$ԋm��§�_�_ł� Y죍І
+|�G4����ǵ���S
+P�:ؙ�|$���,��Rw�d�졶��%3�ٳi~2�/��𦿷�e���&6m������O�t)TS;n�a�~�W@�䞚ɖ�E���Ką����ң��*uuӥ��)q��9n+��od*�"{�4��ek�g�P(��ݖ�?��,f�z�Zl�@GԹ��wd�̧�-lBD��Y����D���$�Q����<�1̤�(��/�(52rJ�w�C�]S>����ap�$Cskj��d�ڵ���|�6iڝ���(	��n��G��\�]D�o�i_33u=����h�."��)@�'u�穯�՜�������*@~<��<y�V*�ɰ'i����<UOy��t6FXo>� "�3�����������l�sqն���&��1��}-�6�N^O+]ؼl���V�5����Uɑ��>FC-�T��>��T�i҂r�L���Dd��.
+		��Ƨ��OKC�+�q���n�ۚ㰮̾V��aIRd�i��۳ٞ
+ ��Ļ��> �;�dߏ���z)b��}�ג�Zʴ��/���J��A~�mz<��5u�"O�Oy7c#�D�j?c���uEC�T%&���[F�}v$*�_p���ui��4�@\^hf�d���Z,Q�Ǳk�3*����Wgg�j#zu�	F������\��$A������k��2/��w����p5E�]��&f^Q�e���s;T�v���T2��e	�ǩL[s�%�>������J85��n#�d�N��.?��}^��Q�q�8�]h=��.ej�n�r��*c��s]�J��<M�U��q�j]�ɏ��	˰KC	cl�u"o�$á�+x[ȱ�R|��S�g��O���������~����O����?���}����>���>�����}��q���O��z���>����U���c|rO=�rX<�,�)���E)����>��ڿ6V�O�|Z����w�o�����w�>!"p��f�>z����я���Y] l�D_���xu�,ߋ{���_���g�'~��:�7��h�k"��s��]�p��E]��b�F���q E�IT^:w:��e(I���aJ��|�"�w$�/A��(O�<��V�"ӱ'}p�=T��z��B=�o�<=�_�[(���;_ݿ|�O������;y����.V���Us��1��]g��)]>.W�K]4_�]�{��e���EC�Hȴ����oY߫3���20�ʤ���k��H�}-�{va�[-���ͷo:Z�ḟ. xt=8zu%���KL�C�zـج�׊�-\H����t$�-�{�����U0�ԭQ�O�P+ǃkh�GYl�>�����/(ry�_=nQc�a×� ^i�F0�lSoH�����Dǁkl�]���n�1�R���@���V@y�c��ρ��չA����	o�)�"�Y��Cگ��iH6��y�0�I��&�@�5UB)�q<+��%O~�ν�;�=�w���z��v;����q��`���ɵ�Թv/�_]I��25�[L5F��?-�ݍ;E�>c3v�X�����t�j�i�,�G�~([r*��Z��q~j�eT׊H�݌�wk��w���a��rMX��{ �z� �ml��ϙ��w	`ki�ow��o�un���f����s6ٔ��I~���^/���X�_R�M��������9�N��#l&�]\��Wy�i�H�Or�3�4{g��ax�	ɀ�b�D��:hYb����TO�8�]�g^@m{; ������Aqߘ����QE�z�&2�ʇ���$���tޔ��?�B��Rk6�hd����EZ*��� 7�,�Y~X'Ӯ�0޴u�Tn�&JG�h��X`��"l�Z6g�<�f>�&{�b�m��G��Mf[s�V�����y!Hvq�y�vܾ:�`�F�����I��h�mh��k1]R1
+a0�gm] ���m�'��c��1��o�a�􈏛+Yg�w�YF�-y�6Z3��;(����2��םa��]	l���s9�Co8W�ǏS<j�\>�ޱ4�����~�d#G%�m�.�l�
+<y�)̂�Ó�E�����J�Y���+%)��fNO8�}�����W؆f�c�ݷJ6��W2P�� ���!*��\	��ro�]����a��Ҟ�U�8���J2ʆt�λH2Mmm�tՋ~��*���=���>;�����Q��R�'X�IǮq�7���&�T�Ñ�$~.�a�r#σj��ك���x14�KΔ�.i����ϴ�}�ܩߘ�_���娿�x��+GI���@kf���6��3z�YQ̬ܹ:誹���x�6|�'k��� �9R|�]�\��,�1g���s���<Qŧ/<vA�0yF�QM����%4���N�����$�o�\#V��b݆��+�GF����E6�i��^�,��'֫��~פ'L�46s �T�VtG��$J��\8T�B�H� eE�+y���GF��܊0uI��}*��,��J9�0����UeLH�7?e�11 tT��h\�5>���C0��	G�U��ҌT�e�:U-��s?���X���p�3�Y�}�P�S�"����ܼ��53����!u>�%[���,���iT��Px��:�ڣ��)��m��Q৞os��uܦW:6����1��}��j.���9����aq�d��ș��nT��٣M�ոwiiڰ�B!�\ͨ�{s�x����̛��g��V:�'���,���s�.�����.|�7��`&��Yl�N����K �T3s��yt�~$�HL�.%7̟j�e�JƬ���O��C��	\WD_]"V��Q�Ӥ�d%[Ay� �����oF��<rTlWV^�0,��b�A�yT-PmO�;�v�R�_����g�~��"�d~�����I�6\��>��ExAR�cR=	}�+ 0)RP�g�Nm������jϣ}i8]�;L���9e'�Ʈ)xS�� �;%o�!iN�*6Y�Sk9RѸ��s�d�ý|"6s���sсy]���p}Nϲ#�h).i:��F�t_���G��~Gϝ���G���Sc
+���Q���C�.#���>Z���~"/l��ʋ{t��������O��~�����3|�������������/:�v���ӟ�����;[�]7�?ב����'���;{���\��~x�.^�������/?C�3�s]HG���[�,D��@��;[���S�����W��ݬ�g����C,��j�k�/�]�e��?uw(؝#�"�����G\5j�����3�����XVm2N]>T���?���'C�
+'�������(��K�h Т��dbw�M�O�"����_^��1�����B�r����!�^Ko���k�~*l�gY`��S7�y��.Q�_�<��H�`WT�'W���w+���U�o����vx�M��񵯺~y�������C������޹�}�v��/o�~���z��~0��"�o�|�[��c3���2��[m��$"�	K呆ƕP��;��4�d1k�Q4'�jqW+#�a]�X��욚�Ǒft2�-��@�Tng�z(��~;���/��q`-��r��Aq0(��?>G<�Е��Y�r>��Z �;��g.aЯ��i\4�������HH���	����!Z�����#�����'L�g�D+CMJ�6'pa��oP�n���٩8;۩�Y	'���?R���w�)��:�j/z9�}��&�I5��^�+��6�q�u�o���t
+�����*�k0Nܳ�8ڝaO�o���-nsK�'X�2gm3�#zkg�CF<8�3��%~�o�d��,����?������n��j�N8�,������P,�Æ4�G���A1�7���]n	��y$�V����^�~�g�����}M�L�J2T3�8��dd0��ݣ���7K��_��%u6��S���w̊�@�ed�`�6-^)+�v!K��Ux�S��	��6��P��D�k�C��EX>��2�l0>ON�K,/�H��N�(�3��>�� x
+|��Dp�|M����Ղ��u��p7�ݞY����s1l��i��~�z>��@x�e��t�>~Q�73�U�,<ƃ�	��������| $�O��*���UW��t}����m}�����Cz#F%x�,�tR$��├cg����t��1ü_��&�]	cE���A����	��vx*S��:�����i�{�XO�i��E\ƽ�-|���ݮÈႭ�W_�&
+h����!���덙N�c+�������ڮ�����m����?�F._Ms;޵h^�1K�|�6�Y�a��_pڂ'<:�x�W����-��rD;�@�h%b�0��w��G�WշSk�B'oeC�k��:�������i�.OK|��Ŗ�F��#���.�H�8$ŝ`w)��R�:�w�l�#��#|۔dh*m�{����{U��>�0R!�5���d�P�t�)�^@��2�nn�߻���5��+��z�= nNkv�|?�*24w���Qa3�\w��5����K���#m#2f5��h�{�W��t@��o�,3�:�0Dn�4�|з�k�ߩ�~�j���E��H��4g�=x�7�Z��w��W@
+j�;�M�,���3�!�{>�_A#��b:�_h�TVt��ߊ��n�U
+�t�~dZ-X�Z����OBw�Z�%�(v�}*l���9{<�"�;�tՂO��j� ��@AUm����&͸�������.��h����� ?�26���^�[���4��OZ.j�ܻw}LA{�\�q����m�Vv>>"y;��T0�F>'�i�aƌ�j��3�i �:h<!��R� ����Hmz���\���Ӥ�(2�(ud%�%
+&s2��{���.D��Sַ��l��v��O�(t�Y��h�R�Ϳ�w�L��Ǣ�����-�x��;)�0+��2l�g����QQO֟ƕ��{�APe�M�"�׿	��4�N&�ƕ)��i�̷o� �m��w��x�,�%^��|����!�,VW&;}~w�u���ʉW���@x��,)_�ʟJ*#��\#���*�hE�_�w�k'�H�89x�JIu��Ǖ`�5>.�{Yԇ�k��>��E�@N�2l����� ����
+0x]zQ�w��/<����ԁ�S���"ï��ejz�����p�SΤ����V�cxu�(�\3�`<Ϧ�g����&o(i��QG��J%�D�1{�����R���_��w���\�����JR�j�78`ZP����h��J�o<z�j<��.]�d����*��i-Ml�9�k!��:v����t b}ֻG��k��ĝ29}0�h�β�ϖN:R\��fT��R"��am6�)��]��zi]��������7�ߩ� �D�B�l?�6�(���t^ o���A)��z�6)�t2ЬO(h�s��-�c�_�	4tgc4�nR���=�Gp]T��5ٴ먴ت� �V~Z��j�������4�3���`m_��hx(|5�K��\��w�U7�-}���K���:��k�:fW~m5�˷n�x�Jb7h� J�Ƌ�f)2`�E��@���n<��i>�m �"]'fu�n� ��g¾�Q%�w�2G?��D��k�����2E���Mⱁ�b4I����G�%��e�#�>�ԬJ��P�z�KG�����k��<S�ܾYW�߱���Zm�x�����]P�lB�Mu^ �`s4����"�,Yu�~�d��mb�%+�;��	nC�Ձh�YA�;��oK8|��I����b��<��}�f��y�I��\��v���A�5�̮I�����X諆R��q���k,#��R�m2_��?m��F���p�����S3pLgPx��HY�w�����e�--�A(�b'�h�
+������pj����H��8�א�i�yBI7�l�Ml��*���Sɧj�*ܳ�Z�&���w֢��kx�^�<-+js����� ���Fښ�;��WtR�L��Z3;"8"W)�u�U�ͤ���%ΰBP#�k�(jBd���I0`w�{�kd��]6�|�ɸ�6'��y�ǒl ��!���ٻg���2�T%ڠ)'ى�~���:-D׾qhS�:Z;����с6f��Nף֚�!��v�*oDZ3W�tc�����1�uSq�ݤ�8g��>l������N���Ȋ�~��놨p"?z���u'�(�2ӰS�p����M�R�C8�$k YMa"<�V��e�rGKb![�b�d�[w��N'JyYM�''©���$/T�4�d��y*�Bߛ��c��d������ڤ�JFHU�s�;��U�k�W]9�}?�.�5u��~�M��q�3F��+�S-><$�- �j9tVwE,w�V��y�M���ƨ�.���N�D��M�D��!�0�(b��w��k<��"RI�ڊ��Ox�fN��ck��վ��$�����vZߕ.5�QC�FuF!����V����<�o�s)/ja�2��2�4�؜'�C�#&��Nu��;9������X�/;<Dq����Ȫz��tW��k�'X��8�u��m�z�
+��r~�Q�+h���c��gbFԱN6G0g�
+縒�o��Eފ&2��&g��'��P�ȥ�9�C��k��o��wmKmi�>OA��-�jd|�����n��^�l�hb��DI�o�`cBȀlB��`�c��p�w	̌�����j	���h�(��F==�����BGS�l�P��p��!�����o-!G���r�����GJ5�@�1�y����ne�	����Ӄ��o�oɠt�� ��g
+?_�r̘�e����_IX3�(8 �@�P��j.?�3�oj�a���id�ZC�Jt�M��猙�)�E$1��N�B�f�\��L���ױ8�N�;�������}�l�9I�_i��V�q�@����߇���y����e�$��Z�j���rb�9 ��<(�>U�<�y ���ZTE̲:+�!СX�$�΋{��fmML{�8�����]���q��RM�#ȿbX8�&�^�+(�S��JX.k��}w+��*�"c�ЊN����^D%�8棆�RJ#��ە���b���#���a�dc�.,�$M#�����A���c�3B����0�Sm}{y�*a����<��IA�X��@�f�;뉛ە:yc� u2F��Wƙ#���ː��ReYZ7d1ϔ��ٷ��ǀy�Eop׌B�x�2�+�
+�5��T3���a�/H��Px�����������M�$���!���0��'���K���1��9}���{�+,����	�� ⚌����%y�w�\���xp8e
+�"F=eL�1��:eT�DN�e�Dr���
+3'�׸�Z�ԗQ�(�@Z��Q��^_�xě8�s�����`��%�b���7\�@
+���ր�d!��LəRd��I�˚l&�80j"UQ�*���911��h3|pՅY� ��U&W�"�d&z���8ag\�ƪ��*d/�}�{s���ߗ���pmOƀ=�����<�_�� ���O苃{/H!`���߿�����~��J"_�gd���yO��K'����n/��5d4E"F�Ep'����� �'S����f�H[�rU��:�r�M�g�Zg��rK�p�/F�o������v܍f;'��Z�+�xN����� �S��a#5�_X�2�ڏN96*�#����j�5 k�T6c)���"Ŕ	������0OVքj'9�r y6��*?�jf��B[ȫ���B�k���6tHH�AɊ��D�_`�ሄW���Pn[�+�evM2�I���0��Ixa�ED����O��7%oh�zw��(O]N]���B��e�
+CQ��|��!i�׼	����7��HTˀ�6Lm���晩�A)5�#i�r�������s�Vͧd�sM����s^]����م��W��톄^�"� ��2r#O+�3�XX~G[���}	`�H7�x��3E�e��Tg�¢U,/��d��,���c/��~��w�o;��+o0e��wc�"�Pa ���= Xf�j��m<��w��f�>�����/��slt���N�(�ݴu�5n���
+��F�������F�	 y3a��-�W�=�2~rR0�'jcŚY�MREZ��kgt� o*g`7��4)�BK
+���Z�yyzP��E�c����:.��b=!!�~Y�i�vu�fS�;-τ0��R�E����O��]#�����6;3��C�-#Lq/���<�pc���1�(��^��0>�<�Gׄ*t;�o��	��'�����@�=k勧�r9ۢ���$=��w�$�)jA������������&9�ϟ�o+#�����IGyQL�!7�����c��0��z�_ݗ0}����hx͞iV�]�{�J�SL�3)ɫ��6 �8j7�+�}viv����;��!U��cڠ3?�+��͒��Q�������V���D\���t�Z�
+�a̾m(]F���W�4M�G�N��n1wc�_�j���?Rq79�/����\I���J���6�S�����k!=������~Hđ���G������h��ފ2���T�Lz�@���%���L������s��{ŕ��s�|��fF+���-�%j�}�ǚ��C�T�8g�ٗԟ�AFD\G�QU~b�:�����v�]�j��#iu���g�m�-�������%�72�E�7G���ȶ��_;������b��Xp&�O���*$�F���
+��"�vL�q<ch�?0Q�C�#�s`I`�t���M%�w���$�Z�͉��u�_��7�x�682��y���*+��k�֏W�u�M8��B0�w�`R&����g4��uJ���0<��v>�^�a����E(��o����·�@�t��(l)�qVD�c6�/P�(#�_z�~/w�:1���H����ܙ\��Ͳ�G��d���X�_�cIۭ 2��Vŀ͙
+kp'ȭ� �0&���h�&&��JC�=�
+w�;�]�Kk�ĸɄ�&˕��߁"�r-V>pi;���	R30���ߨ9�1�°�C�^����2��|<A�.<��Խ�e27�r����U���6b�W�wNߥ���{Tz��s�����qf����աQ��
+�G;$�Mm>��5󭮒��	�/��o7g�o�:�r^�H����`����V$=�S!���I���Z����-�B>�
+a�xDv!BNۛzU��S������K��$E0mA��ZhK�.6P�����t5F�Ñ��(�ͼ:y~��Eᴵ&��[���Y��⿩}�z�0t�`U
+�|�	�Ǥ���EI�;j�����ɤ��L��z��׽}�jl��w���Ao���˝�.�a�'���7�?���C�e�t�b�gm�]������V���5�������ΓJ���D��W��W����Jz��Q��kc`�#ېbZ�\´�Ͻ�$�=h� -&F��+�Q����)� ���W�7��B�Ch\`�z=�+I��ߺ�<��	�����B��:=-��qR���,g�0WE��S�j��x��O�<mn�$���?WF��%`����ׇ����c�9�	b.$���}���*b���:�!1z	��h?-^)`��bJ&e�7�`x���^�����b�?�.����
+e�������}���z���R�>�_:�7  "}I��,�(����h?��y�C���Zvv�xڿ�yֱY�tl�'nu|E/-�ݱL�=�Id�L�;v'u3�&��9��Q����T�MG=_�_?�-���p"�.��%o�2��l6����vw44�e��ή7�����X"��u?:�+ٸ��&���n���w�+�27������/��Q4��$��;۾��֥X�'�T?i�;���ӝ̴we��_��޾}�����S�����Z���t�秆�v��t�$D2v+q#�M���	��Zg�d�nO�;����+����e�b�����,��H�nt��;S=������]�k�2�����|=�1N�����o���O.]��
+�\��^ڮ�öoq�?��o��o�a�\�����]�k]�p�>����̧����|�����w�Пc=����V���S�Lo*����Ç, X��҉X�+����l����-[�3�6R�V�v���n�5�vҚ���d����g��aM�p<X�d�0;כJg�]��q[���7��/RF�?u���#����AiIh1���Ohn�D��Boh����LϜ�8޴}B���5��$�D�iD����\�M�84m�|������:�E�ʇ������U�����V���nڍG������������x�"�g�6�����T���i�n���ݠh!�v�M��+Ή�OdzID|�L%i�U��PK��A~x  �E PK   S��RL �#  J     Q         �� images/1.gifhttps://ssl.gstatic.com/sites/p/a71eef/system/app/themes/vinylpanel/container.gifPK   S��R(g�t/   3      J         � images/0.gifhttps://ssl.gstatic.com/sites/p/a71eef/system/app/themes/vinylpanel/h2.gifPK    S��Rn�}��   �      M         � images/2.pnghttps://ssl.gstatic.com/sites/p/a71eef/system/app/themes/vinylpanel/hd-bg.pngPK   S��R�gb�   6     8         � images/4.icohttps://www.google.com/images/icons/product/sites-16.icoPK   S��R��A~x  �E 
+   �         t� index.htmlhttps://sites.google.com/site/jiuze12/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89%E6%98%AF%E4%B8%80%E7%A7%8D%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89PK   S��R��k��  U  
+             � index.jsonPK   S��R�!
+��  ?     g         Y� stylesheet_0.csshttps://ssl.gstatic.com/sites/p/a71eef/system/app/themes/vinylpanel/standard-css-vinylpanel-ltr-ltr.cssPK   S��R�%�[   �      y         � stylesheet_1.csshttps://sites.google.com/site/jiuze12/_/rsrc/1624520311000/system/app/css/overlay.css?cb=vinylpanel718px150goog-ws-nosidePK   S��R              d         ѷ stylesheet_2.csshttps://sites.google.com/site/jiuze12/_/rsrc/1624520311000/system/app/css/camelot/allthemes-view.cssPK    	 	 �  *=   ]]></xmp></html>
