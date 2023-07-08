@@ -1,0 +1,688 @@
+<html data-sfz><meta charset='utf-8'><title>My Worldview</title><link rel=canonical href="https://web.engr.oregonstate.edu/~funkk/Personal/myWorldview.html"><body hidden><div id='sfz-wait-message'>Please wait...</div><div id='sfz-error-message'><strong>Error</strong>: Cannot open the page from the filesystem.<ul style='line-height:20px;'><li style='margin-bottom:10px'><strong>Chrome</strong>: Install <a href='https://chrome.google.com/webstore/detail/singlefilez/offkdfbbigofcgdokjemgjpdockaafjg'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (chrome://extensions/?id=offkdfbbigofcgdokjemgjpdockaafjg).</li><li style='margin-bottom:10px'><strong>Microsoft Edge</strong>: Install <a href='https://microsoftedge.microsoft.com/addons/detail/singlefilez/gofneaifncimeglaecpnanbnmnpfjekk'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (edge://extensions/?id=gofneaifncimeglaecpnanbnmnpfjekk).</li><li><strong>Safari</strong>: Select "Disable Local File Restrictions" in the "Develop" menu.</li></ul></div><script>var e,t;e=this,t=function(e){const{Array:t,Object:n,String:r,BigInt:s,Math:a,Date:i,Map:o,URL:c,Error:l,Uint8Array:u,Uint16Array:f,Uint32Array:h,DataView:d,Blob:p,Promise:w,TextEncoder:g,TextDecoder:m,document:y,crypto:b,btoa:v,TransformStream:S,ReadableStream:k,WritableStream:_,CompressionStream:z,DecompressionStream:D,navigator:x}=globalThis;var R=u,E=f,F=h,T=new R([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0,0]),C=new R([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,0,0]),U=new R([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),W=(e,t)=>{for(var n=new E(31),r=0;31>r;++r)n[r]=t+=1<<e[r-1];var s=new F(n[30]);for(r=1;30>r;++r)for(var a=n[r];a<n[r+1];++a)s[a]=a-n[r]<<5|r;return[n,s]},A=W(T,2),N=A[0],L=A[1];N[28]=258,L[258]=28;for(var O=W(C,0),I=O[0],M=O[1],P=new E(32768),B=0;32768>B;++B){var V=(43690&B)>>>1|(21845&B)<<1;V=(61680&(V=(52428&V)>>>2|(13107&V)<<2))>>>4|(3855&V)<<4,P[B]=((65280&V)>>>8|(255&V)<<8)>>>1}var H=(e,t,n)=>{for(var r=e.length,s=0,a=new E(t);r>s;++s)e[s]&&++a[e[s]-1];var i,o=new E(t);for(s=0;t>s;++s)o[s]=o[s-1]+a[s-1]<<1;if(n){i=new E(1<<t);var c=15-t;for(s=0;r>s;++s)if(e[s])for(var l=s<<4|e[s],u=t-e[s],f=o[e[s]-1]++<<u,h=f|(1<<u)-1;h>=f;++f)i[P[f]>>>c]=l}else for(i=new E(r),s=0;r>s;++s)e[s]&&(i[s]=P[o[e[s]-1]++]>>>15-e[s]);return i},q=new R(288);for(B=0;144>B;++B)q[B]=8;for(B=144;256>B;++B)q[B]=9;for(B=256;280>B;++B)q[B]=7;for(B=280;288>B;++B)q[B]=8;var K=new R(32);for(B=0;32>B;++B)K[B]=5;var Z=H(q,9,0),Y=H(q,9,1),j=H(K,5,0),G=H(K,5,1),X=e=>{for(var t=e[0],n=1;n<e.length;++n)e[n]>t&&(t=e[n]);return t},J=(e,t,n)=>{var r=t/8|0;return(e[r]|e[r+1]<<8)>>(7&t)&n},Q=(e,t)=>{var n=t/8|0;return(e[n]|e[n+1]<<8|e[n+2]<<16)>>(7&t)},$=e=>(e+7)/8|0,ee=(e,t,n)=>{(null==t||0>t)&&(t=0),(null==n||n>e.length)&&(n=e.length);var r=new(2==e.BYTES_PER_ELEMENT?E:4==e.BYTES_PER_ELEMENT?F:R)(n-t);return r.set(e.subarray(t,n)),r},te=["unexpected EOF","invalid block type","invalid length/literal","invalid distance","stream finished","no stream handler",,"no callback","invalid UTF-8 data","extra field too long","date not in range 1980-2099","filename too long","stream finishing","invalid zip data"],ne=(e,t,n)=>{var r=new l(t||te[e]);if(r.code=e,l.captureStackTrace&&l.captureStackTrace(r,ne),!n)throw r;return r},re=(e,t,n)=>{n<<=7&t;var r=t/8|0;e[r]|=n,e[r+1]|=n>>>8},se=(e,t,n)=>{n<<=7&t;var r=t/8|0;e[r]|=n,e[r+1]|=n>>>8,e[r+2]|=n>>>16},ae=(e,t)=>{for(var n=[],r=0;r<e.length;++r)e[r]&&n.push({s:r,f:e[r]});var s=n.length,a=n.slice();if(!s)return[he,0];if(1==s){var i=new R(n[0].s+1);return i[n[0].s]=1,[i,1]}n.sort(((e,t)=>e.f-t.f)),n.push({s:-1,f:25001});var o=n[0],c=n[1],l=0,u=1,f=2;for(n[0]={s:-1,f:o.f+c.f,l:o,r:c};u!=s-1;)o=n[n[l].f<n[f].f?l++:f++],c=n[l!=u&&n[l].f<n[f].f?l++:f++],n[u++]={s:-1,f:o.f+c.f,l:o,r:c};var h=a[0].s;for(r=1;s>r;++r)a[r].s>h&&(h=a[r].s);var d=new E(h+1),p=ie(n[u-1],d,0);if(p>t){r=0;var w=0,g=p-t,m=1<<g;for(a.sort(((e,t)=>d[t.s]-d[e.s]||e.f-t.f));s>r;++r){var y=a[r].s;if(d[y]<=t)break;w+=m-(1<<p-d[y]),d[y]=t}for(w>>>=g;w>0;){var b=a[r].s;d[b]<t?w-=1<<t-d[b]++-1:++r}for(;r>=0&&w;--r){var v=a[r].s;d[v]==t&&(--d[v],++w)}p=t}return[new R(d),p]},ie=(e,t,n)=>-1==e.s?a.max(ie(e.l,t,n+1),ie(e.r,t,n+1)):t[e.s]=n,oe=e=>{for(var t=e.length;t&&!e[--t];);for(var n=new E(++t),r=0,s=e[0],a=1,i=e=>{n[r++]=e},o=1;t>=o;++o)if(e[o]==s&&o!=t)++a;else{if(!s&&a>2){for(;a>138;a-=138)i(32754);a>2&&(i(a>10?a-11<<5|28690:a-3<<5|12305),a=0)}else if(a>3){for(i(s),--a;a>6;a-=6)i(8304);a>2&&(i(a-3<<5|8208),a=0)}for(;a--;)i(s);a=1,s=e[o]}return[n.subarray(0,r),t]},ce=(e,t)=>{for(var n=0,r=0;r<t.length;++r)n+=e[r]*t[r];return n},le=(e,t,n)=>{var r=n.length,s=$(t+2);e[s]=255&r,e[s+1]=r>>>8,e[s+2]=255^e[s],e[s+3]=255^e[s+1];for(var a=0;r>a;++a)e[s+a+4]=n[a];return 8*(s+4+r)},ue=(e,t,n,r,s,a,i,o,c,l,u)=>{re(t,u++,n),++s[256];for(var f=ae(s,15),h=f[0],d=f[1],p=ae(a,15),w=p[0],g=p[1],m=oe(h),y=m[0],b=m[1],v=oe(w),S=v[0],k=v[1],_=new E(19),z=0;z<y.length;++z)_[31&y[z]]++;for(z=0;z<S.length;++z)_[31&S[z]]++;for(var D=ae(_,7),x=D[0],R=D[1],F=19;F>4&&!x[U[F-1]];--F);var W,A,N,L,O=l+5<<3,I=ce(s,q)+ce(a,K)+i,M=ce(s,h)+ce(a,w)+i+14+3*F+ce(_,x)+(2*_[16]+3*_[17]+7*_[18]);if(I>=O&&M>=O)return le(t,u,e.subarray(c,c+l));if(re(t,u,1+(I>M)),u+=2,I>M){W=H(h,d,0),A=h,N=H(w,g,0),L=w;var P=H(x,R,0);for(re(t,u,b-257),re(t,u+5,k-1),re(t,u+10,F-4),u+=14,z=0;F>z;++z)re(t,u+3*z,x[U[z]]);u+=3*F;for(var B=[y,S],V=0;2>V;++V){var Y=B[V];for(z=0;z<Y.length;++z){var G=31&Y[z];re(t,u,P[G]),u+=x[G],G>15&&(re(t,u,Y[z]>>>5&127),u+=Y[z]>>>12)}}}else W=Z,A=q,N=j,L=K;for(z=0;o>z;++z)if(r[z]>255){G=r[z]>>>18&31,se(t,u,W[G+257]),u+=A[G+257],G>7&&(re(t,u,r[z]>>>23&31),u+=T[G]);var X=31&r[z];se(t,u,N[X]),u+=L[X],X>3&&(se(t,u,r[z]>>>5&8191),u+=C[X])}else se(t,u,W[r[z]]),u+=A[r[z]];return se(t,u,W[256]),u+A[256]},fe=new F([65540,131080,131088,131104,262176,1048704,1048832,2114560,2117632]),he=new R(0),de=function(){function e(e,t){t||"function"!=typeof e||(t=e,e={}),this.ondata=t,this.o=e||{}}return e.prototype.p=function(e,t){var n,r,s;this.ondata((s=!t,((e,t,n,r,s,i)=>{var o=e.length,c=new R(0+o+5*(1+a.ceil(o/7e3))+0),l=c.subarray(0,c.length-0),u=0;if(!t||8>o)for(var f=0;o>=f;f+=65535){var h=f+65535;o>h||(l[u>>3]=i),u=le(l,u+1,e.subarray(f,h))}else{for(var d=fe[t-1],p=d>>>13,w=8191&d,g=(1<<n)-1,m=new E(32768),y=new E(g+1),b=a.ceil(n/3),v=2*b,S=t=>(e[t]^e[t+1]<<b^e[t+2]<<v)&g,k=new F(25e3),_=new E(288),z=new E(32),D=0,x=0,U=(f=0,0),W=0,A=0;o>f;++f){var N=S(f),O=32767&f,I=y[N];if(m[O]=I,y[N]=O,f>=W){var P=o-f;if((D>7e3||U>24576)&&P>423){u=ue(e,l,0,k,_,z,x,U,A,f-A,u),U=D=x=0,A=f;for(var B=0;286>B;++B)_[B]=0;for(B=0;30>B;++B)z[B]=0}var V=2,H=0,q=w,K=O-I&32767;if(P>2&&N==S(f-K))for(var Z=a.min(p,P)-1,Y=a.min(32767,f),j=a.min(258,P);Y>=K&&--q&&O!=I;){if(e[f+V]==e[f+V-K]){for(var G=0;j>G&&e[f+G]==e[f+G-K];++G);if(G>V){if(V=G,H=K,G>Z)break;var X=a.min(K,G-2),J=0;for(B=0;X>B;++B){var Q=f-K+B+32768&32767,te=Q-m[Q]+32768&32767;te>J&&(J=te,I=Q)}}}K+=(O=I)-(I=m[O])+32768&32767}if(H){k[U++]=268435456|L[V]<<18|M[H];var ne=31&L[V],re=31&M[H];x+=T[ne]+C[re],++_[257+ne],++z[re],W=f+V,++D}else k[U++]=e[f],++_[e[f]]}}u=ue(e,l,i,k,_,z,x,U,A,f-A,u),!i&&7&u&&(u=le(l,u+1,he))}return ee(c,0,0+$(u)+0)})(n=e,null==(r=this.o).level?6:r.level,null==r.mem?a.ceil(1.5*a.max(8,a.min(13,a.log(n.length)))):12+r.mem,0,0,!s)),t)},e.prototype.push=function(e,t){this.ondata||ne(5),this.d&&ne(4),this.d=t,this.p(e,t||!1)},e}(),pe=function(){function e(e){this.s={},this.p=new R(0),this.ondata=e}return e.prototype.e=function(e){this.ondata||ne(5),this.d&&ne(4);var t=this.p.length,n=new R(t+e.length);n.set(this.p),n.set(e,t),this.p=n},e.prototype.c=function(e){this.d=this.s.i=e||!1;var t=this.s.b,n=((e,t,n)=>{var r=e.length;if(!r||n&&n.f&&!n.l)return t||new R(0);var s=!t||n,i=!n||n.i;n||(n={}),t||(t=new R(3*r));var o=e=>{var n=t.length;if(e>n){var r=new R(a.max(2*n,e));r.set(t),t=r}},c=n.f||0,l=n.p||0,u=n.b||0,f=n.l,h=n.d,d=n.m,p=n.n,w=8*r;do{if(!f){c=J(e,l,1);var g=J(e,l+1,3);if(l+=3,!g){var m=e[(F=$(l)+4)-4]|e[F-3]<<8,y=F+m;if(y>r){i&&ne(0);break}s&&o(u+m),t.set(e.subarray(F,y),u),n.b=u+=m,n.p=l=8*y,n.f=c;continue}if(1==g)f=Y,h=G,d=9,p=5;else if(2==g){var b=J(e,l,31)+257,v=J(e,l+10,15)+4,S=b+J(e,l+5,31)+1;l+=14;for(var k=new R(S),_=new R(19),z=0;v>z;++z)_[U[z]]=J(e,l+3*z,7);l+=3*v;var D=X(_),x=(1<<D)-1,E=H(_,D,1);for(z=0;S>z;){var F,W=E[J(e,l,x)];if(l+=15&W,16>(F=W>>>4))k[z++]=F;else{var A=0,L=0;for(16==F?(L=3+J(e,l,3),l+=2,A=k[z-1]):17==F?(L=3+J(e,l,7),l+=3):18==F&&(L=11+J(e,l,127),l+=7);L--;)k[z++]=A}}var O=k.subarray(0,b),M=k.subarray(b);d=X(O),p=X(M),f=H(O,d,1),h=H(M,p,1)}else ne(1);if(l>w){i&&ne(0);break}}s&&o(u+131072);for(var P=(1<<d)-1,B=(1<<p)-1,V=l;;V=l){var q=(A=f[Q(e,l)&P])>>>4;if((l+=15&A)>w){i&&ne(0);break}if(A||ne(2),256>q)t[u++]=q;else{if(256==q){V=l,f=null;break}var K=q-254;if(q>264){var Z=T[z=q-257];K=J(e,l,(1<<Z)-1)+N[z],l+=Z}var j=h[Q(e,l)&B],te=j>>>4;if(j||ne(3),l+=15&j,M=I[te],te>3&&(Z=C[te],M+=Q(e,l)&(1<<Z)-1,l+=Z),l>w){i&&ne(0);break}s&&o(u+131072);for(var re=u+K;re>u;u+=4)t[u]=t[u-M],t[u+1]=t[u+1-M],t[u+2]=t[u+2-M],t[u+3]=t[u+3-M];u=re}}n.l=f,n.p=V,n.b=u,n.f=c,f&&(c=1,n.m=d,n.d=h,n.n=p)}while(!c);return u==t.length?t:ee(t,0,u)})(this.p,this.o,this.s);this.ondata(ee(n,t,this.s.b),this.d),this.o=ee(n,this.s.b-32768),this.s.b=this.o.length,this.p=ee(this.p,this.s.p/8|0),this.s.p&=7},e.prototype.push=function(e,t){this.e(e),this.c(t)},e}(),we=void 0!==m&&new m;try{we.decode(he,{stream:!0})}catch(e){}function ge(e,t,r){return class{constructor(s){const a=this;n.hasOwn(s,"level")&&void 0===s.level&&delete s.level,a.codec=new e(n.assign({},t,s)),r(a.codec,(e=>{if(a.pendingData){const t=a.pendingData;a.pendingData=new u(t.length+e.length);const{pendingData:n}=a;n.set(t,0),n.set(e,t.length)}else a.pendingData=new u(e)}))}append(e){return this.codec.push(e),s(this)}flush(){return this.codec.push(new u,!0),s(this)}};function s(e){if(e.pendingData){const t=e.pendingData;return e.pendingData=null,t}return new u}}const{Deflate:me,Inflate:ye}=((e,t={},n)=>({Deflate:ge(e.Deflate,t.deflate,n),Inflate:ge(e.Inflate,t.inflate,n)}))({Deflate:de,Inflate:pe},void 0,((e,t)=>e.ondata=t)),be=4294967295,ve=65535,Se=33639248,ke=101075792,_e=void 0,ze="undefined",De="function";class xe{constructor(e){return class extends S{constructor(t,n){const r=new e(n);super({transform(e,t){t.enqueue(r.append(e))},flush(e){const t=r.flush();t&&e.enqueue(t)}})}}}}let Re=2;try{typeof x!=ze&&x.hardwareConcurrency&&(Re=x.hardwareConcurrency)}catch(e){}const Ee={chunkSize:524288,maxWorkers:Re,terminateWorkerTimeout:5e3,useWebWorkers:!0,useCompressionStream:!0,workerScripts:_e,CompressionStreamNative:typeof z!=ze&&z,DecompressionStreamNative:typeof D!=ze&&D},Fe=n.assign({},Ee);function Te(e){const{baseURL:n,chunkSize:r,maxWorkers:s,terminateWorkerTimeout:a,useCompressionStream:i,useWebWorkers:o,Deflate:c,Inflate:u,CompressionStream:f,DecompressionStream:h,workerScripts:d}=e;if(Ce("baseURL",n),Ce("chunkSize",r),Ce("maxWorkers",s),Ce("terminateWorkerTimeout",a),Ce("useCompressionStream",i),Ce("useWebWorkers",o),c&&(Fe.CompressionStream=new xe(c)),u&&(Fe.DecompressionStream=new xe(u)),Ce("CompressionStream",f),Ce("DecompressionStream",h),d!==_e){const{deflate:e,inflate:n}=d;if((e||n)&&(Fe.workerScripts||(Fe.workerScripts={})),e){if(!t.isArray(e))throw new l("workerScripts.deflate must be an array");Fe.workerScripts.deflate=e}if(n){if(!t.isArray(n))throw new l("workerScripts.inflate must be an array");Fe.workerScripts.inflate=n}}}function Ce(e,t){t!==_e&&(Fe[e]=t)}const Ue=[];for(let e=0;256>e;e++){let t=e;for(let e=0;8>e;e++)1&t?t=t>>>1^3988292384:t>>>=1;Ue[e]=t}class We{constructor(e){this.crc=e||-1}append(e){let t=0|this.crc;for(let n=0,r=0|e.length;r>n;n++)t=t>>>8^Ue[255&(t^e[n])];this.crc=t}get(){return~this.crc}}class Ae extends S{constructor(){const e=new We;super({transform(t){e.append(t)},flush(t){const n=new u(4);new d(n.buffer).setUint32(0,e.get()),t.enqueue(n)}})}}const Ne={concat(e,t){if(0===e.length||0===t.length)return e.concat(t);const n=e[e.length-1],r=Ne.getPartial(n);return 32===r?e.concat(t):Ne._shiftRight(t,r,0|n,e.slice(0,e.length-1))},bitLength(e){const t=e.length;if(0===t)return 0;const n=e[t-1];return 32*(t-1)+Ne.getPartial(n)},clamp(e,t){if(32*e.length<t)return e;const n=(e=e.slice(0,a.ceil(t/32))).length;return t&=31,n>0&&t&&(e[n-1]=Ne.partial(t,e[n-1]&2147483648>>t-1,1)),e},partial:(e,t,n)=>32===e?t:(n?0|t:t<<32-e)+1099511627776*e,getPartial:e=>a.round(e/1099511627776)||32,_shiftRight(e,t,n,r){for(void 0===r&&(r=[]);t>=32;t-=32)r.push(n),n=0;if(0===t)return r.concat(e);for(let s=0;s<e.length;s++)r.push(n|e[s]>>>t),n=e[s]<<32-t;const s=e.length?e[e.length-1]:0,a=Ne.getPartial(s);return r.push(Ne.partial(t+a&31,t+a>32?n:r.pop(),1)),r}},Le={bytes:{fromBits(e){const t=Ne.bitLength(e)/8,n=new u(t);let r;for(let s=0;t>s;s++)0==(3&s)&&(r=e[s/4]),n[s]=r>>>24,r<<=8;return n},toBits(e){const t=[];let n,r=0;for(n=0;n<e.length;n++)r=r<<8|e[n],3==(3&n)&&(t.push(r),r=0);return 3&n&&t.push(Ne.partial(8*(3&n),r)),t}}},Oe={getRandomValues(e){const t=new h(e.buffer),n=e=>{let t=987654321;const n=4294967295;return()=>(t=36969*(65535&t)+(t>>16)&n,(((t<<16)+(e=18e3*(65535&e)+(e>>16)&n)&n)/4294967296+.5)*(a.random()>.5?1:-1))};for(let r,s=0;s<e.length;s+=4){const e=n(4294967296*(r||a.random()));r=987654071*e(),t[s/4]=4294967296*e()|0}return e}},Ie={importKey:e=>new Ie.hmacSha1(Le.bytes.toBits(e)),pbkdf2(e,t,n,r){if(n=n||1e4,0>r||0>n)throw new l("invalid params to pbkdf2");const s=1+(r>>5)<<2;let a,i,o,c,u;const f=new ArrayBuffer(s),h=new d(f);let p=0;const w=Ne;for(t=Le.bytes.toBits(t),u=1;(s||1)>p;u++){for(a=i=e.encrypt(w.concat(t,[u])),o=1;n>o;o++)for(i=e.encrypt(i),c=0;c<i.length;c++)a[c]^=i[c];for(o=0;(s||1)>p&&o<a.length;o++)h.setInt32(p,a[o]),p+=4}return f.slice(0,r/8)},hmacSha1:class{constructor(e){const n=this,r=n._hash=class{constructor(e){const t=this;t.blockSize=512,t._init=[1732584193,4023233417,2562383102,271733878,3285377520],t._key=[1518500249,1859775393,2400959708,3395469782],e?(t._h=e._h.slice(0),t._buffer=e._buffer.slice(0),t._length=e._length):t.reset()}reset(){const e=this;return e._h=e._init.slice(0),e._buffer=[],e._length=0,e}update(e){const t=this;"string"==typeof e&&(e=Le.utf8String.toBits(e));const n=t._buffer=Ne.concat(t._buffer,e),r=t._length,s=t._length=r+Ne.bitLength(e);if(s>9007199254740991)throw new l("Cannot hash more than 2^53 - 1 bits");const a=new h(n);let i=0;for(let e=t.blockSize+r-(t.blockSize+r&t.blockSize-1);s>=e;e+=t.blockSize)t._block(a.subarray(16*i,16*(i+1))),i+=1;return n.splice(0,16*i),t}finalize(){const e=this;let t=e._buffer;const n=e._h;t=Ne.concat(t,[Ne.partial(1,1)]);for(let e=t.length+2;15&e;e++)t.push(0);for(t.push(a.floor(e._length/4294967296)),t.push(0|e._length);t.length;)e._block(t.splice(0,16));return e.reset(),n}_f(e,t,n,r){return e>19?e>39?e>59?e>79?void 0:t^n^r:t&n|t&r|n&r:t^n^r:t&n|~t&r}_S(e,t){return t<<e|t>>>32-e}_block(e){const n=this,r=n._h,s=t(80);for(let t=0;16>t;t++)s[t]=e[t];let i=r[0],o=r[1],c=r[2],l=r[3],u=r[4];for(let e=0;79>=e;e++){16>e||(s[e]=n._S(1,s[e-3]^s[e-8]^s[e-14]^s[e-16]));const t=n._S(5,i)+n._f(e,o,c,l)+u+s[e]+n._key[a.floor(e/20)]|0;u=l,l=c,c=n._S(30,o),o=i,i=t}r[0]=r[0]+i|0,r[1]=r[1]+o|0,r[2]=r[2]+c|0,r[3]=r[3]+l|0,r[4]=r[4]+u|0}},s=[[],[]];n._baseHash=[new r,new r];const i=n._baseHash[0].blockSize/32;e.length>i&&(e=r.hash(e));for(let t=0;i>t;t++)s[0][t]=909522486^e[t],s[1][t]=1549556828^e[t];n._baseHash[0].update(s[0]),n._baseHash[1].update(s[1]),n._resultHash=new r(n._baseHash[0])}reset(){const e=this;e._resultHash=new e._hash(e._baseHash[0]),e._updated=!1}update(e){this._updated=!0,this._resultHash.update(e)}digest(){const e=this,t=e._resultHash.finalize(),n=new e._hash(e._baseHash[1]).update(t).finalize();return e.reset(),n}encrypt(e){if(this._updated)throw new l("encrypt on already updated hmac called!");return this.update(e),this.digest(e)}}},Me=void 0!==b&&"function"==typeof b.getRandomValues,Pe="Invalid password",Be="Invalid signature";function Ve(e){return Me?b.getRandomValues(e):Oe.getRandomValues(e)}const He=16,qe={name:"PBKDF2"},Ke=n.assign({hash:{name:"HMAC"}},qe),Ze=n.assign({iterations:1e3,hash:{name:"SHA-1"}},qe),Ye=["deriveBits"],je=[8,12,16],Ge=[16,24,32],Xe=10,Je=[0,0,0,0],Qe="undefined",$e="function",et=typeof b!=Qe,tt=et&&b.subtle,nt=et&&typeof tt!=Qe,rt=Le.bytes,st=class{constructor(e){const t=this;t._tables=[[[],[],[],[],[]],[[],[],[],[],[]]],t._tables[0][0][0]||t._precompute();const n=t._tables[0][4],r=t._tables[1],s=e.length;let a,i,o,c=1;if(4!==s&&6!==s&&8!==s)throw new l("invalid aes key size");for(t._key=[i=e.slice(0),o=[]],a=s;4*s+28>a;a++){let e=i[a-1];(a%s==0||8===s&&a%s==4)&&(e=n[e>>>24]<<24^n[e>>16&255]<<16^n[e>>8&255]<<8^n[255&e],a%s==0&&(e=e<<8^e>>>24^c<<24,c=c<<1^283*(c>>7))),i[a]=i[a-s]^e}for(let e=0;a;e++,a--){const t=i[3&e?a:a-4];o[e]=4>=a||4>e?t:r[0][n[t>>>24]]^r[1][n[t>>16&255]]^r[2][n[t>>8&255]]^r[3][n[255&t]]}}encrypt(e){return this._crypt(e,0)}decrypt(e){return this._crypt(e,1)}_precompute(){const e=this._tables[0],t=this._tables[1],n=e[4],r=t[4],s=[],a=[];let i,o,c,l;for(let e=0;256>e;e++)a[(s[e]=e<<1^283*(e>>7))^e]=e;for(let u=i=0;!n[u];u^=o||1,i=a[i]||1){let a=i^i<<1^i<<2^i<<3^i<<4;a=a>>8^255&a^99,n[u]=a,r[a]=u,l=s[c=s[o=s[u]]];let f=16843009*l^65537*c^257*o^16843008*u,h=257*s[a]^16843008*a;for(let n=0;4>n;n++)e[n][u]=h=h<<24^h>>>8,t[n][a]=f=f<<24^f>>>8}for(let n=0;5>n;n++)e[n]=e[n].slice(0),t[n]=t[n].slice(0)}_crypt(e,t){if(4!==e.length)throw new l("invalid aes block size");const n=this._key[t],r=n.length/4-2,s=[0,0,0,0],a=this._tables[t],i=a[0],o=a[1],c=a[2],u=a[3],f=a[4];let h,d,p,w=e[0]^n[0],g=e[t?3:1]^n[1],m=e[2]^n[2],y=e[t?1:3]^n[3],b=4;for(let e=0;r>e;e++)h=i[w>>>24]^o[g>>16&255]^c[m>>8&255]^u[255&y]^n[b],d=i[g>>>24]^o[m>>16&255]^c[y>>8&255]^u[255&w]^n[b+1],p=i[m>>>24]^o[y>>16&255]^c[w>>8&255]^u[255&g]^n[b+2],y=i[y>>>24]^o[w>>16&255]^c[g>>8&255]^u[255&m]^n[b+3],b+=4,w=h,g=d,m=p;for(let e=0;4>e;e++)s[t?3&-e:e]=f[w>>>24]<<24^f[g>>16&255]<<16^f[m>>8&255]<<8^f[255&y]^n[b++],h=w,w=g,g=m,m=y,y=h;return s}},at=class{constructor(e,t){this._prf=e,this._initIv=t,this._iv=t}reset(){this._iv=this._initIv}update(e){return this.calculate(this._prf,e,this._iv)}incWord(e){if(255==(e>>24&255)){let t=e>>16&255,n=e>>8&255,r=255&e;255===t?(t=0,255===n?(n=0,255===r?r=0:++r):++n):++t,e=0,e+=t<<16,e+=n<<8,e+=r}else e+=1<<24;return e}incCounter(e){0===(e[0]=this.incWord(e[0]))&&(e[1]=this.incWord(e[1]))}calculate(e,t,n){let r;if(!(r=t.length))return[];const s=Ne.bitLength(t);for(let s=0;r>s;s+=4){this.incCounter(n);const r=e.encrypt(n);t[s]^=r[0],t[s+1]^=r[1],t[s+2]^=r[2],t[s+3]^=r[3]}return Ne.clamp(t,s)}},it=Ie.hmacSha1;let ot=et&&nt&&typeof tt.importKey==$e,ct=et&&nt&&typeof tt.deriveBits==$e;class lt extends S{constructor({password:e,signed:t,encryptionStrength:r}){super({start(){n.assign(this,{ready:new w((e=>this.resolveReady=e)),password:e,signed:t,strength:r-1,pending:new u})},async transform(e,t){const n=this,{password:r,strength:s,resolveReady:a,ready:i}=n;r?(await(async(e,t,n,r)=>{const s=await ht(e,t,n,pt(r,0,je[t])),a=pt(r,je[t]);if(s[0]!=a[0]||s[1]!=a[1])throw new l(Pe)})(n,s,r,pt(e,0,je[s]+2)),e=pt(e,je[s]+2),a()):await i;const o=new u(e.length-Xe-(e.length-Xe)%He);t.enqueue(ft(n,e,o,0,Xe,!0))},async flush(e){const{signed:t,ctr:n,hmac:r,pending:s,ready:a}=this;await a;const i=pt(s,0,s.length-Xe),o=pt(s,s.length-Xe);let c=new u;if(i.length){const e=gt(rt,i);r.update(e);const t=n.update(e);c=wt(rt,t)}if(t){const e=pt(wt(rt,r.digest()),0,Xe);for(let t=0;Xe>t;t++)if(e[t]!=o[t])throw new l(Be)}e.enqueue(c)}})}}class ut extends S{constructor({password:e,encryptionStrength:t}){let r;super({start(){n.assign(this,{ready:new w((e=>this.resolveReady=e)),password:e,strength:t-1,pending:new u})},async transform(e,t){const n=this,{password:r,strength:s,resolveReady:a,ready:i}=n;let o=new u;r?(o=await(async(e,t,n)=>{const r=Ve(new u(je[t]));return dt(r,await ht(e,t,n,r))})(n,s,r),a()):await i;const c=new u(o.length+e.length-e.length%He);c.set(o,0),t.enqueue(ft(n,e,c,o.length,0))},async flush(e){const{ctr:t,hmac:n,pending:s,ready:a}=this;await a;let i=new u;if(s.length){const e=t.update(gt(rt,s));n.update(e),i=wt(rt,e)}r.signature=wt(rt,n.digest()).slice(0,Xe),e.enqueue(dt(i,r.signature))}}),r=this}}function ft(e,t,n,r,s,a){const{ctr:i,hmac:o,pending:c}=e,l=t.length-s;let f;for(c.length&&(t=dt(c,t),n=((e,t)=>{if(t&&t>e.length){const n=e;(e=new u(t)).set(n,0)}return e})(n,l-l%He)),f=0;l-He>=f;f+=He){const e=gt(rt,pt(t,f,f+He));a&&o.update(e);const s=i.update(e);a||o.update(s),n.set(wt(rt,s),f+r)}return e.pending=pt(t,f),n}async function ht(e,r,s,a){e.password=null;const i=(e=>{if(void 0===g){const t=new u((e=unescape(encodeURIComponent(e))).length);for(let n=0;n<t.length;n++)t[n]=e.charCodeAt(n);return t}return(new g).encode(e)})(s),o=await(async(e,t,n,r,s)=>{if(!ot)return Ie.importKey(t);try{return await tt.importKey("raw",t,n,!1,s)}catch(e){return ot=!1,Ie.importKey(t)}})(0,i,Ke,0,Ye),c=await(async(e,t,n)=>{if(!ct)return Ie.pbkdf2(t,e.salt,Ze.iterations,n);try{return await tt.deriveBits(e,t,n)}catch(r){return ct=!1,Ie.pbkdf2(t,e.salt,Ze.iterations,n)}})(n.assign({salt:a},Ze),o,8*(2*Ge[r]+2)),l=new u(c),f=gt(rt,pt(l,0,Ge[r])),h=gt(rt,pt(l,Ge[r],2*Ge[r])),d=pt(l,2*Ge[r]);return n.assign(e,{keys:{key:f,authentication:h,passwordVerification:d},ctr:new at(new st(f),t.from(Je)),hmac:new it(h)}),d}function dt(e,t){let n=e;return e.length+t.length&&(n=new u(e.length+t.length),n.set(e,0),n.set(t,e.length)),n}function pt(e,t,n){return e.subarray(t,n)}function wt(e,t){return e.fromBits(t)}function gt(e,t){return e.toBits(t)}class mt extends S{constructor({password:e,passwordVerification:t}){super({start(){n.assign(this,{password:e,passwordVerification:t}),St(this,e)},transform(e,t){const n=this;if(n.password){const t=bt(n,e.subarray(0,12));if(n.password=null,t[11]!=n.passwordVerification)throw new l(Pe);e=e.subarray(12)}t.enqueue(bt(n,e))}})}}class yt extends S{constructor({password:e,passwordVerification:t}){super({start(){n.assign(this,{password:e,passwordVerification:t}),St(this,e)},transform(e,t){const n=this;let r,s;if(n.password){n.password=null;const t=Ve(new u(12));t[11]=n.passwordVerification,r=new u(e.length+t.length),r.set(vt(n,t),0),s=12}else r=new u(e.length),s=0;r.set(vt(n,e),s),t.enqueue(r)}})}}function bt(e,t){const n=new u(t.length);for(let r=0;r<t.length;r++)n[r]=_t(e)^t[r],kt(e,n[r]);return n}function vt(e,t){const n=new u(t.length);for(let r=0;r<t.length;r++)n[r]=_t(e)^t[r],kt(e,t[r]);return n}function St(e,t){const r=[305419896,591751049,878082192];n.assign(e,{keys:r,crcKey0:new We(r[0]),crcKey2:new We(r[2])});for(let n=0;n<t.length;n++)kt(e,t.charCodeAt(n))}function kt(e,t){let[n,r,s]=e.keys;e.crcKey0.append([t]),n=~e.crcKey0.get(),r=Dt(a.imul(Dt(r+zt(n)),134775813)+1),e.crcKey2.append([r>>>24]),s=~e.crcKey2.get(),e.keys=[n,r,s]}function _t(e){const t=2|e.keys[2];return zt(a.imul(t,1^t)>>>8)}function zt(e){return 255&e}function Dt(e){return 4294967295&e}const xt="deflate-raw";class Rt extends S{constructor(e,{chunkSize:t,CompressionStream:n,CompressionStreamNative:r}){super({});const{compressed:s,encrypted:a,useCompressionStream:i,zipCrypto:o,signed:c,level:l}=e,u=this;let f,h,p=Ft(super.readable);a&&!o||!c||([p,f]=p.tee(),f=Ut(f,new Ae)),s&&(p=Ct(p,i,{level:l,chunkSize:t},r,n)),a&&(o?p=Ut(p,new yt(e)):(h=new ut(e),p=Ut(p,h))),Tt(u,p,(async()=>{let e;a&&!o&&(e=h.signature),a&&!o||!c||(e=await f.getReader().read(),e=new d(e.value.buffer).getUint32(0)),u.signature=e}))}}class Et extends S{constructor(e,{chunkSize:t,DecompressionStream:n,DecompressionStreamNative:r}){super({});const{zipCrypto:s,encrypted:a,signed:i,signature:o,compressed:c,useCompressionStream:u}=e;let f,h,p=Ft(super.readable);a&&(s?p=Ut(p,new mt(e)):(h=new lt(e),p=Ut(p,h))),c&&(p=Ct(p,u,{chunkSize:t},r,n)),a&&!s||!i||([p,f]=p.tee(),f=Ut(f,new Ae)),Tt(this,p,(async()=>{if((!a||s)&&i){const e=await f.getReader().read(),t=new d(e.value.buffer);if(o!=t.getUint32(0,!1))throw new l(Be)}}))}}function Ft(e){return Ut(e,new S({transform(e,t){e&&e.length&&t.enqueue(e)}}))}function Tt(e,t,r){t=Ut(t,new S({flush:r})),n.defineProperty(e,"readable",{get:()=>t})}function Ct(e,t,n,r,s){try{e=Ut(e,new(t&&r?r:s)(xt,n))}catch(r){if(!t)throw r;e=Ut(e,new s(xt,n))}return e}function Ut(e,t){return e.pipeThrough(t)}const Wt="data",At="inflate";class Nt extends S{constructor(e,t){super({});const r=this,{codecType:s}=e;let a;s.startsWith("deflate")?a=Rt:s.startsWith(At)&&(a=Et);let i=0;const o=new a(e,t),c=super.readable,l=new S({transform(e,t){e&&e.length&&(i+=e.length,t.enqueue(e))},flush(){const{signature:e}=o;n.assign(r,{signature:e,size:i})}});n.defineProperty(r,"readable",{get:()=>c.pipeThrough(o).pipeThrough(l)})}}const Lt=typeof Worker!=ze;class Ot{constructor(e,{readable:t,writable:r},{options:s,config:a,streamOptions:i,useWebWorkers:o,transferStreams:c,scripts:l},u){const{signal:f}=i;return n.assign(e,{busy:!0,readable:t.pipeThrough(new It(t,i,a),{signal:f}),writable:r,options:n.assign({},s),scripts:l,transferStreams:c,terminate(){const{worker:t,busy:n}=e;t&&!n&&(t.terminate(),e.interface=null)},onTaskFinished(){e.busy=!1,u(e)}}),(o&&Lt?Bt:Pt)(e,a)}}class It extends S{constructor(e,{onstart:t,onprogress:n,size:r,onend:s},{chunkSize:a}){let i=0;super({start(){t&&Mt(t,r)},async transform(e,t){i+=e.length,n&&await Mt(n,i,r),t.enqueue(e)},flush(){e.size=i,s&&Mt(s,i)}},{highWaterMark:1,size:()=>a})}}async function Mt(e,...t){try{await e(...t)}catch(e){}}function Pt(e,t){return{run:()=>(async({options:e,readable:t,writable:n,onTaskFinished:r},s)=>{const a=new Nt(e,s);try{await t.pipeThrough(a).pipeTo(n,{preventClose:!0,preventAbort:!0});const{signature:e,size:r}=a;return{signature:e,size:r}}finally{r()}})(e,t)}}function Bt(e,{baseURL:t,chunkSize:r}){return e.interface||n.assign(e,{worker:qt(e.scripts[0],t,e),interface:{run:()=>(async(e,t)=>{let r,s;const a=new w(((e,t)=>{r=e,s=t}));n.assign(e,{reader:null,writer:null,resolveResult:r,rejectResult:s,result:a});const{readable:i,options:o,scripts:c}=e,{writable:l,closed:u}=(e=>{const t=e.getWriter();let n;const r=new w((e=>n=e));return{writable:new _({async write(e){await t.ready,await t.write(e)},close(){t.releaseLock(),n()},abort:e=>t.abort(e)}),closed:r}})(e.writable);Kt({type:"start",scripts:c.slice(1),options:o,config:t,readable:i,writable:l},e)||n.assign(e,{reader:i.getReader(),writer:l.getWriter()});const f=await a;try{await l.close()}catch(e){}return await u,f})(e,{chunkSize:r})}}),e.interface}let Vt=!0,Ht=!0;function qt(e,t,r){const s={type:"module"};let a,i;typeof e==De&&(e=e());try{a=new c(e,t)}catch(t){a=e}if(Vt)try{i=new Worker(a)}catch(e){Vt=!1,i=new Worker(a,s)}else i=new Worker(a,s);return i.addEventListener("message",(e=>(async({data:e},t)=>{const{type:r,value:s,messageId:a,result:i,error:o}=e,{reader:c,writer:f,resolveResult:h,rejectResult:d,onTaskFinished:p}=t;try{if(o){const{message:e,stack:t,code:r,name:s}=o,a=new l(e);n.assign(a,{stack:t,code:r,name:s}),w(a)}else{if("pull"==r){const{value:e,done:n}=await c.read();Kt({type:Wt,value:e,done:n,messageId:a},t)}r==Wt&&(await f.ready,await f.write(new u(s)),Kt({type:"ack",messageId:a},t)),"close"==r&&w(null,i)}}catch(o){w(o)}function w(e,t){e?d(e):h(t),f&&f.releaseLock(),p()}})(e,r))),i}function Kt(e,{worker:t,writer:n,onTaskFinished:r,transferStreams:s}){try{let{value:r,readable:a,writable:i}=e;const o=[];if(r){const{buffer:t,length:n}=r;n!=t.byteLength&&(r=new u(r)),e.value=r.buffer,o.push(e.value)}if(s&&Ht?(a&&o.push(a),i&&o.push(i)):e.readable=e.writable=null,o.length)try{return t.postMessage(e,o),!0}catch(n){Ht=!1,e.readable=e.writable=null,t.postMessage(e)}else t.postMessage(e)}catch(e){throw n&&n.releaseLock(),r(),e}}let Zt=[];const Yt=[];let jt=0;function Gt(e){const{terminateTimeout:t}=e;t&&(clearTimeout(t),e.terminateTimeout=null)}const Xt=65536,Jt="writable";class Qt{constructor(){this.size=0}init(){this.initialized=!0}}class $t extends Qt{get readable(){const e=this,{chunkSize:t=Xt}=e,n=new k({start(){this.chunkOffset=0},async pull(r){const{offset:s=0,size:i,diskNumberStart:o}=n,{chunkOffset:c}=this;r.enqueue(await cn(e,s+c,a.min(t,i-c),o)),c+t>i?r.close():this.chunkOffset+=t}});return n}}class en extends Qt{constructor(){super();const e=this,t=new _({write:t=>e.writeUint8Array(t)});n.defineProperty(e,Jt,{get:()=>t})}writeUint8Array(){}}class tn extends $t{constructor(e){super(),n.assign(this,{blob:e,size:e.size})}async readUint8Array(e,t){const n=this,r=e+t,s=e||r<n.size?n.blob.slice(e,r):n.blob;return new u(await s.arrayBuffer())}}class nn extends Qt{constructor(e){super();const t=new S,r=[];e&&r.push(["Content-Type",e]),n.defineProperty(this,Jt,{get:()=>t.writable}),this.blob=new Response(t.readable,{headers:r}).blob()}getData(){return this.blob}}class rn extends $t{constructor(e){super(),this.readers=e}async init(){super.init();const e=this,{readers:t}=e;e.lastDiskNumber=0,await w.all(t.map((async t=>{await t.init(),e.size+=t.size})))}async readUint8Array(e,t,n=0){const r=this,{readers:s}=this;let i,o=n;-1==o&&(o=s.length-1);let c=e;for(;c>=s[o].size;)c-=s[o].size,o++;const l=s[o],f=l.size;if(c+t>f){const s=f-c;i=new u(t),i.set(await cn(l,c,s)),i.set(await r.readUint8Array(e+s,t-s,n),s)}else i=await cn(l,c,t);return r.lastDiskNumber=a.max(o,r.lastDiskNumber),i}}class sn extends Qt{constructor(e,t=4294967295){super();const r=this;let s,a,i;n.assign(r,{diskNumber:0,diskOffset:0,size:0,maxSize:t,availableSize:t});const o=new _({async write(t){const{availableSize:n}=r;if(i)t.length<n?await c(t):(await c(t.slice(0,n)),await u(),r.diskOffset+=s.size,r.diskNumber++,i=null,await this.write(t.slice(n)));else{const{value:n,done:o}=await e.next();if(o&&!n)throw new l("Writer iterator completed too soon");s=n,s.size=0,s.maxSize&&(r.maxSize=s.maxSize),r.availableSize=r.maxSize,await an(s),a=n.writable,i=a.getWriter(),await this.write(t)}},async close(){await i.ready,await u()}});async function c(e){const t=e.length;t&&(await i.ready,await i.write(e),s.size+=t,r.size+=t,r.availableSize-=t)}async function u(){a.size=s.size,await i.close()}n.defineProperty(r,Jt,{get:()=>o})}}async function an(e,t){e.init&&!e.initialized&&await e.init(t)}function on(e){return t.isArray(e)&&(e=new rn(e)),e instanceof k&&(e={readable:e}),e}function cn(e,t,n,r){return e.readUint8Array(t,n,r)}const ln="\0â˜ºâ˜»â™¥â™¦â™£â™ â€¢â—˜â—‹â—™â™‚â™€â™ªâ™«â˜¼â–ºâ—„â†•â€¼Â¶Â§â–¬â†¨â†‘â†“â†’â†âˆŸâ†”â–²â–¼ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~âŒ‚Ã‡Ã¼Ã©Ã¢Ã¤Ã Ã¥Ã§ÃªÃ«Ã¨Ã¯Ã®Ã¬Ã„Ã…Ã‰Ã¦Ã†Ã´Ã¶Ã²Ã»Ã¹Ã¿Ã–ÃœÂ¢Â£Â¥â‚§Æ’Ã¡Ã­Ã³ÃºÃ±Ã‘ÂªÂºÂ¿âŒÂ¬Â½Â¼Â¡Â«Â»â–‘â–’â–“â”‚â”¤â•¡â•¢â•–â••â•£â•‘â•—â•â•œâ•›â”â””â”´â”¬â”œâ”€â”¼â•â•Ÿâ•šâ•”â•©â•¦â• â•â•¬â•§â•¨â•¤â•¥â•™â•˜â•’â•“â•«â•ªâ”˜â”Œâ–ˆâ–„â–Œâ–â–€Î±ÃŸÎ“Ï€Î£ÏƒÂµÏ„Î¦Î˜Î©Î´âˆÏ†Îµâˆ©â‰¡Â±â‰¥â‰¤âŒ âŒ¡Ã·â‰ˆÂ°âˆ™Â·âˆšâ¿Â²â–  ".split("");function un(e,t){return t&&"cp437"==t.trim().toLowerCase()?(e=>{{let t="";for(let n=0;n<e.length;n++)t+=ln[e[n]];return t}})(e):new m(t).decode(e)}const fn="filename",hn="rawFilename",dn="comment",pn="rawComment",wn="uncompressedSize",gn="compressedSize",mn="offset",yn="diskNumberStart",bn="lastModDate",vn="rawLastModDate",Sn="lastAccessDate",kn="creationDate",_n=[fn,hn,gn,wn,bn,vn,dn,pn,Sn,kn,mn,yn,yn,"internalFileAttribute","externalFileAttribute","msDosCompatible","zip64","directory","bitFlag","encrypted","signature","filenameUTF8","commentUTF8","compressionMethod","version","versionMadeBy","extraField","rawExtraField","extraFieldZip64","extraFieldUnicodePath","extraFieldUnicodeComment","extraFieldAES","extraFieldNTFS","extraFieldExtendedTimestamp"];class zn{constructor(e){_n.forEach((t=>this[t]=e[t]))}}const Dn="File format is not recognized",xn="End of central directory not found",Rn="End of Zip64 central directory not found",En="End of Zip64 central directory locator not found",Fn="Central directory header not found",Tn="Local file header not found",Cn="Zip64 extra field not found",Un="File contains encrypted entry",Wn="Encryption method not supported",An="Compression method not supported",Nn="Split zip file",Ln="utf-8",On="cp437",In=[[wn,be],[gn,be],[mn,be],[yn,ve]],Mn={[ve]:{getValue:Gn,bytes:4},[be]:{getValue:Xn,bytes:8}};class Pn{constructor(e,t,r){n.assign(this,{reader:e,config:t,options:r})}async getData(e,t,r={}){const s=this,{reader:a,offset:i,diskNumberStart:o,extraFieldAES:c,compressionMethod:f,config:h,bitFlag:d,signature:p,rawLastModDate:g,uncompressedSize:m,compressedSize:y}=s,b=s.localDirectory={},v=Jn(await cn(a,i,30,o));let S=qn(s,r,"password");if(S=S&&S.length&&S,c&&99!=c.originalCompressionMethod)throw new l(An);if(0!=f&&8!=f)throw new l(An);if(67324752!=Gn(v,0))throw new l(Tn);Bn(b,v,4),b.rawExtraField=b.extraFieldLength?await cn(a,i+30+b.filenameLength,b.extraFieldLength,o):new u,await Vn(s,b,v,4),n.assign(t,{lastAccessDate:b.lastAccessDate,creationDate:b.creationDate});const k=s.encrypted&&b.encrypted,z=k&&!c;if(k){if(!z&&c.strength===_e)throw new l(Wn);if(!S)throw new l(Un)}const D=i+30+b.filenameLength+b.extraFieldLength,x=a.readable;x.diskNumberStart=o,x.offset=D;const R=x.size=y,E=qn(s,r,"signal");e=(e=>{e.writable===_e&&typeof e.next==De&&(e=new sn(e)),e instanceof _&&(e={writable:e});const{writable:t}=e;return t.size===_e&&(t.size=0),e instanceof sn||n.assign(e,{diskNumber:0,diskOffset:0,availableSize:1/0,maxSize:1/0}),e})(e),await an(e,m);const{writable:F}=e,{onstart:T,onprogress:C,onend:U}=r,W={options:{codecType:At,password:S,zipCrypto:z,encryptionStrength:c&&c.strength,signed:qn(s,r,"checkSignature"),passwordVerification:z&&(d.dataDescriptor?g>>>8&255:p>>>24&255),signature:p,compressed:0!=f,encrypted:k,useWebWorkers:qn(s,r,"useWebWorkers"),useCompressionStream:qn(s,r,"useCompressionStream"),transferStreams:qn(s,r,"transferStreams")},config:h,streamOptions:{signal:E,size:R,onstart:T,onprogress:C,onend:U}};return F.size+=(await(async(e,t)=>{const{options:n,config:r}=t,{transferStreams:s,useWebWorkers:a,useCompressionStream:i,codecType:o,compressed:c,signed:l,encrypted:u}=n,{workerScripts:f,maxWorkers:h,terminateWorkerTimeout:d}=r;t.transferStreams=s||s===_e;const p=!(c||l||u||t.transferStreams);let g;t.useWebWorkers=!p&&(a||a===_e&&r.useWebWorkers),t.scripts=t.useWebWorkers&&f?f[o]:[],n.useCompressionStream=i||i===_e&&r.useCompressionStream;const m=Zt.find((e=>!e.busy));if(m)Gt(m),g=new Ot(m,e,t,y);else if(Zt.length<h){const n={indexWorker:jt};jt++,Zt.push(n),g=new Ot(n,e,t,y)}else g=await new w((n=>Yt.push({resolve:n,stream:e,workerOptions:t})));return g.run();function y(e){if(Yt.length){const[{resolve:t,stream:n,workerOptions:r}]=Yt.splice(0,1);t(new Ot(e,n,r,y))}else e.worker?(Gt(e),Number.isFinite(d)&&d>=0&&(e.terminateTimeout=setTimeout((()=>{Zt=Zt.filter((t=>t!=e)),e.terminate()}),d))):Zt=Zt.filter((t=>t!=e))}})({readable:x,writable:F},W)).size,qn(s,r,"preventClose")||await F.close(),e.getData?e.getData():F}}function Bn(e,t,r){const s=e.rawBitFlag=jn(t,r+2),a=1==(1&s),i=Gn(t,r+6);n.assign(e,{encrypted:a,version:jn(t,r),bitFlag:{level:(6&s)>>1,dataDescriptor:8==(8&s),languageEncodingFlag:2048==(2048&s)},rawLastModDate:i,lastModDate:Kn(i),filenameLength:jn(t,r+22),extraFieldLength:jn(t,r+24)})}async function Vn(e,t,r,s){const{rawExtraField:a}=t,c=t.extraField=new o,f=Jn(new u(a));let h=0;try{for(;h<a.length;){const e=jn(f,h),t=jn(f,h+2);c.set(e,{type:e,data:a.slice(h+4,h+4+t)}),h+=4+t}}catch(e){}const d=jn(r,s+4);n.assign(t,{signature:Gn(r,s+10),uncompressedSize:Gn(r,s+18),compressedSize:Gn(r,s+14)});const p=c.get(1);p&&(((e,t)=>{t.zip64=!0;const n=Jn(e.data),r=In.filter((([e,n])=>t[e]==n));for(let s=0,a=0;s<r.length;s++){const[i,o]=r[s];if(t[i]==o){const r=Mn[o];t[i]=e[i]=r.getValue(n,a),a+=r.bytes}else if(e[i])throw new l(Cn)}})(p,t),t.extraFieldZip64=p);const w=c.get(28789);w&&(await Hn(w,fn,hn,t,e),t.extraFieldUnicodePath=w);const g=c.get(25461);g&&(await Hn(g,dn,pn,t,e),t.extraFieldUnicodeComment=g);const m=c.get(39169);m?(((e,t,r)=>{const s=Jn(e.data),a=Yn(s,4);n.assign(e,{vendorVersion:Yn(s,0),vendorId:Yn(s,2),strength:a,originalCompressionMethod:r,compressionMethod:jn(s,5)}),t.compressionMethod=e.compressionMethod})(m,t,d),t.extraFieldAES=m):t.compressionMethod=d;const y=c.get(10);y&&(((e,t)=>{const r=Jn(e.data);let s,a=4;try{for(;a<e.data.length&&!s;){const t=jn(r,a),n=jn(r,a+2);1==t&&(s=e.data.slice(a+4,a+4+n)),a+=4+n}}catch(e){}try{if(s&&24==s.length){const r=Jn(s),a=r.getBigUint64(0,!0),i=r.getBigUint64(8,!0),o=r.getBigUint64(16,!0);n.assign(e,{rawLastModDate:a,rawLastAccessDate:i,rawCreationDate:o});const c={lastModDate:Zn(a),lastAccessDate:Zn(i),creationDate:Zn(o)};n.assign(e,c),n.assign(t,c)}}catch(e){}})(y,t),t.extraFieldNTFS=y);const b=c.get(21589);b&&(((e,t)=>{const n=Jn(e.data),r=Yn(n,0),s=[],a=[];1==(1&r)&&(s.push(bn),a.push(vn)),2==(2&r)&&(s.push(Sn),a.push("rawLastAccessDate")),4==(4&r)&&(s.push(kn),a.push("rawCreationDate"));let o=1;s.forEach(((r,s)=>{if(e.data.length>=o+4){const c=Gn(n,o);t[r]=e[r]=new i(1e3*c);const l=a[s];e[l]=c}o+=4}))})(b,t),t.extraFieldExtendedTimestamp=b)}async function Hn(e,t,r,s,a){const i=Jn(e.data),o=new We;o.append(a[r]);const c=Jn(new u(4));c.setUint32(0,o.get(),!0),n.assign(e,{version:Yn(i,0),signature:Gn(i,1),[t]:await un(e.data.subarray(5)),valid:!a.bitFlag.languageEncodingFlag&&e.signature==Gn(c,0)}),e.valid&&(s[t]=e[t],s[t+"UTF8"]=!0)}function qn(e,t,n){return t[n]===_e?e.options[n]:t[n]}function Kn(e){const t=(4294901760&e)>>16,n=65535&e;try{return new i(1980+((65024&t)>>9),((480&t)>>5)-1,31&t,(63488&n)>>11,(2016&n)>>5,2*(31&n),0)}catch(e){}}function Zn(e){return new i(Number(e/s(1e4)-s(116444736e5)))}function Yn(e,t){return e.getUint8(t)}function jn(e,t){return e.getUint16(t,!0)}function Gn(e,t){return e.getUint32(t,!0)}function Xn(e,t){return Number(e.getBigUint64(t,!0))}function Jn(e){return new d(e.buffer)}Te({Inflate:ye}),e.BlobReader=tn,e.BlobWriter=nn,e.Data64URIWriter=class extends en{constructor(e){super(),n.assign(this,{data:"data:"+(e||"")+";base64,",pending:[]})}writeUint8Array(e){const t=this;let n=0,s=t.pending;const i=t.pending.length;for(t.pending="",n=0;n<3*a.floor((i+e.length)/3)-i;n++)s+=r.fromCharCode(e[n]);for(;n<e.length;n++)t.pending+=r.fromCharCode(e[n]);s.length>2?t.data+=v(s):t.pending=s}getData(){return this.data+v(this.pending)}},e.ERR_BAD_FORMAT=Dn,e.ERR_CENTRAL_DIRECTORY_NOT_FOUND=Fn,e.ERR_ENCRYPTED=Un,e.ERR_EOCDR_LOCATOR_ZIP64_NOT_FOUND=En,e.ERR_EOCDR_NOT_FOUND=xn,e.ERR_EOCDR_ZIP64_NOT_FOUND=Rn,e.ERR_EXTRAFIELD_ZIP64_NOT_FOUND=Cn,e.ERR_INVALID_PASSWORD=Pe,e.ERR_INVALID_SIGNATURE=Be,e.ERR_LOCAL_FILE_HEADER_NOT_FOUND=Tn,e.ERR_SPLIT_ZIP_FILE=Nn,e.ERR_UNSUPPORTED_COMPRESSION=An,e.ERR_UNSUPPORTED_ENCRYPTION=Wn,e.TextWriter=class extends nn{constructor(e){super(e),n.assign(this,{encoding:e,utf8:!e||"utf-8"==e.toLowerCase()})}async getData(){const{encoding:e,utf8:t}=this,r=await super.getData();if(r.text&&t)return r.text();{const t=new FileReader;return new w(((s,a)=>{n.assign(t,{onload:({target:e})=>s(e.result),onerror:()=>a(t.error)}),t.readAsText(r,e)}))}}},e.ZipReader=class{constructor(e,t={}){n.assign(this,{reader:on(e),options:t,config:Fe})}async*getEntriesGenerator(e={}){const t=this;let{reader:r}=t;const{config:s}=t;if(await an(r),r.size!==_e&&r.readUint8Array||(r=new tn(await new Response(r.readable).blob()),await an(r)),22>r.size)throw new l(Dn);r.chunkSize=(e=>a.max(e.chunkSize,64))(s);const i=await(async(e,t,n)=>{const r=new u(4);return Jn(r).setUint32(0,101010256,!0),await s(22)||await s(a.min(1048582,n));async function s(t){const s=n-t,a=await cn(e,s,t);for(let e=a.length-22;e>=0;e--)if(a[e]==r[0]&&a[e+1]==r[1]&&a[e+2]==r[2]&&a[e+3]==r[3])return{offset:s+e,buffer:a.slice(e,e+22).buffer}}})(r,0,r.size);if(!i)throw 134695760==Gn(Jn(await cn(r,0,4)))?new l(Nn):new l(xn);const o=Jn(i);let c=Gn(o,12),f=Gn(o,16);const h=i.offset,d=jn(o,20),p=h+22+d;let g=jn(o,4);const m=r.lastDiskNumber||0;let y=jn(o,6),b=jn(o,8),v=0,S=0;if(f==be||c==be||b==ve||y==ve){const e=Jn(await cn(r,i.offset-20,20));if(117853008!=Gn(e,0))throw new l(Rn);f=Xn(e,8);let t=await cn(r,f,56,-1),n=Jn(t);const s=i.offset-20-56;if(Gn(n,0)!=ke&&f!=s){const e=f;f=s,v=f-e,t=await cn(r,f,56,-1),n=Jn(t)}if(Gn(n,0)!=ke)throw new l(En);g==ve&&(g=Gn(n,16)),y==ve&&(y=Gn(n,20)),b==ve&&(b=Xn(n,32)),c==be&&(c=Xn(n,40)),f-=c}if(m!=g)throw new l(Nn);if(0>f||f>=r.size)throw new l(Dn);let k=0,_=await cn(r,f,c,y),z=Jn(_);if(c){const e=i.offset-c;if(Gn(z,k)!=Se&&f!=e){const t=f;f=e,v=f-t,_=await cn(r,f,c,y),z=Jn(_)}}if(0>f||f>=r.size)throw new l(Dn);const D=qn(t,e,"filenameEncoding"),x=qn(t,e,"commentEncoding");for(let i=0;b>i;i++){const o=new Pn(r,s,t.options);if(Gn(z,k)!=Se)throw new l(Fn);Bn(o,z,k+6);const c=!!o.bitFlag.languageEncodingFlag,u=k+46,f=u+o.filenameLength,h=f+o.extraFieldLength,d=jn(z,k+4),p=0==(0&d),g=_.subarray(u,f),m=jn(z,k+32),y=h+m,R=_.subarray(h,y),E=c,F=c,T=p&&16==(16&Yn(z,k+38)),C=Gn(z,k+42)+v;n.assign(o,{versionMadeBy:d,msDosCompatible:p,compressedSize:0,uncompressedSize:0,commentLength:m,directory:T,offset:C,diskNumberStart:jn(z,k+34),internalFileAttribute:jn(z,k+36),externalFileAttribute:Gn(z,k+38),rawFilename:g,filenameUTF8:E,commentUTF8:F,rawExtraField:_.subarray(f,h)});const[U,W]=await w.all([un(g,E?Ln:D||On),un(R,F?Ln:x||On)]);n.assign(o,{rawComment:R,filename:U,comment:W,directory:T||U.endsWith("/")}),S=a.max(C,S),await Vn(o,o,z,k+6);const A=new zn(o);A.getData=(e,t)=>o.getData(e,A,t),k=y;const{onprogress:N}=e;if(N)try{await N(i+1,b,new zn(o))}catch(e){}yield A}const R=qn(t,e,"extractPrependedData"),E=qn(t,e,"extractAppendedData");return R&&(t.prependedData=S>0?await cn(r,0,S):new u),t.comment=d?await cn(r,h+22,d):new u,E&&(t.appendedData=p<r.size?await cn(r,p,r.size-p):new u),!0}async getEntries(e={}){const t=[];for await(const n of this.getEntriesGenerator(e))t.push(n);return t}async close(){}},e.configure=Te,e.getMimeType=()=>"application/octet-stream",e.terminateWorkers=()=>{Zt.forEach((e=>{Gt(e),e.terminate()}))},n.defineProperty(e,"__esModule",{value:!0})},"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).zip={});
+globalThis.bootstrap=(()=>{let bootstrapStarted;return async content=>{if (bootstrapStarted) return bootstrapStarted;bootstrapStarted = (async function Zr(e,{password:t,prompt:n=(()=>{}),shadowRootScriptURL:r,zipOptions:a={useWebWorkers:!1},noBlobURL:i}={}){const o={gif:"image/gif",jpg:"image/jpeg",png:"image/png",tif:"image/tiff",tiff:"image/tiff",bmp:"image/bmp",ico:"image/vnd.microsoft.icon",webp:"image/webp",svg:"image/svg+xml",avi:"video/x-msvideo",ogv:"video/ogg",mp4:"video/mp4",mpeg:"video/mpeg",ts:"video/mp2t",webm:"video/webm","3gp":"video/3gpp","3g2":"video/3gpp",mp3:"audio/mpeg",oga:"audio/ogg",mid:"audio/midi",midi:"audio/midi",opus:"audio/opus",wav:"audio/wav",weba:"audio/webm"};Array.isArray(e)&&(e=new Blob([new Uint8Array(e)])),zip.configure(a);const s=new zip.BlobReader(e);let l=[];const c=new zip.ZipReader(s),u=await c.getEntries(),h={password:t};let d,p,m;await Promise.all(u.map((async e=>{let t,r,a,s,c;if(!h.password&&e.bitFlag.encrypted&&(h.password=n("Please enter the password to view the page")),s=e.filename.match(/^([0-9_]+\/)?(.*)$/)[2],e.filename.match(/index\.html$/)||e.filename.match(/stylesheet_[0-9]+\.css/)||e.filename.match(/scripts\/[0-9]+\.js/))t=new zip.TextWriter,a=await e.getData(t,h);else{const t=e.filename.match(/\.([^.]+)/);let n;n=t&&t[1]&&o[t[1]]?o[t[1]]:"application/octet-stream",e.filename.match(/frames\//)||i?r=await e.getData(new zip.Data64URIWriter(n),h):(c=await e.getData(new zip.BlobWriter(n),h),r=URL.createObjectURL(c))}l.push({filename:e.filename,name:s,url:e.comment,content:r,blob:c,textContent:a,parentResources:[]})}))),await c.close(),l=l.sort(((e,t)=>t.filename.length-e.filename.length));const f=/([{}()^$&.*?/+|[\\\\]|\]|-)/g;for(const e of l)if(void 0!==e.textContent){let t="";const n=e.filename.match(/(.*\/)[^/]+$/);n&&n[1]&&(t=n[1]),e.filename.match(/^([0-9_]+\/)?index\.html$/)&&(p=e.textContent);const a=e.filename.match(/scripts\/[0-9]+\.js/);let i;if(a||l.forEach((n=>{if(n.filename.startsWith(t)&&n.filename!=e.filename){const r=n.filename.substring(t.length);if(!r.match(/manifest\.json$/)){const t=new RegExp(r.replace(f,"\\$1"),"g");-1!=e.textContent.search(t)&&(n.parentResources.push(e.filename),e.textContent=e.textContent.replace(t,n.content))}}})),e.filename.match(/stylesheet_[0-9]+\.css/)?i="text/css":a?i="text/javascript":e.filename.match(/index\.html$/)&&(i="text/html",r&&(e.textContent=e.textContent.replace(/<script data-template-shadow-root.*<\/script>/g,"<script data-template-shadow-root src="+r+"><\/script>"))),e.filename.match(/^([0-9_]+\/)?index\.html$/))d=e.textContent,m=e.url;else{const t=new FileReader;e.textContent?(t.readAsDataURL(new Blob([e.textContent],{type:i+";charset=utf-8"})),e.content=await new Promise(((e,n)=>{t.addEventListener("load",(()=>e(t.result)),!1),t.addEventListener("error",n,!1)}))):e.content="data:text/plain,"}}return{docContent:d,origDocContent:p,resources:l,url:m}})(content,{prompt}).then(({docContent}) => async function Qr(e,t,{disableFramePointerEvents:n}={}){const r="data-single-filez-disabled-noscript",a=(new DOMParser).parseFromString(t,"text/html");a.querySelectorAll("noscript:not(["+r+"])").forEach((e=>{e.setAttribute(r,e.innerHTML),e.textContent=""})),a.doctype?e.doctype?e.replaceChild(a.doctype,e.doctype):e.insertBefore(a.doctype,e.documentElement):e.doctype&&e.doctype.remove(),n&&a.querySelectorAll("iframe").forEach((e=>{const t="pointer-events";e.style.setProperty("-sf-"+t,e.style.getPropertyValue(t),e.style.getPropertyPriority(t)),e.style.setProperty(t,"none","important")})),e.replaceChild(e.importNode(a.documentElement,!0),e.documentElement),e.documentElement.setAttribute("data-sfz",""),e.querySelectorAll("link[rel*=icon]").forEach((e=>e.parentElement.replaceChild(e,e))),e.open=e.write=e.close=()=>{};for(let t of Array.from(e.querySelectorAll("script")))await new Promise(((n,r)=>{const a=e.createElement("script");Array.from(t.attributes).forEach((e=>a.setAttribute(e.name,e.value)));const i=""==t.getAttribute("async")||"async"==t.getAttribute("async");t.textContent?a.textContent=t.textContent:i||(a.addEventListener("load",n),a.addEventListener("error",r)),t.parentElement.replaceChild(a,t),(t.textContent||i)&&n()}))}(document,docContent));return bootstrapStarted;}})();(async function la(){const{XMLHttpRequest:e,document:t,setTimeout:n,clearTimeout:r,stop:a}=globalThis,i=new e;let o;return Array.from(t.documentElement.childNodes).forEach((e=>{e!=t.body&&e!=t.head&&e.remove()})),i.responseType="blob",i.open("GET",""),new Promise(((e,t)=>{i.onerror=()=>{o=s("sfz-error-message"),t()},i.send(),i.onload=()=>{o=s("sfz-wait-message"),a(),o&&r(o),e(i.response)}}));function s(e){return n((()=>{t.getElementById(e)&&(Array.from(t.body.childNodes).forEach((t=>{t.id!=e&&t.remove()})),t.body.hidden=!1)}),1500)}})().then(globalThis.bootstrap).catch(()=>{});</script>
+<main hidden>
+In the Beginning Was the Logos
+...
+
+My Worldview
+
+Ken FunkÂ 
+
+15 April 2002
+
+The opinions expressed in
+this essay are my own and do not represent an official position of Oregon
+State University.
+
+
+My worldview is the set of beliefs about fundamental
+aspects of Reality that ground and influence all my perceiving, thinking,
+knowing, and doing (see What is a Worldview?).
+My worldview includes my beliefs about the nature and sources of knowledge
+(my epistemology), my beliefs about the ultimate nature of Reality (my
+metaphysics), my beliefs about the origins and nature of the universe (my
+cosmology), my beliefs about the meaning and purpose of the universe and
+its inhabitants (my teleology), my beliefs about the existence and nature
+of God (my theology), my beliefs about the nature and purpose of Man (my
+anthropology), and my beliefs about the nature of value and the value of
+things (my axiology).
+The general beliefs that are my worldview shape not
+only how I see the world, but also profoundly influence the particular
+beliefs I come to hold, the judgements and decisions I make, and all that
+I think, say, and do. My worldview is so fundamental to what I do, and
+indeed, what I am, that it would be intellectually dishonest for me not
+to offer it for examination. If you are to understand me and to understand
+what I say and do, you must know something of my worldview. So I set it
+forth for you here, not in the form of a lengthy argument, but as a set
+of assertions. I believe them to be true, but I leave it to you to reflect
+on them yourself and judge their validity.
+I am a Christian, and my worldview is a biblical Christian
+worldview. So I have decided to present it in the form of an exposition
+of one of my favorite passages from the Bible, the Prologue to the Gospel
+according to John the Apostle (John 1:1-18, New International Version):
+
+In
+the beginning was the Logos, and the Logos was with God,
+and the Logos was God. He was with God in the beginning.
+Through
+him all things were made; without him nothing was made that has been made.
+In him was life, and that life was the light of men. The light shines in
+the darkness, but the darkness has not understood it.
+There
+came a man who was sent from God; his name was John. He came as a witness
+to testify concerning that light, so that through him all men might believe.
+He himself was not the light; he came only as a witness to the light. The
+true light that gives light to every man was coming into the world.
+He
+was in the world, and though the world was made through him, the world
+did not recognize him. He came to that which was his own, but his own did
+not receive him. Yet to all who received him, to those who believed in
+his name, he gave the right to become children of God -- children born
+not of natural descent, nor of human decision or a husband's will, but
+born of God.
+The
+Logos became flesh and made his dwelling among us. We have seen
+his glory, the glory of the One and Only, who came from the Father, full
+of grace and truth.
+John
+testifies concerning him. He cries out, saying, "This was he of whom I
+said, `He who comes after me has surpassed me because he was before me.'"
+From the fullness of his grace we have all received one blessing after
+another. For the law was given through Moses; grace and truth came through
+Jesus Christ. No one has ever seen God, but God the One and Only, who is
+at the Father's side, has made him known.Â 
+
+Following is my worldview. First I present it as
+an exposition of the Prologue, then I summarize it under the worldview
+elements outlined above.
+
+In the beginning was the Logos, ...
+[1:1a]
+"In the beginning" seems a clear reference to Genesis
+1, the account of the creation of the universe, which begins
+
+In
+the beginning God created the heavens and the earth ...
+
+There was a beginning to spacetime. There is Something
+outside of spacetime, a supernatural, a "hyperspacetime," if you will.
+The most prominent element in the supernatural is God (Gen: 1:1). God is
+a person (in Gen 1:27, the personal pronoun "His" is used to refer to God).
+God created spacetime (Gen. 1:1) and "God saw all that he had made was
+very good ..." (Gen. 1:31a). That God saw that it was good is a
+declaration that goodness -- value -- is not subjective as many today would
+affirm, but that it is objective and absolute.
+God created light, water, land, plants, animals, and
+man. God created man in His own image, in His likeness, bearing certain
+attributes in common with Him (Gen. 1:27). God gave man dominion over and
+responsibility for the earth (Gen. 1:27-28).
+There is currently considerable debate among Christians
+as to the creation account. A literal interpretation of Genesis 1 may in
+fact be accurate, but it is not essential to right understanding. I am
+inclined to agree with Bruce Waltke ("The Literary Genre of Genesis, Chapter
+One," Crux, Vol. XXVIII, No. 4, 1991) that the Genesis creation
+account is a literary-artistic representation of the creation, whose purpose
+is to ground the covenant people's (i.e., the Jews') life and worship in
+the Creator and their ethics in His created order. That is, Genesis 1 is
+not science, but it is consistent with science in the sense that the universe
+-- especially life -- is the result of intelligent design and not the product
+of random processes (e.g., see Dean Overman, The Case Against Accident
+and Self-Organization, New York: Rowman & Littlefield, 1997; Michael
+Behe, Darwin's Black Box: The Challenge to Evolution, New York:
+Simon and Schuster, 1996).
+"In the beginning was the Logos ..." Most English
+translations of the opening phrase of the Prologue render it "In the beginning
+was the word ..." but I have chosen to use the transliteration of
+the original Greek to emphasize the use of a metaphysical term absolutely
+essential to a correct understanding, but usually ignored by moderns.
+The noun logos is from the verb lego,
+to gather. Logos means a collection, a gathering; a calculation,
+an account. In Theaetetus Plato uses the term to refer to an account
+of knowledge in three different senses: an enumeration of elementary parts,
+a statement of distinguishing marks, and an expression of thought in speech.
+From these meanings, Greek philosophers developed logosÂ Â into
+the metaphysical concept of knowledge, thought, or reason itself
+and the source of human reason and intelligence.
+So the first phrase of the Prologue says that the
+Logos, the source of human reason, Reason itself, was present in
+the beginning, when God created spacetime and our universe. The LogosÂ transcends
+spacetime, and the universe must be understood with respect to the Logos.
+
+and the Logos was with God, and the Logos was God. He was
+with God in the beginning.
+[1:1b-2]
+The Logos was present in the beginning. The
+Logos was present with God. The Logos was associated with
+God. The Logos was in partnership with God (Genesis 1:26: "Let us
+make man in our image ..."). The Logos was and is a Person ("He
+was in the beginning ..."). The Logos was and is God, an assertion
+consistent with ancient Greek theology (Diogenes Laertius, Lives of
+Emminent Philosophers, VII, 134, 136). The Logos, while maintaining
+His identity as Reason, is also God, and God is the Logos , an assertion
+which, though defying human reason, is plausible in virtue of the fact
+that the LogosÂ Â is
+Reason itself.
+
+Through him all things were made; without him nothing was made that has
+been made. [1:3]
+The Greeks considered the LogosÂ Â to
+be the plan or model of the universe (e.g., Philo, De Opificio Mundi,
+V, 20; X, 36; XLVIII, 139), the source of order in the universe, that by
+which all things came into being and all things come to pass (e.g., Heraclitus,
+fragment 1), the source of human reason and intelligence (e.g., Marcus
+Aurelius, The Communings of Marcus Aurelius With Himself, IV, 4),
+and universal (e.g., Plutarch, Isis and Osiris, 377 - 378).
+Based on the Prologue and these and other ancient
+sources, I conclude, with C.H. Dodd (The Interpretation of the Fourth
+Gospel, Cambridge: Cambridge University Press, 1953), that the LogosÂ Â is
+the creative power of the universe; the rational principal of the universe;
+its meaning, plan, and purpose; that by which all things come into being.
+Indeed, I believe that the LogosÂ Â is
+the grand, unified theory of the universe sought by modern physicists (e.g.
+Steven W. Hawking, A Brief History of Time, Toronto: Bantam, 1988).
+For more on the Logos, see Concerning the
+Logos.
+
+In him was life, ...
+[1:4a]
+All things came into being through the the Logos,
+including life. Life is not only all living things, life is the vitality
+of things, that which distinguishes animate from inanimate (e.g., Aristotle,
+Nichomachean Ethics, I, vi, 12 - 13; Philo, De Specialibus Legibus,
+III, 123). Life is motion in the broadest sense; life is change (e.g.,
+Plato, Phaedrus, 245c). Life is characterized by intellect, sensation,
+and motion (e.g., Aristotle, De Anima II, 413a - 413b). The Logos
+is not only alive, He is the source of all life, in all of these senses.
+
+... and that life was the light of men.
+[1:4b]
+In contemporary usage, light is that which evokes
+sight. Figuratively, light is information, facts, the aspect in which a
+thing is viewed, or mental elucidation (Oxford English Dictionary,
+1987).
+In ancient extra-biblical sources light sometimes
+referred to physical light (e.g., Plato, The Republic, VI, 507).
+Light was also knowledge, the source of true knowledge, or truth itself
+(e.g., Corpus Hermetica, I, 32; XIII, 18 - 19). Light was reason
+(Plato, The Republic, VI, 507 - 508). Light was associated with
+the Logos (e.g., Philo, De Opificio Mundi, 31). In the Bible,
+light is used in the literal sense, but figuratively it symbolizes or is
+associated with value: non-moral value or Goodness (e.g., Job 30:26), and
+moral value or Righteousness (e.g., Psalm 97:10-12; John 3:19-21).Â 
+So, in contemporary and ancient usage, light can be
+phenomenal (of the senses) or noumenal (of the mind). Ontologically,
+noumenal light is the more significant. Noumenal light is the light of
+the mind, the mind is the seat of consciousness, and consciousness comes
+from life. In The Phenomenon of Man (New York: Harper and Brothers,
+1959), Pierre Teilhard de Chardin describes the emergence of life on earth:
+dispersed matter, to agglomerated matter, to matter with complex physical
+and chemical properties, to simple life, to the involution of living tissue
+upon itself, to consciousness, to a future transcendent state he calls
+the Omega Point. Summing up this process, Teilhard de Chardin says that
+life is the ascent of consciousness.
+John's Prologue anticipates this observation and carries
+it further. The Life of the Logos gave us life and raised us to
+consciousness. The Light of the Logos gives us reason and draws
+us to goodness.
+
+The light shines in the darkness, but the darkness has not understood it.
+[1:5]
+That goodness exists in the context of evil, which
+is symbolized by darkness.
+According to the creation account in the first chapter
+of Genesis, darkness preceded light, chaos preceded order, and death (or
+at least the absence of any living thing) preceded life (Gen. 1:1-2). By
+inference, evil preceded good. In the very beginning was chaos,
+darkness, death, and evil. After the creation there was order, light, life,
+and goodness (Gen. 1:31).
+In Genesis chapter 2, God placed newly created man
+in the Garden of Eden "to work it and take care of it" (Gen. 2:15), and
+commanded that while he might eat the fruit of almost any tree in the Garden,
+he must not eat of the tree of the knowledge of good and evil (Gen. 2:16).
+But he did anyway. Genesis chapter 3 is the account of how man, tempted
+with pleasure and wisdom, disobeyed and was evicted from the Garden, removed
+from the fellowship he had enjoyed with God, and condemned to mortality.
+God created the universe, including man, in a state
+of complete goodness, but with a tendency to return to its original conditions.
+In particular, man succumbed to the tendency to evil. Placed by God in
+this state of perfect goodness and charged by Him with conformity to the
+divine plan and order, man reached out his hand and grasped the fruit of
+disobedience. By seeking to improve his lot and indulge his desire for
+pleasure and wisdom through his own efforts, man brought upon himself suffering,
+death, and separation from God. Placed in light, man chose darkness.
+But the latter phrase of this passage can also be
+translated "... the darkness has not overcome it." Light prevails.
+
+There came a man who was sent from God; his name was John. He came as a
+witness to testify concerning that light, so that through him all men might
+believe. He himself was not the light; he came only as a witness to the
+light. [1:6-8]
+Up to this point, the Prologue has been atemporal.
+The remainder grounds the passage in spacetime: the middle east, about
+2,000 years ago.
+When I read the Prologue straight through, even now,
+"John" makes me think of John the Apostle, the author of this Gospel. But
+in later passages in the book "John" clearly refers to John the Baptist,
+a prophet who came upon the scene in Palestine in the first half of the
+first century AD, preaching a message of repentance and preparing the way
+for a greater one who came after him and to whom the Prologue also refers.
+In any case, John -- whether he be John the Baptist
+or John the Apostle, or both -- is symbolic of all prophets, past
+present, or future, whether they wrote anything for posterity (like John
+the Apostle did) or not.
+In fact, John is symbolic of any of us, prophets or
+no, who proclaim the truth about the Light. We are not the Light and our
+goal is not to draw attention to ourselves. Our hope is that through our
+words and acts others might believe in the Light, might be drawn by the
+Light to Goodness, and might be restored to fellowship with God.
+
+The true light that gives light to every man was coming into the world.
+[1:9]
+Some light, either from the Logos directly
+or reflected by the prophets, has fallen on every person, and every person
+in turn has some knowledge of truth and goodness. Some light has fallen
+on and is reflected by most of the world's religions, ideologies, and philosophies.
+Testimony to this is the sometimes remarkable parallels in the beliefs
+of different religions and the commonalities in their ethical systems.
+There is perhaps, as is so often said, some truth in every religion and
+each has some wisdom to offer. But in spite of the Light, the natural tendency
+is still to darkness. Though the Light falls on all, the reflection is
+often incomplete and distorted.
+
+He was in the world, and though the world was made through him, the world
+did not recognize him. He came to that which was his own, but his own did
+not receive him. [1:10-11]
+In fact, the Light is often simply rejected. He
+by whom all things came into being and by whom all things come to pass,
+though universal, has as yet never been universally accepted or acknowledged,
+even by those created in His likeness (e.g., see Heraclitus, fragments
+1 and 2). With a tendency toward evil, we have a preference for darkness,
+for the Light exposes evil. The Light reveals our fallen condition, from
+which we are surprisingly reluctant to be raised.
+Though He that is the Light came to us to draw us
+to Goodness, we did not welcome Him. Though we were created by Him and
+in His likeness, and though we know and reason by Him, we have all rejected
+Him. As John says, later in his Gospel (John 3:19-20),
+
+...
+Light has come into the world, but men loved darkness instead of light
+because their deeds were evil. Everyone who does evil hates the light and
+will not come into the light for fear that his deeds will be exposed.
+
+
+Yet to all who received him, to those who believed in his name, he gave
+the right to become children of God -- children born not of natural descent,
+nor of human decision or a husband's will, but born of God.
+[1:12-13]
+John goes on to say (3:21) that
+
+...
+whoever lives by truth comes into the light, so that it may be plainly
+seen that whatever he has done has been done through God.
+
+Some recognized and received the Light. Some believed
+in Him and, in believing, were conferred a right.
+Now reference to a right, in the sense of something
+due to us, is rare in the Bible (indeed, this is the only instance in the
+whole book of John). The right referred to here is a very special privilege,
+a privilege not due in virtue of what or who we are, not due because of
+our acts -- even our good deeds. But this right is conferred by God in
+response to belief or faith. This special privilege, granted by faith in
+the True Light, is to become children of God, born not by biological process,
+not by human intent or power, not as a matter of course or a naturally
+expected inheritance, but born of God.
+This right is to be born from above into eternal life
+(John 3), not merely life that is an extension of natural life, but a life
+that transcends natural life, a life that transcends spacetime. This right
+is a right to be born into the kingdom of God, to enjoy intimate fellowship
+with Him (John 14, 17). And it is granted in virtue of faith, or belief,
+but not faith in an abstract metaphysical principle -- faith in a name,
+the name of a particular Person.
+
+The Logos became flesh and made his dwelling among us.
+[1:14a]
+That Person is the Logos incarnate. The True
+Light, the Life, the Logos became human flesh. The transcendent
+became immanent. The universal became particular. God became a man.
+The Logos, the fundamental Principle of the
+universe, its meaning, plan, and purpose, that by which all things have
+come into being and that by which all things come to pass, came into the
+universe. The Logos came into the universe at a particular time:
+about 2,000 years ago. The Logos came to a particular place: the
+earth, in Judea of Palestine. The Logos became a particular man
+with a particular name: Jesus Christ.
+The Logos came, as Jesus Christ, for a particular
+purpose: to reconcile fallen man to God, to Himself; to restore fellowship
+between created and Creator. The Logos, as Jesus Christ , accomplished
+His purpose through a particular process: a birth, a life of personal holiness,
+a ministry of repentance and righteousness, a death of atonement for our
+unrighteousness, and a resurrection and a return to eternal life in the
+kingdom of God, in which by faith we can join Him.
+"The Logos became flesh and made His dwelling
+among us." This is the only time this has happened. And He told us that
+this is the only way back to God (John 14:6).
+
+We have seen his glory, the glory of the One and Only, who came from the
+Father, full of grace and truth.
+[1:14b]
+Glory is honor, that which makes one impressive.
+It is power, splendor, divine honor, loftiness, the divine mode of being,
+and divine radiance (G. Kittel, Theological Dictionary of the New Testament,
+Grand Rapids: Eerdmans, 1964). Glory is great goodness, manifested by or
+ascribed to someone. The one and only means the only begotten,
+the one of sole descent or sole derivation from a source, something unique,
+something unparalleled and incomparable. (Kittel) Grace (Greek charis,
+transliterated) is related to joy (Greek chara). Grace is what delights,
+the making glad by gifts. It is favor shown and received, seen together.
+It is a process whereby one who has something turns to one who has nothing.
+Grace is unmerited favor. (Kittel) Truth is what really is, eternal reality
+(C.H. Dodd, The Interpretation of the Fourth Gospel).
+John the Apostle, John the Baptist, those who lived
+at Jesus' time and place, the prophets who came before Him, the prophets
+who came after Him, indeed all of us whose eyes are open to Him, have seen
+Him. We have seen His glory, the radiant manifestation of His divinity:
+divine being, divine goodness, divine power, divine love, and divine justice.
+We have seen the glory of the one and only who comes from God, the one
+and only Son of God, the one in closest intimacy with God, the only one
+who can introduce us to God, the sole mediator between God and man, the
+only way to God.
+He is the revelation and manifestation of eternal
+truth and eternal reality. Through Him we have true joy, for through Him
+God has expressed His grace, His unmerited favor. Through Jesus Christ
+God draws us out of evil, darkness, and death to goodness, light, and eternal
+life.
+
+John testifies concerning him. He cries out, saying, "This was he of whom
+I said, `He who comes after me has surpassed me because he was before me.'"
+[1:15]
+John the Baptist, John the Apostle, and all of the
+prophets of the Truth bear witness to the Logos, but not just to
+the abstract metaphysical Logos of the Greek philosophers. They
+bear testimony to the Logos incarnate, the Logos who became
+flesh, to Jesus Christ. They testify concerning the particular man who
+came at a particular time, to a particular place, for a particular purpose.
+But in testifying to this particular man, the Logos incarnate, they
+also testify to the LogosÂ transcendent
+and eternal, the Logos who existed before and after them, who was
+and is, and is to be.
+
+From the fullness of his grace we have all received one blessing after
+another. [1:16]
+By God's grace, by His unmerited favor expressed
+through His Logos, and especially through the Logos' incarnation
+as Jesus Christ, we who have received Him are greatly blessed. We are blessed
+with existence, with life, with vitality, and especially with consciousness.
+We are blessed with light. Through the Logos we have knowledge,
+we have truth, we have reason. Most importantly, we have knowledge of and
+capacity for goodness. Through the Logos incarnate we have access
+to the highest good we can realize, an intimate, eternal fellowship with
+God. And as a result of His grace, expressed through these blessings, we
+have the joy which comes from the realization that things are -- with us
+-- as they should be.
+
+For the law was given through Moses; grace and truth came through Jesus
+Christ. [1:17]
+Moses was an Old Testament prophet who preceded
+Jesus by about 1,400 years. God gave the Law -- a set of moral rules including
+the Ten Commandments -- through Moses, as a means of reconciling man to
+Himself. But the tendency to darkness, disorder, death, and evil was too
+great for us to overcome on our own. Throughout the Old Testament man repeatedly
+demonstrated his inability to obey the Law and know God that way. And Jesus,
+at least at first (in the Sermon on the Mount, Matthew 5 - 7), raised the
+bar, setting moral standards even higher than the Law given through Moses.
+But then God changed the rules. He changed them in
+our favor by offering Himself, in the form of the Logos incarnate,
+Jesus Christ, as a self-sacrifice of atonement for our sin, an instrument
+of His own grace. And through His grace and truth we may have eternal life
+and fellowship with Him in His kingdom.
+
+No one has ever seen God, but God the One and Only, who is at the Father's
+side, has made him known.Â Â [1:18]
+No one has ever seen God in His eternal, transcendent
+form. We cannot see, or hear, or otherwise physically sense God, because,
+existing outside of spacetime, His being is not accessible to our physical,
+temporal sensory capacities. Indeed, no one could ever see or know God
+any more than a character in a novel could see or know its author -- unless
+the author of the novel wrote himself into the story.
+And that is exactly what God did. He spoke and wrote
+His Word, His Logos, the Name that is Himself, into the story that
+is our universe. The Logos who was with God in the beginning, the
+Logos who is with God now, the Logos who is God then
+and now and forever, is also part of our story, and through Him and Him
+alone we may know God, which is the highest good we can ever realize.
+
+Summary
+That is the basis for my worldview. Below, I summarize
+it as my epistemology, my metaphysics, my cosmology, my teleology, my theology,
+my anthropology, and my axiology.
+My epistemology consists of my beliefs
+about the nature and sources of knowledge. I believe that I can know the
+truth and that the truth can set me free (John 8:31). My knowledge, my
+faith, is based on authority, empirical evidence, reason, and intuition
+(see How I Know).
+I know by authority. I know by the authority of the
+Bible, whose modern translations are faithful to its ancient manuscripts,
+some dating back to the first century AD, and which has been tested and
+affirmed by more than 100 generations of Jews and Christians. The Bible
+is infallible in all that it teaches and an ever faithful guide to my knowing
+and doing. I know by the authority of the Bible, just as I know by the
+authority of the books and journals that are the basis for my profession.
+I know by the authority of the Church, whose core
+has been faithful to the teachings of Jesus for nearly two millennia. I
+know by the authority of the Church just as I know by the authority of
+the social and professional communities of which I am a member and in whom
+I place my trust.
+I know by empirical evidence. Just as I know how to
+cope in everyday life by way of direct sensory experience, so by the personal
+experience of many otherwise inexplicable personal blessings do I know
+of God's grace.
+I know by reason. Just as I use reason in my profession
+and to deal with daily existence, so reason informs me that this complex
+universe is not the product of chance and that Jesus Christ must be who
+He said He was.
+I know by intuition, a direct apprehension of reality,
+unmediated by sensory experience. My intuition confirms what the Bible
+teaches and my intuition has guided my exposition of John's Prologue. But
+so does my intuition guide my everyday life -- especially where reason
+fails -- and intuition has been the source of the best contributions I
+have made to my profession.
+I know by the Logos. To the extent that my
+intuition is an accurate, direct apprehension of reality -- which
+I believe it to be much, if not most, of the time -- my intuition has its
+source in the Logos. The Logos, being the source of the Light
+that is Truth, Intelligence, and Reason, is the basis for true knowledge.
+By participating in the Logos, I participate in the Divine Reason.
+My metaphysics consists of my beliefs about
+the ultimate nature of Reality. I believe that there is more to Reality
+than the matter, energy, and information of the material universe. Ultimate
+Reality is noumenal and spiritual, and the phenomenal universe is derived
+from it, dependant on it, and subordinate to it. The two are separate,
+but intimately intertwined, for the noumenal -- the mind of God -- gave
+rise to the phenomenal through His Logos, His articulate thought.
+But the two did not go off separately and independently, as the dualistic
+Greeks did contend, for the noumenal Logos became phenomenal flesh
+and made His dwelling among us; God remains intimately involved in His
+creation.
+My cosmology consists of my beliefs about the
+origins and nature of the universe and, especially, life. I believe that
+God created the universe through His Logos. By the Logos
+all things have come into being and all things come to pass. The Logos
+is the source of order in the universe and the source of reason by which
+it may be comprehended. The creation account in Genesis chapter 1 is accurate
+with respect to Who (God) and what He did (created the universe). But it
+is not meant to be a detailed account of the mechanisms of creation. A
+literal interpretation of Genesis 1 may be correct, but it is not essential
+to my worldview.
+My teleology consists of my beliefs about the
+meaning and purpose of the universe. I believe that there is a meaning,
+plan, and purpose to the universe, and it is the Logos. All things
+happen in accordance with the order and Divine Reason of the Logos.
+God created the universe in a state of complete Goodness, with the world
+in perfect harmony, and Man in intimate fellowship with Him. But this perfect
+condition existed in a context of darkness and disorder, and Man fell from
+God. God's plan and purpose is to restore the creation to its perfect state,
+and to reconcile man to Himself. His plan and His means are His Logos,
+and especially His Logos incarnate.
+My theology consists of my beliefs about the
+existence and nature of God.
+I believe that there is one God, the creator of the
+universe. He is a Person, and as we are created in His image, we can know
+something of Him. He is loving and wishes an intimate fellowship with us,
+so much so that He became one of us and died and rose again in an act of
+atonement for our unrighteousness and a means to restore our fellowship
+with Him.
+But He is unfathomable. We can know Him intimately
+through His Logos, but we cannot know all about Him, for our minds
+are finite and He is not.
+Although One, He exists in three aspects or persons,
+or Personalities: Father, Son, and Holy Spirit. Of the Person of the Father
+or Creator and the Person of the Son or the Logos I have already
+written. The third Person is the Holy Spirit, to whom Jesus refers as a
+separate Being, but also as Himself, in John 14. The respective roles of
+the Logos and the Spirit (Greek Pneuma) are not completely
+clear to me yet, but just as the Logos can speak to the mind and
+to the reason, so can the Pneuma speak to the spirit and to the
+soul.
+My anthropology consists of my beliefs about
+the nature and purpose of Man.
+I believe that Man was created by God in His own image,
+in His likeness, to fellowship with Him in an intimate, mutually indwelling
+relationship. Man was made a steward of the creation to enjoy, but also
+to care for it. By willful selfishness, man has individually and collectively
+separated Himself from God and put himself at animosity with the rest of
+the creation.
+So man is not basically good and merely in need of
+empowerment to realize his true potentialities, as so many of my contemporaries
+hold. Instead, Man is basically selfish, self-seeking, even wicked, and
+in need of redemption and reconciliation to God. And this can come about
+only though faith in the Logos incarnate, Jesus Christ.
+My axiology consists of my beliefs about the
+nature of value and the value of things.
+I believe that value is "built into" the universe.
+God created the universe with a normative as well as a physical order.
+Intrinsic value is objective and absolute. The common belief that intrinsic
+value is merely subjective and relative is mistaken.
+Human beings are moral agents and, as moral agents,
+we have an obligation to know what is good and do what is right. What is
+good and right is explained in the Bible (especially in Jesus' teachings),
+revealed by the Light of the Logos, and manifested through the witness
+of the Holy Spirit.
+Put concisely, the standards of intrinsic value taught
+by the Bible are these: the Creation is good (Genesis 1:31); men and women,
+created in God's image, are intrinsically valuable (Matthew 6:26, 28, 29);
+and God is the summum bonum, the highest good (Mark 10:17-18; Psalm
+145:3). The highest good we can realize is to be born from above
+into the kingdom of God, where we can enjoy intimate fellowship with Him.
+That good can be realized only through faith in Jesus Christ (John 17:3;
+14:6).
+The value of everything must be judged according to
+these standards of intrinsic value. The instrumental value of anything
+else -- human attributes and behavior, human institutions, knowledge, art,
+technology -- is proportional to its contribution to the realization of
+these intrinsic goods.
+
+Conclusion
+That is my worldview. It consists of my epistemology,
+my metaphysics, my cosmology, my teleology, my theology, my anthropology,
+and my axiology. As a set of general beliefs about these fundamental aspects
+of Reality, it is the basis for how I view the world, for all of my particular
+beliefs, and for all that I think and do.
+"In the beginning was the Logos ..." At the
+beginning, at the heart, and at the end of my worldview is the Logos,
+the articulate thought of God, the Divine Reason, the creative power of
+the universe, its meaning, plan, and purpose. The Logos, Jesus
+Christ, is the key to understanding not only what Is but what Ought
+to be. Without the Logos I would have no worldview. Without the
+Logos there would be no worldviews. For if there were no Logos,
+there would be no world to view.
+
+
+The opinions expressed in
+this essay are my own and do not represent an official position of Oregon
+State University.
+
+
+
+
+What's New
+Following, listed most recent first, are significant changes made to this
+page since its creation.
+
+15 Apr 02
+
+
+references to kingdom of God
+
+minor editorial changes
+
+
+21 Mar 01
+
+
+original page
+</main>
+</body><xmp><![CDATA[PK  	`ãV            
+ - index.htmlUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­ÙÍ}{sG’çÿı)j8qk2„R¢$PâeK"=’¥åÑìN8æèĞf£ÓA…÷³_ş2³ª«ñ hÙ3·;2Ñ]]¬¬|gÖ“Y=ÏLU¯2{şä‡‡‘yO­©â61Ë´™ë4ŸföEšÙÿ2‘iÊlhfu½¨†÷î-í¨oóiÙ/J;-òªkÛ·Isï¿'M~ssï­-«"³{óÕ‡¢Ì’©]öyÀHGHè‹¡y]äæû&3G'æøèøÄ‡GGÃÁcóòõûÿ}ôøèÈì/âÜ\×qÄebŞ§s{?™Û:6ãY\V¶~ÚÔ“ÃGç‘<Ìã¹}ú¶,¦W‰ymóúé‹’şÀ
+ûÏ“´.ÊşwÅ¸™Ó›ÎG/mnË˜^ûïö^§ã²¨ŠIm|æ~ÿh¯óİ›2¦ù®	‰yÜıâåó¿»xÿæ]ğAñÏ4Ëâ{Ôû‰ù›Í2ûÒüñƒ3su`şöƒ­«q¼°?¡Ÿ:­iÛ^¯Œ‡®yrOFO²4¿1¥Íbë_¥Umf¥<ı-›÷÷	õUİÃ¿uØÿ4Ïh$B›¿¥3­­™W…yüÓù~aC_Ú‡…-ëÔVô/^ÅU}ÑÔ³¢<ÿ³ÍÍóÉ½Îci÷Î~L«´ÈÏOğÚÿ’—ï‹:Î€çÇxÛş”×ß––•œNï'ÃÁ)a×¡½{ßÎèX¹Şş¡kß¶/€Õù)^ÉŸò]ß?=zˆ7òK'Dxk‚ìùñéñé}DûLsÂõÕù›ëù½şÔI¦9s<xÄóán.e<-ãÅ¬:p,3òÖÿ@çúzéã“ããkÓŞÊ‡¡‡€ùãşñÃã#4vOh‹ïmßã'÷€Oş@œ¤“Ÿè¤Ş†'K†R{]®3K§‰ú¯"·ç4òæCiú]ñCQ»WöÛxQİsoÊxIìe™&—E™ş“NYœauôğüÔ,jtzk£~ş‚5oíe½‰ö‘V‹,^µC_<ÿhË•,ñËÍ:İ¹±nílg#éêÇÊ¾K¢]Õ‹¢ÚA»Bùz'–ZÍ¿‹ëØ½a­ÓQš¥5÷‰‡øÛú>eö]Âá^ıP¼²qBƒø'ŒpÔí¯ü£gqçc+üçÙª¶ßÍHşú&õÌ7äyQ‡í³x|Seq5»È9|ƒ_½/ã”wÃv¿zş‰ÎVr=K'õ;[7eŞ™|•˜™}[¤yİÎÿzV,Ÿñ¸©®ò%òàU³X”¶ªŞíâ–W¯ãñÿúõ‡ëyœe{ucŞ–4´-_ÛºLÇí›NŸpmÙ…ì‹¢¨ó¢¶¯âUÑÔ¯ÒûáÃ£`ŞÄ:¶¿ºÈÒiÎ[U½£Å­èŸ ÓrjkP?jÀqLıkéğ]¼äÏ»{#ïŠeu±ˆKùÈ¹6xÖ%ÛÈ+&Mş}Z#[²Üò§	•Ã	mğgıkf«!˜AuF{\Töp0<6ÇæÔœ˜æ>ıï˜şºF¤è?Q!bxÄ¦ÒñaØ[YÌã¼ı`‘ÖãÙğc\¦X^û¼" Å„LvøàäôñÑññÃÇÄJî?¼ÿèäôş#óÈ™ƒ9úeÑ]–´í½,~$éÇö×ç9ÍÃºXÇı£E}¦Oè€Íh¾iîdvÒù=*êº˜ûGÄĞè3İ?­ëgT¿Ì¿ájû©>Œ.Ã±‡x´k'ÿ’õŞß1ÜŸÄ¸?cëğu€#uX5eY4yr8#2eËa^œíl2¡ÇM¤/smÇàNƒÏ<ğ£şƒ47ƒA¿å˜Aÿ!¿
+~ğ 2ä¡¶í»Ç2ÌÇCË÷ÁNÆ†ˆ~0è’XlÑ”c;<úˆéˆåİ¯_èlşéÆ®&LÍ´8&ùfpü€ÿó„ÎçºŒójB=$6³ûG¦,0·ıû;=8+@ëR­»Z~ù¥3ìÉIovû¥vv}ÿôäşãÇiA~Í‚ÖZ¯:8>%ºñèÁéÉú°ú=ŞBßœœÊ»µOGúı[7æôÁàtğèøèáç£ÿõyfå(Ÿ-Á-è¿í÷7_Ÿ.>İ¨…ÿy¦mG‹Ok#>>œÕ=İµ_ıÓ`mıû_Æ†'÷TQfİª^-ìÓtN‡àŞ§Ã”ô7Ö¶ö*Ò]êqS<Ú‹[U÷úôì¼ÕÌÆÄ—rˆe¿]3cµZµaôshÿÑ¤ŸªVyXÙqSÒ*E–W­¶™ØIÜdÔ ›oh6ö›3#d*›M¾’Í(+FÃ3“Î§;ß1tÂ·ß4yOìašÓšíZkŞ§}Ím’Æ»G—é¢¾óPÅèg"S»zÛ;™âœÖö7jCPÁÛŞŞO=!|İ‡Ÿ‘©‡ ×Òù‚ö;Îë;˜Œ’ 2*’•!vúôù‡?^xÖñè%ºqÆtœZY5c’[«§œÿG>ªgÑáœçOjÈF˜ÏÓ#Ããéƒ£#˜0µ(ñw¢¯pJ¶÷ÜöYÁ¦"³Zg•çOFçW¹©gÖ<³Äqr’VÍ‡¸â'OÒóWÅ´¨ÜKÏ£~¿ÿäŞèœôÄÅ9´Aü‹é?:N;àæ“­S8öSm¿aú0nÏØréXUg+°EÄº<ì]Ñş¸œÅuõƒ]˜‹E™f†8Ò1:>šáŸ…nõx¦€Ğ¬(ŸşñÅp²ó÷ôb‘æ´•±ŸX‹°‰Ió¨¥ô¤ªâ•‰KÒ«W¦Xæ†t“†¢3hMÃÒCSL&é8%z³(ªØ@OÌ¦2Ñ5ÈŒù1O?B¹¯W´«˜É9ÖO¸|Ë¤i“–Ş •
+Š ¾G6Kí¤2ñˆ´ C NböqÅÕ‚²B£w6†@ßÅµ™²TÅ+HóIÖXR©EX‰"c›~$TìQc¢¢ø+ºÉ‹%?’UQ÷+ËXîú¯¢¬Ë.]ı€™ÑÊâÿlhz~Ğº ÈÇY“¢	w—¸ˆbÀSÚÂÀ2›Lm´O_ÙEZÕvN0]ô¶÷C4›˜Jí;ÀH]Dà‹Ùª"qWëöO¥í„û°ÜÓ¸¨nŸÉÜÆLĞÏ¢)	³6;¢wQJ›æ³x”‚ZVèÜÔ6³·vn?Œ~šõş²H¤ƒÙíßàæöšÖFó˜•ÅÂõ€V·õB_Ín¤;<—_Å§0ŸÊ’âO©ô×ßvTpY³¤3èÆa´×ÃÛ¢QU'8*òlefÅÒ\ 5æf=3¢ùÅYU˜EYLpl¨a{hĞêv:n²¸ŒÜpWD[æô¶ >Ñ	šıÜîá`
+:$vÌVV4Ç7V@ƒCˆ¹FWrøz†¨;u}³NhZÁyÇx ŒÔcRô!òÄZš€>ç=EZSGM–€e–¡hhô•!Î;#¦[))JÂ<†õLtÍ–øí'RğÄDØ7W³*/µ£ù>Ö¼ÑºáÃH§ÂÔ”—Õã¯çˆ3J‹¢“…Í2„ûÕ7×oæÑ4êOŸÏlI 1N…£BÀD±ÉˆÕ3Ğî)[<tOAi¨+`:álw´´Á™¼·sÌ@T—•Ï®¨»˜^èF¦ÿùü‹ä#z\Bâò¾ãyZ™ÓtŞb{hNßÎJ:iœûÃÒÙòØŒÒQÆ­o­ƒh†)ÃËàwì)İO^§œ
+° ­W¸OâD¿j 8ñ>’­D|Wh
+VĞúm‰£ØğÖã÷Ë‚˜±ñ˜Ä(l"=ÿ¾˜É¨4RM"Ö>?‡ƒG=C|Ü\gBÑÊÔö}0|rB	X`Y1¾ùGCºxGæò T§c¶LÎ²>Ú4t­$E˜÷È‹gË-âYÏ+÷Ôà1š²wi/ÚÙ„ŞöÍ¥5as·K~Ü¾ÂÚü+Vı(v3E³t®‰IïÒ‚€Æ‰=ã‰‚r£º™Ş
+…™Ñ¯‘%IúÉ¹h‹6Y:±dÔ?=X3Ì–ñÏayïŸT3¸aD#ÌËúYÉ‘Ÿğ° Jp
+À²ŞvÜş5p#EãtÖÙ-xi|øøôĞæÈ“pMò;F ù'œ ‹Å€êÖDˆÓ	+“c: | j4½ ÿ¬eÇŒÛ±9 ÏSjÖhzËdi©@ò§)éøÌÃI¸sÍíxK"PCİ'I©ÜƒÂX8=dùÔ1BLš˜LÑ²Õ×†\ÚsĞÓ¤]0ÁåŸ†Èë!ÙkßGIš¨¨?.¦9)PhĞn[­û°œ¥ãw†=&5APToM"í…dlíã?-ƒÛ|Ñw‰Î C¤Â+İKVJõ°uÓXø•)İ&Œ,K ãYš%¥etåğ°}DznÎ³¡w,}ÑL=f™_¥ç³ûèd’g	1fM5"~r•e¼À}éÿÆÃuˆ)-[A¬¸š	ëÄ~NÉ’–ŸçıÛ›ÿ`…I’´'°œ’.¸’ç?|ı&!æŒï‚ŒâXá‹˜ş-{$‡eøç´ŒU’¦cRÏş]Ğ ‰„X¤¶
+É…ÇÓ/ˆh³LÉÊÜŞ{¬œ±•™>­nn®¢*Né˜üßKA:àÑƒ	ñgt °‰ù1kÇsğ¨qÜ‚Î„œ,‰ĞXúßìE/” ¦&À)@›¡´ÔM ê{´‡ YÅ†a‰w rß¼ db/y0PÜÙ×tNª³õĞª,í{[5•JN}óCÁÃaM ZŒÌ®ùÔâÀlG´Šâ:Ø~:ÉZ=îIÑnÎÒlŞw2;D˜Àl´E®9Qd«ßÿºñ‹”˜	|€ÓÜB¡Î!²ÔÇsÈÑÍœp	¤,U~ÙÒ;ô‘â(ú
+!~	Ô5b%N™œGWk‚Ê	¬í–°ÀI¶+s.«şFòaü“3Amÿúh××ÛŒX˜ïV ï­¯b˜0“¸_BÀ'ÎÎ
+_a¹T„Z@ÒmòÚyŒx— ìN?ï)oà1ªÿQ2-ğ|,a:<å4µZ° †¦Å6H™õ.<îèà¥Ğƒ8ˆ€W!> N‰<iC(}í¾ˆç°ó{ĞÓškàQø½7[Ñƒ¶ÉIEGêGç¤i@g'éCqÙ‰a‡˜Û:hc‡PJú"ƒÓA‚9¬¢ÍÜ§ïè5½=~(Û¾P3ÆÈ	ÌŞeZí¡¯¦¥‹‘†¦HúQe?s´Ïƒ2¸÷Ğª"êæ «³XyÁ3báj
+¹–6dÏ2ˆ ÒXÈºpŠşÖ3på;(‘±ô,.SEˆ£WL¡ID›ı‘ŠœX5lÛ‡ÄÂô-_Ñ²’x%6„(LÒrî„qOû,£ªÈšÚîÖdÎC©|»¤Ä\3ê¡gŒZàRj^‰…ƒfÓï`0Ú­K¹Ø-ÔsO²ôÆªæ@Xœ$6YÇ$OÅu]¦´Ö2ÀôHT}ì’H¹óñCE–¸X6†ñyÁŒˆ/Š¼Ò¶P´§¨íèğøÑNû•œ‹qSÑ©3–şq.JöO$v£¤È2Ş@ÈêeuOƒ”6õÍ­¼f‹»Eˆ]ÔJ)=3Zl[Ñ$CoÀ×t>jµ|È¦`ÏëTN"q¶ö(«liŠ`¤e®ávZZ+à|V6DG?ÄY}Cè¿‡³úŠçFxMS Î©Gë‹ˆÓ)'Tş¶l>	OùK‘õÍ_ÿú—«««qò¾¹ß3ƒÇé$©JdıÒ@"G¬Ù’é°‡0àÇ­!¿CÂİ×ÌûIÒQ+g”2ÀÕ˜Î	rÂQ"Å"³$ì§}Û‚ñ½]Vßˆº‹A|–´Ú…Ói9N²(ÑMKš8®æ:ôfç”t ¨İ=¢W|XÇ)8U¸iŒ>°ñÖ²ÚÄC"ö¶šãX BÊvA¸ĞÖ4HÊ˜ë‰ı0¢{ÒÒ©øFœ‚Iô1iÆlg+é9	„ôd"ğØş”À“ëw–ÓxËm4ãÛ˜&v1¥óIÄüb{V^³)åšôØÃ7å”hÁ?ys'`JúÏ¢¼šwÅÇó?âùâVóL-ô?Â‘‡gæ51ãØfÑ3;³<ŞwqI2íÙ³,ß˜gÅ§! 3˜™÷?ÿ"¶9\t‚^ğÌÆ¤ 1Õ¢N·ñc«Ø$ş5Ùó|š¥Õ,bßyÆ®zË],feÜú¼]HH"†ÛQ£`TBÇ¤TL,œó9q+Q2e|xô˜D­³ƒ¨ÂK:ë7l	˜/H †„Éx%“‹Më8	¡÷Ì![EâBòWA4p¼F`·›JÖ„p¤q$f´"¦O­òj§[€5-6ó N«&!ßˆßÚiÁûÌ4Õ£³1ğÇ°tX°áœiC¬Mi~gxgğ	ğ;ä_åŠİ±­mİH‡o©%XöƒŠmQèÊ’Òš¤Qk9ÍÕ-»y3o7ÉÉ@ ´ğYT4/Ãî9–Œ¨A*˜O›´bƒ‰7•ú%rçõtêËSD"ì˜]§ìUŞ_òÄ¸°˜¥YQiã¤je„´Ig'TM
+Ä|„F± T6ùpe+ï+fq¥H|c6±Ş»¨;ş¾›lö“(i%'˜NbŞ8+îÂÖğ!-ÕQê¨ÜØnÅ¯ká½ÖÈvœER¼+Oh£®Š´{üÜ˜‡Ì¶ÇÄÂk|kÒ<˜”(±[¤M,„†ğ$^L¬~·ßkQn«˜
+Œ‰¸TQ(«+$½[’ı:#d™•ÌZj'²„°è‹jùe£ún»{`Tn1ªJ::<şéË*åûuZŞİ³µ‰˜÷kèĞiî°¶[®\®5™(Úİ’ÆÅÁÏ­H0û^ˆŸÍŞ+ËZƒĞ¦ŞI'UyX¢f6q°kF¹hæ­jO{ÔäÒro=¶å~wèL÷»õÕEëRMœC¬©ûQ¯µÙÿ.-à®Ì«_6³ûWl´&Öõ|®*âÛ€H©„	Érp¹òätËüX§Ï ¢ô?°TÈj,¦@ö§é¿Ó#xÀìñVTÌM¦¿¶J¶8F´s²b£^‡<P7¤5¼r îÇ´¬O} ÎG^ºÇúÕ4·Š:”¨c	z¿æ‚øJ§QÔ:~íñ4t<Oîx6I*¯XÙä7‡ØÑH²˜MåF²Í€‘yÛDğ´æÍ"EĞPa^™LEöøKÏ™¿öÌÉ)ıç•è9ƒ“Çë¼‚Uw¨Z{Ct´
+·„¢ìYU¾ÖĞ˜xİl/IŒ mÄ•^4)ã)Kƒ™ÜÊ5]_¯ãrÜTÑESÚÌF´IçnXlø´2®•ù ª8ğNÎŞAèşxVuÕ$8ğ’8I=Ì¸÷+Ğ6¶àV)©ËòùÉÃ‡æş%-|·IâY\±IºËÆ•íTÊP!õ9êiÄQc@$L©'ôéÛşeß|W$DouÅWº8›”©&ãp¤Ë\¿ç£2%YfØş„‘ÑÌØ¦1xüàä g~¯³Şê¾¤,
+:ÉëÈ|&ª sÛ/Hø§‹xéÏ82I¥B1äôÂ€¡3‡¬fY‹²Â“,!-a Æï·ŞiÉ¦&š8i‹¼Ë/ÈŸáJ„_¯q@‰é‰‰®k×Ä’Bâ%ÇĞavæY™Ú	úZûEŠ„lòûY¯ÅĞ<‹‰›Ì±`"zÁ¤v‘|‹eı·Fá± .xß†>fé ×÷æş®ÿ+û÷ã;Ğé‹İ$Ë¹|XYZ‡I$áh‡IöIıŸXg¼7õœq£Ğó†òãiÍa~ï»¼Ü»šÏX.A‚¬F’ş«?•]À<WÔ™íA¾û>/æñxcÇs¶ï(-ëÑ ´ãÇD’'g]îp-6˜tDdğÉL£F×)áøä ]â¼`Râ$¬² FZ©Rxæ9Å0hÈ#V>y°·³Ø&¥voï?]]ö*m/kÛ>p¬Çı{]7q³Ø€.è02WW2ÌıÁILË¦ÿŒ¶ÈXQwßè ‚ùXÏzdK'bêÅ9³•š·ª¬BX{— ”¯ÂìÑ0û*—ì ÄµCo*6RËài"›ıXÜXR±$üâE:…I–  W¤oŸæˆçR#%ä½J}S¢c¥¹£«E‰Oàáå?´Y3NaEàPo>MM¯¦'ó]Ê†š® Q§‡·±Î«ÜKäö)‹‡>nÍåjh¼?È‹ØÚQjÄšÓè¥‘çêS&ïì¢A—NXï™G4¥èÂº$î! Dc	ŞÂPÏcµ
+è 0:å‚IA˜ë8ö‡öä˜D39†ptóyqÃ‹ íßaÚôñƒ£G¯×õºMá’¤9GË%pä^ä1§‘wÅ}qğÛ$À7˜«Õ|Tdt
+*@²î$Åu4¤›Ï¢Î4~·$}GL:íï‹‘99"…ó@9İæï0C[4UøÍ[’ğææñÃáàèp@ ç0Â“á ¹Ÿ}—Î±Í6Ó¯NpæÄ¬%Ú9c:ó#VÇ‘ëNØIlRà­b€”µ&åE³Ù„TÊ„€ş†81X 2×È5ºŞ³9v.Î9,a[;Gš"7@ÏÕfÄL¼ ÖğDÒê<’ ˆY–°Ho•$t’E‹@ú:CÙ~kY¿ŒË…¸ºHšaá·5x ÅämŠlŞÛ4›¡†HÂös‚rhQ™ÔÂiç¶­€a
+Lã±‹l!÷b|y5[ÒÙƒ4Í
+¶fvŸËŸ‚|´ªEf?yâÁ¼ˆ˜íœ)ÉÂ—Nà«•g¨*Í}_¦%BZUšE`«‹u³µzÒp»7±=–s>8¾.ËDÈ|3·ÓØp¾{ß\7sk†MÔ;ÒÛ
+Do@ŒBy%æ ­ßj¦Ä‘ù¦
+u"h$³×¼1ì¶­7%şCÀ/.9!òŠ‰xŸ¬ˆŠî²Ä®Ñ¦j=]eœb3¸Ë¢îµ'å¹›]±‘¦©B•2)ãe5â{SšÒw&ˆxQóUñ¢_ÃøÜÉòzÚ9ñÂO’‰Ó'†ƒı˜f/ñÇ]–ºÜÔoa½ağõ6‡°gcõX}¬¡ßÕhÀ¬¤õÈSã"xÊ¶MP 1fDKÄFe´aê˜ğIÏ9B±û ì}Cñ|¶"A^ãnz“¶9`èy¡¢"cº5l/j÷Ÿç(ÓE‡}sÁqmÕ>vE§+gJÁ$Åï`}±İÏw•·.h²9î±åT`Z‰Éíîı6t!ÒyIç]Â6Ÿã¿{Hí êË^\a“Çâ,Okr<<PvŠú¯M¼0™1’¨`«ó¤lÒZÄg˜áĞø“:ÓèE35ä³û?ö‡•›êß­S
+Q8HÊíäà}ÖpPji´e¼êoÀèÄ¶6¶
+É9ì'`‰Y<sÙGË´J
+Ò›‰#»²2ƒ%÷‘ğJ¿½«O×Ete^|¤Îü‹‰E¬›Ç5òÆæ?+'Şxë-ÖÄÎ5ºaìÔlW^ÇzxUk¡kõT^a“rğ'bÛ„z‰©›  î2^‰—UUğ¬,Ş‹)¦’Õ½½MSê±5¿jÆãf>’ˆÓ±íRÇ[AR":â>‘LHah4Câ¦¨ş8»‰±óGœQ¾Ìú	çòXÄâ‰
+¨¥”mhrÒÔzH,~*‰›Åšª8-¡Î$¼d¯g É€=äF)1ø²ø(!ÀYQ«A2i²©†Ò•œ
+mÁ#ÓF‚K$‘ å¨’YJ1±Tàâê«NXN˜Me.ÒÊ¥ xĞÒ–+uA§ìjo	üVƒ¤2°LÄĞÏÙA2uX„eİgd}È ¶½w+ûCğ’XÚêş2d"¶ã4˜ké’~CrCæüÆä†È%7˜ß–Ü êĞWùNİïÿ¸‘°EúÖR§|®L¬ê‰Æ0uŠSŞ #!Šn“Ùõ®×¡ªI’!Ò¬¢8µ2:î™IÖ´ìiq‹ĞğA¢‚éø%kNkÂ Möà} /¦¦Dî{Ñ6xaße¶~t\OùR{Wóè*&n:¶4Qœ„˜QÚe›9VQÜ‡£qiÙRPuRËë q
+1ôg¶nƒõù²~Dr2îmœ÷rÛ•„f1!ğ³He#Bî†´Å‹ïz8DšØcBk•M@T“]À€âh©ÕBBÑ/ñ7d*":„Y@Éç~fVÏˆ-‰’‚ßu6àË‚wÉàÚã…Áqxˆ öJ°—uHMhsƒHŒ¢ç#ÒèX’’P/•=ÇÎÄ¦°%*HûTGê¢fÛ‰(?=?6ı³2KÒ—• 
+ŒgKÎ¢F8¦‘Ô…v&X¹¦S¼kÅ°qéj×'™³Y~%7Wê‹To‰Ü‡v•Åé\ÅX{ÚäWbdû`9—Õ¡†:M‰æ·k#´8Ù±0’ûIz©ÿí )Ş¤ç(:BÀ•°Ì˜sôY‘î&m9ä|¥,Bßñ 98,›é]ÊÏK/'°	Ö5¦ªµªÒ*hU§ß!¯ëk§Çw  wlÁ¦Œ^^dëhŒIŠp±l×´\F˜rzäÅp\ÛxeÑí”ƒö	‹ä°8õéˆºŠDZĞ7ítƒ‘"ç­º3cÁ[…h†â7h@_Ctë!˜€mHV7ÖÇRÑb có"_yã-ãjVe.RŞpè0šJ„`pÂzÄÁ_.‚Ìîãk$"nê	³‹P…Áp…Z
+U?ò¡Ë9’å1ãJóÔ¢t°_ µˆ¨¦V}7(+/ ³-¸<¦9èÌ/„û¥µW?ôŒàO×ïZÖ¡ë4ãB/]™÷m œ!lS|ˆ‘ÖÆMÙ'ö¨ HX	íN2g­—]y´•ƒæóşN<üqv×ÁİB¢[èb&‚0¼aÃæ#€µDìù-æ_ŠRØÖ,ˆVèE
+^ 'şEò@Î9^,hùÇd[ıíÏvÒ‹XÎaÚ¹Üépk©as&a\˜Dxî0i|ØPŞ–0ğ©½ÇeÃA„pùF`˜Ş|¹\(çxÙJ•µÖ’Fr»ÉÄ~”Èy]°ÇtScB–ÂèÎW¦È·ãmÉš1ª‡hé1Şİ"7ê1ºT?¼’ŸWjJ—ÍkóÊ†Óš[^µS si3ŞÍK ¸v»´Aä€¯j¥Ô¶XKéÎ×Rˆ´˜Åv(_öÖ’#òBô6²öTMsÓJªZ·@G½ÿ?ù[¤Ä)ÓŸÅa|D@ipô¡%e… WmaôïÙ¶-ú“än
+9G\…l	JqùZ'¯&…¢[ÛĞ%ÁU=@^±‰İùH íytäÅª7…FV9Ù‘_"óU9Òf#GšÅÌ_›#mväHG¿.GÚ„9Ò_yz|8¸Kxãè»%)*­ìŸ51æwN=üUhKÄ48cÉ”U2t9Å¸‹4­úŸÖœ˜4bsQJ*|ÄiºÊöâš{œ‰¸t^¦òüËñUûY‚ó<7QB¢Xè
+ÜÎáœ$¦NlÍ“ç”ÍD¬ÈÕÃŞBV êÕI;ÕOzİ¬dJúôÉ¤QjË!¡%h{¸}‘Å(±S¡ ÈFP†¸M	ÂFeªz«2¯¡¥r˜ÖSïD¾Ø°§	Cˆ#Za§V4rıÁg	ÓìD©rI :7lQbÔó‰*&øëJHLkÆ¶439¹—V:‰£…xkÄÔü<+$ ò/k¯1ñf¬ÂâÆ8.Lù·tq÷ï¡3©ì)ù`Û©J¯%%ÔÅ(unaïî‹ô•P“”KGÖ–—°Œâ-[®ÔßÉbhšBo”6!æÓB4‹4G2
+ïê&ıÙÎÈCÈ	÷çoXÓâÔo9£–KõH¸M¤,ñ@¦8'dp¹bNàÜZKqtT<¯\‹IºÙ§¬5Œƒ^ƒF„b·€ˆñ1 ô²Oa`!†Jáö‹‚™-4šËkÊQ›*U‹4Ğèr¼B‡¤f4aÃˆ Y/ÂR$‡@è=‚ym\wÓX42ã„»¶¹0³Htœ¹fSµv}·4ú¯®ñUüéNA}ìÕ¼€máï´ğ™Ùš›‚óºİ+q×¯¥k“ÃÃ+”ÏCO|¤R8Æl.Ål‚Èa}İÂS2}õ1Û¼oƒ×#3Ù¬Tg{ë7U-Œ#èÖèXÊ½I6Z‘m#ÛvÆÓ:})P²Â	mÉÄè4ŠÖ]d[t$µuÓóN™µ]°g”íÙÇƒ0Ãû¾Il¸yÃí–îüN½Á¥ª.³à)NÏĞtjÜeOyÂlÓ?í1ğu uã†âƒ{ŞWÕÅ€¢uá	Æ´ŸI[¶Õ…Ôgdë%d§ as5Wx[BÊÚÜM2f{‚UÎNqE`Ô…¾°£!×™cè+İŸ”< á …4Fø#±Ìk–ğ2áBG! ªU“dÆ9 ¬¡M¾Ş:g)É¢¼š`Ü#çíù\Ö)»}ôŒ{)î±ŸÖ¶ççîÂ­5âyÏÈÏ=áD¡|ÅÙwµ¸3ñ¿
+¦ğhÎE&ñ1ˆìÙÎ–~‘“,XãùĞ³‹AiÃjFæ7T3ŠÂjFfK5£¯ãw	‰}ÉÓ€
+ú¶o-Ş%Èòğè"õÌ®˜õªxTYÍ|§eí%+&uªZtÀ/´/•sÙW+f<~SÆIÊø»ÿ²oşœ’¨•¹¸M/±µ°ªˆƒ!–)½DÇ¾Dy/Ò„Ós[&tì9Eãô>JH¸Õ²W(pñS+ÂæJEMÄÒHÔ‹Úô>™#&¼6º©Œ,x(éÉFvZÀC!’ƒx¬
+.%¡‘c¥ûMoàª5Z¶å$Úÿ†¤ğ‰³+[WT$'ær}³/p<ÀT_Ÿ$ PÒôè"4)'
+SËmr ¶rq^Óú!¡u¿‹¥:°á~ÑšU‰Ä²
+YÉ‚	}0Ëi3L§é¤FOF®qiª™+èìT<ŞtQ3‹)»³$	âJKG(™„¯«´Ø(5’8›µ „Š%éğµf¾õ#?ç&ŸCRG|
+¦@ì½ØÈuY„*œïNhâH_)õˆ£}Ÿ\äÃŒoK.2mrÑm!Ü›>Âwk`yRŸ ö‹Ğ7Æg3Gïu<0-éÑza—ÎêíZDk>Rn ú«ïo*-ÈaWÈÃ(¥‚òÔ^Pß­{yÙ¥‘rìkú<È˜Àƒ4àvµ"dÃ‘Œöìº !Iú&8“?7(5B¬3¡Jİ9Ôm6gÑs"ßèºh•M×‚3‰kUmÆ« ÉSô#ğf%‰+vXµÚú–L!øÊ€š•‘K^j —Äfñ,K¾İÊ_ÛØª³6ØtcÑ£ÖË¶†ú‚Dáp#…)»2‰\ô´üoÁe˜¸Ş›¯ğ~éêÑõøÏÓèúå*î†#Q%H»>l³6lƒ"ƒPUN¬…ƒy••Ë	û
+ùEWæw+ä÷Ulÿ.±›ôd“æ¸ôTÕšZ¯¾¡‘(ç´^²´+;íçÏhíˆíÚwGğÓQ6ëX°ô½Šxàºë…İ¥ÒnQ\Åd:±lÉ*A·H!†Ù*e×4ô¦åg·èe½íªÖ¦úâ4‰ÕL:®|@1Gš…oYXwÑ«ˆÃXÜ*Ö¡ôu…'\- =E; +åí‡ÏŒM.èwŞsQl‘xæ{ÎCÏÊtÇ¥û;×²ü*ïëéÔ36t~ãiû½6ÈZKÿ¢–:V[ÊZ Â¤K×ğ›Îfs‰­uíxédŸ¶…›ÉK+ò/dÔŒ'ãƒoô·èîş†Í¤ƒ äiªæÆd]ài˜ÑíÛõ¥u7×&(¤ûÚæ‰E“‚ì~ŠŸ±/›ü•5¬g­÷!J	U¹øˆ`>²s2şPµè6»JÑpĞbÀëÙ(®Š.óÉ2õæÍV€\‹’â!ĞJÙØÜù
+˜dË9„¨ZDg§n4s%‰!´‹H0Âú1± ¡Z¨°EaÃî4ªInæ
+rºÜYĞ=˜¿µ(¬àk¤ôö«æÃ;L‰–41oh^eìD,º-UKÇWÌiƒŞ}gNJ²M”(¹a$“®Ä•mˆ¹x+0ßJb€Tv¥Ï:€ê©“H¶èˆñJcÔÁ7Õ^å¼-İ¸ñ Ó"­4¨{-çBRm‹"Õ˜/‚¦A.Ä³ƒâ¹î(¸½.Ø$\|Á†±l%vLwIc#JkFt?²+.L†¤Æ/LHD â3Ø{mæÈ¡ ûêK»¶%j½iHék$( ¨EM¿–æ94z.ç	Ë÷´55‘÷¦Ò;¶+ñcñ±eïxîg¸‹o«S!ğÑºOœİ-nJÆÛ§ÈS$:¬ ú«®;k¤÷2º{"náïQ—ÜëÅÙä°ŠIT¤šû³nò3D+”(ÑñÍ‘hã|`eGBµ~—–ÃLm:~)4YwÓÑ¨µªĞıõu ÍZèèKu %u¹{¡»Ä¢ïZ«ƒL+M…rğ€™3±®2i%azfİØQ¬™¢<¦ÊÑÙJ}ÔHÑ.z3s¾İek±_LAÜd+ı×]ëèE.\‚ò¬¡‘Æ
+ÉeÁcænÉ˜²# b†9—O`ÜV:P¯Q¦L¿?…×F#Ú‰¢`VÈUjú¹ğnµ#	‰vé
+Ş§ÂAØÊtKbŸóì`Ÿ>ÅtÓ«£©Ô<«Å&²`$¶ùãÆßŞ	­—Â
+¥×àü‡óËtZİV=Î	Ü·^d"6‚oÒà$låé
+İ‘Ì#©4*òıGpWkJ
+Hµ©ÙÚwè‰„İÃ,gl£jBã`ƒİH®t·š,¶	YŒV*i)M¹æòê«/¹BµÓQŒ8¾q©Sàı™Í  Z{Ä5ŞÍÚf|7Wp#ÿö÷Šñ/˜üÒúh½j—tùk‡Ü-[·à#ßˆËëıN‡Ÿi¶Jïr±Æw¾¨­¿^ãçŠaÍg¯–{HÔ&ä+ 9á.gYˆ=Ö]7ôˆÓ4q‡VPóa¾ŠÔQºãª=É±eµ‚(LZ²Y€„—D”WwM+\5ryÒo¾oV,¯şLS“j<—|ÙŸı-x[¯b€@Nt³àÜÃÚS!ÈAjCÑû›Äzª%Œ:¥e!ƒ3\HÙu‰…®XI]ÜZ‰ }‚`;ËÙ3Løùø¬ZĞ„¤†¸ˆw¤x@¯\åæ+Ş¢Œ²8A}åk¡C¼¦HŠ¡óqµğ|!uÜØÅ©…•¯hŠCëW9mÀŒÍ)Â.½\o;üDİXl\Š«nëh£5«d?ŞçÖõ7ÔmP\<'…W¿°ÿ['öí¬á2h²×cmäáî°Hò’ß¤€†T‡9ä’tU/	6)\Øy@¢;Œ» Ö‘Ø–9àJò§Ür9‡•kÂqÚÛ5?zQÚÜÎGZ‡‚½¼lòd“Ó·²ÙáÕo§²y¶ûæûî„‘vÌUÖç* ò=ûœGbèæä	®RìÄa•Z†Y˜š~¢=j_3iä”%/>¥9½F¡NØp.w¯\ãÎQ™›ŞÑè,=_X«³N´ëƒ­Wc£ieD‹4T·Ls§Ù*4ÄpRš~áPÓÿbÀÓR>¤Ä§LÍ|Epa›ùhş¶»àJÇÂª	¹&N­éú…µzšÌA²5ñ‚ëY…¦îƒ^ÃX’ºàòÍdá{äˆÂË]:#„'¤-óğœ6¦-ü¼{/ËZ1É„¬4ÖºÓ‹P'tĞÁÀn‰vöFºªCäî²] äRñuj!±’M:_„ wSŠGTŠ_M:U}Í{¡2¨)fsÔxpS“XAúÆ]< 2êí(Ù¨”Ñ
+©‹ú›7 }éDb¨§®rœ“ôéÆV§ÓNv][Ä¦cÁ:k|œµ9Áú½¯‚‚˜Âƒ±]Òß-OÕ­Ôêj-’{·ÅÍq4òKøN\2ÔÖ}“{ ò	NS‹9lç¹Â[í……½®aäÍ®ª¾“CƒÊf®¯·hõu‘»Ÿ—©Qbñ„œ¶5£ÛâN&$Rá*B¤5ÌWÒáæú?šÓßŒ¸Â
+–Îâ‘†‹äŒIù·óé¬®™”Ì+ë%®Åèù›AüLÙ§ÚdN\(ÓÊ_±Ì|·íOœ“”èâÒ©uª.ñfÊ™u~ÖÙÊ•Jà¥[1bk¼„€È—eDZBÈU÷Û–´-ˆ*˜?û¼¢­ñT>õŒ!¹ğU˜‹ì£ÏÈŠ\—[ÜkD_DoñeùşfõoipÏÕÓê çòŸÎç»6kY¬Ÿîh-òs½8êm•|·WVìR­­…„ıiÛµUZ£Ègh€í3•N¬!ßVzh½ŞË€I¿ıh½<üÒü÷q‡’ªDK.%ilH4?´v•#aÌv1ˆ51Fhİ{»æ²HZÍ<*™‹è®7çğò9Xqç…9‘ğĞV¿ß©^[¿¦Şá†ğİ9öÁÇÑFğ±#:m°rìãŞ7¹c[²5’ GVÁ¸z¼·vÂ¨†®:¼i›©¹¿ûô´sLX1'È.tãI2-
+àkÑšY+¾r™×Rİ~Kô¿7Ù%ÚEä“*½™çòò™wš)TËÂFò1Ùí&Â¼¯‰ã6@¼Ñ.4¸Ï”jænM‰ŞÛÀc8övÃà‡ŞgRÚMF­ùU×û· óì×àò¶éoK\Ù…Ö°èùè¥±Ş¯´{ß×b²î®7©\nìZÒ¯Ş&¦V?ÖÂ:×•_jŒWúèäÒU
+ŞaÛRX`õ‰o—ÖqLÙl"¹„4 GŒë‘\6	kUÑ¦¯e-¼ZC©5N´E.ö	mf¾ì¬Dt©ñ‹“¸F]c÷üĞÂF.aßiÀ•­¼sARwélNp4Ÿ[	„£*bû¢òG.~¹u¦™fã1´ïÁ>(er¹¤©(Ü´…K§ÑªCÓëµÃ’ËQw,YöÍ½êE2[\´%‚¾Ö®÷Zkw-y£Fï+S‚ª<«hY".T/Æ&œ+“µLš`F=_MFtj-™Ã%˜œ gY›ÌãÀhœ¹fş	GFõ RWåîŒ	»åÉ‚`İ·¹mæ­ë‹«8zM˜!×l‚;Z¤êË”œíhc¶ï.lì­,1ÃŒ¨¿¶’Fí C÷kQ\Pu²[ÈYh.¿›XºîL<à.íµ+¹ÒæÀşºö’ÃÍŒø-%_ÔÚ	™7µ^¥•ûl†RÃ2ñeßO¥t°\Ë…ŠÉ?â<º¥°#\§ççäÙŠS¢aueôï¢çˆ“Md>1WÚ“;¶P‚ØcnâğÔÄ*lkïXƒ95Oç_àå P:‡¹·ê×…Üy#´rqiúÊ†šêH°Ì“L}Â¹D‰h7ÕÄ‘¬Ë/ŠZÄÀTŠĞr¬¸šÿ&â¯ñõ‰QquVd\ä’“ö{"¤TÁT~=õ¶Ká;­ÎµLÇ7VjDíiN	Ê'ºp[Şá·ÏÇÿˆ/ÎE‰L–T¡¥>+ñ–È€/gXéyRO“Áaú¢xĞ
+R,ÚÑ-íJößådÉ'´Ğ½Q“f¬©{]¡y·ğ©ie¹Ø'änTœ‰€ğÑ¤ract³­lÜºã‚TQ›äRÍO#’ë!ò=(†÷³ò®f2!´ PÆD¶‡asº$«"ıItJ<åØ Ölãªó°~Ã7£,zÌa¦½Tk—?%IáŸ•Z]K~F¾‰O9†İ;æC»Yëô	¦¤ÙÎWqĞ‹¤àI[çigAá^'È¼Áæ¢‡#ı.äîÛ€÷¶acé8­¸¿¸Ê]XO1i·K7¼.¹±
+–¦şJë÷}ëè¨ƒ`p1×ÉààŒkz°@	óI/
+„SÑT<•Äá†)°Caß*O{æøıïñÁKùİ©àpnæfTäÍ¼è8¿©³òÆ†ƒ‡‡ƒGgR=Ü0<Ñræ¸e²“èn`ÜškíÌÖ3·ó¼ïÊÛn5·È—]ÖÚîn|MœpHàIZÇ¡Ùv‡'g‘Ë¹Û*ê	ÛèE'p>ŒŸ”RUX©£Z®§¸iˆm€T[ ŸİIÕ›UlÊ–äçàc®˜dé´¦H…s…ª:­ÅºßáqY#f<Ë…Kù?&¥^ï£Úfè!0­Àåc9…»V
+2ì]ÑoùV¤ŠïPıbhD7âª^—´:!Ñ×†@˜õˆh=µ||¥x¤³MÖTu¾U­ˆZ£x/0œ´†ş{ú±ÄÖT¡Qù’ö0_…ÉÅ:lÏÅ¼´.î+#õ7…ğŞ·ñkîŸ½®Dğ¨ß¡_j×'VìÖá¦m3IZŞ¦qº“½Ô1*|xUÔ5LİE¿ÍuC¿ÂØ_y¨3¾±6Ú¹x¶½‰†™ÚU%Š+ş~ÃÔ]Ò¸Î—rYSèøÊta¡y"wğM7>JìK}î|Uõ¢ŸÓ‰kdYµÚ„ö¶°:5BJÄR—»b| 0‚xQ>ıã‹GôLğŠ_}&S¹"Ñ(º™be\v%	R„Îİl	!b‚ûJPó"ğ‹¾áH™èš-{í=g„Ñ˜É9ÄÄpÒ3±üë˜ş‘2O±+ÕvyğÄé'czä>yQ€_0ÆdbÃãrŒˆÁÎ5ğWøipA‡†ÒVŞ-ŠG”ƒ­R.¢SW¡r*7x`.¥9:V¢×dôO–G¾Æ³Á.«{r-¸i¸HÚHÒº`ß—NA[ÜãîĞññ 7ç™£Awœ]|™pÌ»Ó«‘T'üoÉÿBxÀæ"O¥i:)9é |
+ƒUkÈ*®òÈâÕ0/r|.Ï»ÌÓ1Âßaãºõ#ğ‰4yú÷¿¯,ì[‡HöŒÓC·„<^şüŸ‡ğ\}î?¼ÿèäôşÃó'P«˜ÔT³8)–eQÔOñ=÷z.ë Uj+÷@¢œŞºw‡ÒÃ!º8ßß?xzş9)ÆÌûcÔ*Èëkş¬/µå÷Î4Yø‡"±û®íÁq
+)k¾ÎéŸƒÏø·ÿ†„ˆkİ·(/²lÏMáoí"~Ú;èxN²ğ¾^ïLÊl­}GmÌSwósŸ¸ıç¹şj›œÙÿCûûÀ|FI‡Ïí“§Û» iƒ†¾æfûŸI6t§¶¾p²Èş^;å½ƒ_ÎÚûÄUlyùşõ+?„ræ8PşB\=‘JP–EI³ü´o¿3ñœÁ‹_~ù…şw°ğälëùÿğu%ã:  —«  PK  	`ãV             - manifest.jsonUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­ÙA‚0E÷¢a-m……‘¸3q¡1qWa,Kk¦4ÏnÄ¸tûßû2¯c‰#Ôh•9’I
+–Ô!Ü}!DVwÚYT U+Ş×ÖŞnbä]¬‰æyrdª¡çuhL²WãŞîÉ¾|FŠÊ;8`3	™ÌòT®S™d^HY¬6|•¯Ï³Œ¶‚ÇX5ëSğsˆÀ»–Jğ¾b0v¥ÁÉ±t½tU]TíäÇ‰a1| ¾Ú 0¹     PK  	`ãV             - images/0.icoUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­Ù½š\TÇ‡×"EQ±`ì½æ¢¨ ‚HWì¢(
+
++‰=Š{Çh4¶Ä¨Ñhk%¶$jì-bA;wŞ7;—İÅ˜¼çKt~{ïÜsÏüç´9gf†<†ü†ºu|;Ö”6¼ƒ››~_Ä`¸KŸƒƒºÊg0¤V3œÕ½O!ƒA«i0TåXzTNs´Q9íäÉ“rÚ–-[¾øâ‹~øA±sçÎİ»w?ş¼}ûöAAAkÖ¬™;w.4Ó¦M[¿~=”Ğœ8q‚ÈL¸^¼x±º1cÆwß}÷ñÇgff<xqãÆñóæÍóæÍ»uë–.]š~çÎÖ­[ğÁ›6mZ°`	[HHCÓeåÊ•“’’¶mÛ¦¹¹¹pQ¼xq.‚ƒƒ¡Ò××wÀ€&ıúõ+_¾¼ºÎ›7o\\çÎëÛ·oÉ’%K•*ÅmïŞ½arüøñ{÷î)Rä×_4i’z¥]»v+V¬0qëØ±c—.]&Nœx÷î]n!1bl,X¨P¡}ûö+VŒ9¦¤¤@	p1lØ0‡ØØØºR³²13â?blÚ´éèÑ£‘^¹rå  °3gÎÀĞÖÖvÿşıU«Ve”<yò´iÓfÑ¢E¥K—?şÂ…÷ìÙÿ)S¦ìİ»†ÉÉÉˆ‹”Û8::òtæÌ™]»v½yó¦4‡=X¿~}Ô¤80l¹]µjÕœ9s¬¬¬xñwŞY½z5O¹¸té4.\`è|ùòmØ°0ˆ¹yxx`LSä4¬Y¾|9c1£V­Z!®ŒŒŒ%J <“'OÆ0zöì‰™AÓ«W¯ÈÈÈN:©×±·Â…3Fİbu¥ó:&ôõ×_£M¸ºº?éÁ!h`ëîîi!áììlÅ¡C‡Œ˜ %ÊjÑ¢¤“““%0Ğ¯Œ!**ŠY¨×>|ˆ$•Ò>ùän‘'Æƒµlß¾]á)S¦ÌO?ı„µ(P >LİÍ=ùp[¯^=“|ĞÎÈ‘#8c>ùLŸ>}È!ÖÖÖJ_à?òQfüJ<¼hÂãàà€kÔ¨Áí—_~©ğ`Eˆ—k ØÙÙ¡ÍÆ{yyáqöööØÉºuëxÉ3PíÚµ™Qbb" €C#p…‡‰„……5oŞ½ãP8öš––öâÅggç*Uª0¯Ë—/ã¿X)êÀa*<X‘‚ÊEjj*ğÄ–¼½½W®\©ÜA	¹{÷î¼[§N–-[<<¼‘:tHáÁJ	°ªP¡BLL°&æ®n;FtR×ŒŒ;v(< 5j~T«V-¸ñ)üııMşµÀ­OŸ>(™Aƒ
+kÃ©S§ˆZ¸'xpFÀà¤€Aq&<Ğ[â!Â ä£ÄüKá¡'00a*àAkHòçŸ¾xñ¢òw¼ìèÑ£p‹æ]ÌÆ‘±g¬EÃ£G°ğàËùóç÷ññ™:u*dˆÇÙàÓ§O‘!æ‡`Àk×®E§OŸ&~2Ó]»v)ç?– ‰ÃáoİºUò’¿C\²Ä£l<ŒMÿşıy—øaò÷0Y“¿‚°±7n`á§	v…jà0kÖ,,¹SW¯¼ä_ø”<EÈÿbĞ¬¬¬ğğpä_´hQ0/[¶$“(a’!x”ê•çúõëø,ŞmÂƒÁĞ95jÔ}U²®áÈCõêÕ‰Nˆ‘Ùá¿ŒÅuçÎããã±"ìüğáÃøö©ìyÉ’%ĞÀÅûùù]¹r…X%Ñ]½z• |Ğ,Ü˜”¬Ñà††„(ÀLÂŒQ>ËPmŒ)³ !LMÓ)LŠµ‰+UªDD½}û6c±x)ù0¢c”¡C‡2hcƒ[µjÕàÏuÃ†Aıà0;v¬Z8PÑMö1l$ƒŸº¸¸ 	 sÓj8~ü¸˜şQÍ›¹#ê°Ğ “G­_¿N=Â ™L8@ü‡fæÌ:v–8ÄÄaÉâ…ø²ºfœÅôˆ8Cş`mUhÎìÖV¢£ú
+ñ¢r¥wÎ=ƒu)"`E‹Ú—r¶Ÿ—:="jP×ı2³D@H×ø„1éé·ÜÊÏ›Ç@´d9ƒ²lÙ²Ä(´ó»÷è3xÈ¨¼ìÕgñÒ4ÏfœJØ;8Øcğ·76âí‡ö—v)êà`×¡SÇ’å§Í\t?KT©VÿÒÅ³g~>beUaixhffÆƒÌŒu;2úŒ\£S–[ğãê´²Ë?
+OÃS}¶A:ããÇ‘ğıû÷1ïìÎ\.~Ò¤oV¹ G¥üîñqö½÷^Ÿ§‰³3÷Ëx”•ñàA&Ì3ŒM¾şT,ı<£mÜ½
+!]ÛŞ¯ş¢jG­BÈıˆIÏ·?ìİwúÔqåÏ^ˆÄyÂ¹°õ%Û
+gQÂOãÖÉ_ØykÎÂ7QüûaÙ6î•ÂE/QÜO’¹èG_aï#*t‹¿ÌEîšh/ıD1_Ô(êĞZ‹NYOuâ‘E¡æšS[Í¥ü8ûk%Ûæº-ÒJ«ÛCÜ¼£ÓwT²*ê£ğ¾¤d®ß:új¶^ÚÚİ:ıÃÇÂs€(ÜR²RNÆ!,o­<µ¾uäåC5ø›k£¹…h.şšc­TÎ6-µqË%ı‹lœÄ¤Ì`ŠùhåB´òaòE$¦ìÑO"¡-İ*˜‘ê/ ÷•“eP.J¶5†ı'ÅØefb'#àéŸŠ_.‰İGD³şHú”Ûh{‹/ÄÉó&é¡ÇXÙ‰9ÅÍáœ#U}uPâñ*ì[ëôÅı´ú=ÅÖı’~Åv)
++`™-¼Iœª§hkÍ?Á¬ôåÛ¤ı˜4R6Xûı®Øv@ªÃªt vú¢Nï¨ØA*ÎÄáç²¿Zg³ü­[hÒÌCDLv^æ©%	Ï3±½·ÖùC3ñêÒÒ”–ÁƒR®ü.˜²	ê<sY§ğHà2ŠR²m¥-şBöWÏ…'eyˆ¡sÌÚA‰¢Å€\x:1¯Úñ2«·^åªFÔª’Ï"#S§Â3eµyˆøY¹ğ{=<×ÒÅ—ûDÁfÎ«RÈ§/èôé÷¤¾LÜÀ³dË›Åsáº`ôÁ3EülíÁmØ\sØ²ÏRüu{FŒÛö‹líâ1©æíşCÑ´Ÿ(–” 'LÚ?aùíã¹q[„2;µr®ÎÉòFş–ñÜ¾/|‡ˆÂ-,"d„#Nü¦ËímâÉx(ÂF›Vf0°uÔS&=¾M<“rI†•«L¶ı€™à­áyö\®5°SÎ²|Š(jÙŞVÕÓ‹¬	LIãŠ?óË|x4M¦(ğ1ƒi«á\,ÄloK†ƒ·EªĞVf;ÉK^æMãQKg·Ìù³1Õ¾àÕ`Ş4ó×Ez†¨ĞŞ,ÔÔcœÔ jÙÙ¹>ô¿Q<Wn‰ï	™Íæ,R(ë›#:=Ù ¯“}µK”¯Xñå^iùoùÆö/ç¿æä?ÄFnáÏ[È-Smş&ÙÿFñü1ÿù5'XªÆ2{-<Íúÿi~øé®\xÊõõ’|ÜBµß®éôˆªrçcŸ¿6NcDÑœu™hß¨¯¸s_'şpi®ü3Fß‘IÉ~è_ÿ­N¿ï„ Vù¹³qvHøuñ¤m7÷(H­‹	+EädÁJdŠx0÷,9Ü"	loæÏE¥"!Uàòµº	sİdDEªÿôùëá¹qGòq°H]û„Ò~.X4U2L#?¤|3Ñ³R@ÏÇT§ğ¾Ã(éï¯›ÿĞÈ3ª10}ĞğÈ–ûO•¨j·3DÛ¡Î²ÚÊıŠ³±Ââ‘{” X)§#Qd¾óÉï¡MZeÆ3h†,Õ#$Ğ6§Úúş':0:uƒô—Løü«˜õ™¬-¥™3Õ~*y…Ä¼^µ£ˆ.®¦ë”²„{´V³«V§»üP Îİhæ3f±Œ®êQõÎZ·±æGOŸ‰ı§ÄØ¥âı(xjµ»ÉÀ»qúÏiêºoDäÇ²ˆk#éWnÔh–•Áán¦şÁY?1?Íz,{LO¯6‚cõ-[}ki`¤ú¶v×·–këÏãÔwïşê»UOõä¡¾İû¨ïºÔwh=õı¯NêÛ£°úîßW}÷¤¾£ªï¾úøŞ1/ñÖß×ùEöÍ¯°µúÓñÔéó¿áo¯ó©£ß»Çëøõ3ª!qÿŸ}\÷:¹ésæëÑ[}ÇèãÕÖç9$ISºñ×Üğ×ç”ÒOnß8q¢··w…
+Ê–-Û¨Q£ÄÄÄS§N™´{÷îİ3f¨³7nÁÉ“'ÕÓıû÷w7¶nİºuÍİ"##ïÜ¹C5V¾|ù¬­u‰:::îİ»W·ª›7o®:*dkk«®‹/~èĞ!Ô¡×+›MZZšº®Q£Æ‰'®]»Ö±cGÕÎë›6mR·µjÕ:wî“U{Ç´.]ºãf´ºõôôÜnlÛrÚÎ;G¥«Æxê@Û±c ‹)âããÃí¸qãA\\œ"0¦6lØPÛÔmÏ=ÿè{¦S.TÏ³gÏ®_¿ÎD€ÊíĞ¡CÁ°aÃÁW_}eš²%___”rÂØNŸ>ıÂ{L§¤			¦Îğ,	€ê©Y³¦%Ëfoo¯¶;ÿÿ—ğ£Ír9¡333-å“””¤^OOOWj:|ø°¥|LhMõÔ®]Û’‡ç´'Oôè5~üxõsU=˜ºêQ§ƒ“'O¶´ÚêÕ«UOË–--oM,Û±cÇ°jƒ´í‚øH||¼³³îsçÎÆÃşÂ…¥;(P Ó0`€éd}Ö¬Y˜,¼´«kPP`P`@``€jJ¤+–/sq²Ïk¡ÛÂy{÷êašãêÕ«\]Šæ±$°Éñô©ÜúU'…,ßÏiU«VUæ~rÚ­é›ŠI6†ÚW?îÛÙ¹¦9ÍY×÷Rm*³©àX{ò°I{LW._X¶|Uç˜4—Æiõå§Œ{Z·LkÕ¯¶c¤Ì¥…3Ÿ ádü_*H—Ë’0.-ÑSäÎ5ıŠÀ%H¸ÊjG-idSD™PÉÁIñ	”·IåÓ-{e&Á*Ë"]*@æµj¯ª`3mèI°`³ÌZÈ“è'Ó²$˜dÜñœ°BîÄ97‚ËËS2èÉHÚü™‡1ıÒv–;Âmâe‰B­®Ú8L®ôÜÖï©şEn³®“Ó@Ó´ŸÆšDÉ­êbm4~Ú‰ßÄÁS‚EzÒÓà$ùcAì;D/F/–{è`  fh+ßµL©L*ëª×Cî$ªmÜ"^ıªuJ*ùhŞ_{··Î¿M¼¦TFicäÏŒÎ\ıµB2
+ÖëELŠÎl×o‹]$+zúMÕ	(6Š¿àOşzî*·ZûZÈpmâJıufÊÜ•@~¿+ªwş?ù“Ï]¼ù²?N_+7ë™+YÙ’ª%şşØªÄÒäE€T÷³œ´ûïóÿd‡¬ˆäfæç§ï™j³¿ÉŸDÃ.ŞFö3…Ûõş„ÿ¶ıÂ-DÊÉì’›Úßäó¸tC`¨°¥*à-“ı#üÓ3ÄÄ4YB¨cÔÂ—Í)óoğ¯Ô^n”&Iğ‡|kÆC¾Q‹Ä‡KÄ¬ur¯¿ÚÿkŸˆå×+Âk:%ë¯÷/µÍ´Êá2>üµÿşEü©¨â‘?UYSü™&Š¨øÓS»ößâƒïé2\S«ú.Ş[0ªÃñ‘@¢?ôÒ?_„F,fŒŸ¿ßû/ñaÕWR}ò`²­V.XS]h“r®ï$I<c­~êI?ÁßÍxèèdŒÿ-Õı—ÑYDX†T-O¿è¤^Be”mg—SÎ©:Ù'^Ã2…qyê;Q¨O/ ÄGËõ‹Õ3£$ÆFLÖù‡Ö²³I¤.ó‡ä5Õ`•py¸õé®\ÕµKğşÕGkØ[ë=Azœ*ƒù¿ı øb¯Øô½8zF§?xZlş^vî9&^±ê¿Õ&ëƒªUşªN¡Xpww¯X±b½zõ6lØğüùs2Ã*UªT®\¹W¯^÷ïßONN¦Ğ€¦iÓ¦dæï¿ÿ>¥
+	¿——×»ï¾ûí·ßÂdÎœ9*y&ç![suu=~ü8•Î?şHÂI‚pH›É<²İ»w“‡s‘’’AÒ=dÈMÓªW¯®è)p.]º´~ızÈöìÙsëÖ-=%ÕÁ´iÓ ëĞ>¬dqÛÕi‹jÕ¨ØÖÏ÷èÑ£òb¢{Mš0ú-[¶têîTÂnıÚåŸ}ºbUÚÊ+W.×kÚÇ`íQ¶Fè?şS–å-êe°õŒMÀP²gÏI-]=Ü`ìR9¸_¿~©E¹0bx¶k·R°°zÆ
+—vÂ¹æ#Óâ˜s€(,S©ëdT©ÙUıxÂGK5Ã{Úœò°9_SñÑ2œW4‰”z‰º=eŒ%@=!B†‹JáÚôOµ½5	K#7H^¬Õê&C-cµFCm©aŞAIÂ5@î0fg‹7Ä{Ò¶Ë®Oœ$ğ ß}‰×¸—)±ğĞo‘Ë4¾ùgôeƒä	eèp‰„õ]7Aèü#ı£'’ë9ë5«æ2d ¦€kMYÒs«¼/äQ¹£öÁ<0¿ş·ÜGÎßT¹Pî¼XÒ{ÅJßOH•Gõ¤Lk¾–A’”)l„/>—«IóI·0y„:\®ã­ã´C?Ëíf¡Œh“²F9ÇN×&¬Ô<“ºHœ«ı~&½«îñ3ÌŸº*Z´(•JXX®£ÂuUPP““ZµjE].Œ¿ì¢Nòóó£Ç3§ùûû«ª"O<QQQêg™VVVçÏŸ¿zõ*¥³ÁX]ÅÆêÛC7ndÜ‚ŒEa³fÍ<ŒÍÛÛ»[·ntÂP·
+(©–(şTYBÊe©!ğƒòEË…:44”N¸©[jë›7oR!è¯T©’ân0şš—ÑAşÜ0räH‚ÁgŸ}öË/ò·8À6XÔ‚¦6{ölú‰OªêRdTüğA\–šP¿Ê		Q©×9rèĞ!JêÔÔT…G3–¨Í…‡ğc0ş¾ÊÜ¸!×—˜¹¥E´ã]˜¨R’x¶uëV.šğÆ£&MšŒ¿ÍÎÎV[,Èyê`Hƒ@èT²ı¥œìlóqÑ¨Ñ»š••ÕÔ½1·v6yœKHCqq)‰(Ğ»šU~C+ƒuA¬ÊP­Z5 mÛu¤Â{#ó–ÏëÔÙ'|êµë7ÔÏşv½qÛÉùœºä-^ÇsôşC'è|òäñØqšø.\qDÁòÃ]ëï=|îÜYç®‰fD©`aë-Úˆríåş$Ñ¥4,*ì|„]kyÑn˜ J %-ïtÅü…má*ZÄ‰+·EŸ	ò`×5Pc•&t9úÊŸ±ôÍß$ı’¤ ×õ±P÷Í¹˜³†³ÌÆÏ|¤¬¨stRº1Ğ±s2D±D¸TôO‘k5éííû2Â‘Rá÷d@S×È~Ò
+2kšO¼<SÀõëô|ˆt=+“nà}´Lò AîÖ==é€˜SŒ|€·ÇÈ‡äˆä‚H\×È‡ˆ"çŒäÎä%‚iÃwò‡C4ş€i_.X¬Œ|¾;&ù'ü)ÈHñLüL
+™ğ.Åkê)·×åóÓY9#r(b¿ª-¦®~m>ÇÏ‰ú=e5OuÕ¦¼Ÿ±ËeAĞ8R¨Ãµ?1Oóµø@Ì,PIèˆú‚ÃÚ‚âşw>èkÜry² 7ão~0ïÖƒµÚİµñ+Ä´O_­/–“ıœ¾hÖ{ÿ©2ë'½%ß¤±ÚäóĞúM‘|¬_Å§U¬LH¡ß²W0k°q
+XÉİvÚ¼MbÅ6ãp;r˜½^X½j^›%|åîÈÊÓ°·¸.±¡qkã/—ø`Ì,ŒØölh(m~—Ü¼-
+C­f9o“Yk•;È9&Í—rjSõÓ£ú½¤NÓ¯rà´˜¼JÌ\+.ÉÖî–µrûÏgÿ(«å±B  F4  PK   	`ãVğu%ã:  —«  
+ - A         ‚7 index.htmlUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­Ùhttps://web.engr.oregonstate.edu/~funkk/Personal/myWorldview.htmlPK   	`ãV¾Ú 0¹      -           òq manifest.jsonUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­ÙPK   	`ãV(«å±B  F4   - ,         s images/0.icoUT Ã9¢d
+         ‹€Z­Ù‹€Z­Ù‹€Z­Ùhttps://web.engr.oregonstate.edu/favicon.icoPK      ¡  ´‹  ]]></xmp></html>
